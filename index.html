@@ -85,8 +85,9 @@
                     <div className="max-w-6xl mx-auto mb-6">
                         <div className="flex items-center justify-between mb-2">
                             <h1 className="text-3xl font-bold">Quick Movers</h1>
-                            <div className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-lg">
-                                <Activity /><span className="text-sm font-medium">Live</span>
+                            <div className="flex items-center gap-2 bg-pink-100 px-3 py-2 rounded-lg">
+                                <div className="text-pink-500"><Activity /></div>
+                                <span className="text-sm font-medium text-pink-500">6 AM Updates</span>
                             </div>
                         </div>
                         <p className="text-sm text-gray-600">Small-cap stocks with 20%+ movement in 2 days</p>
@@ -144,12 +145,12 @@
                         </p>
                     </div>
                     
-                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg">
-                        <div className="flex justify-around max-w-lg mx-auto px-4 py-3">
-                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-pink-500"><Home /><span className="text-xs">Home</span></button>
-                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-gray-400"><Clock /><span className="text-xs">Predictions</span></button>
-                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400"><MessageSquare /><span className="text-xs">Feedback</span></button>
-                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400"><Coffee /><span className="text-xs">Coffee</span></button>
+                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
+                        <div className="flex justify-around max-w-lg mx-auto px-4 py-4">
+                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-pink-500" style={{marginTop: '-2px'}}><Home /><span className="text-xs">Home</span></button>
+                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Clock /><span className="text-xs">Predictions</span></button>
+                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><MessageSquare /><span className="text-xs">Feedback</span></button>
+                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Coffee /><span className="text-xs">Coffee</span></button>
                         </div>
                     </div>
                 </div>
@@ -258,12 +259,12 @@
                             </div>
                         )}
                     </div>
-                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg">
-                        <div className="flex justify-around max-w-lg mx-auto px-4 py-3">
-                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400"><Home /><span className="text-xs">Home</span></button>
-                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-pink-500"><Clock /><span className="text-xs">Predictions</span></button>
-                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400"><MessageSquare /><span className="text-xs">Feedback</span></button>
-                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400"><Coffee /><span className="text-xs">Coffee</span></button>
+                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
+                        <div className="flex justify-around max-w-lg mx-auto px-4 py-4">
+                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Home /><span className="text-xs">Home</span></button>
+                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-pink-500" style={{marginTop: '-2px'}}><Clock /><span className="text-xs">Predictions</span></button>
+                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><MessageSquare /><span className="text-xs">Feedback</span></button>
+                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Coffee /><span className="text-xs">Coffee</span></button>
                         </div>
                     </div>
                 </div>
@@ -288,12 +289,12 @@
                         <button disabled={!isFormValid} onClick={() => { alert('Feedback submitted!'); setFeedback(''); setEmail(''); }} className={`w-full mt-6 py-4 rounded-lg font-semibold ${isFormValid ? 'bg-gradient-to-br from-pink-100 to-pink-200' : 'bg-gray-200 text-gray-400'}`}>Let Her Know</button> 
                         <p className="text-xs text-gray-400 italic text-center mt-4">Your email information will be shared.</p>
                     </div>
-                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg">
-                        <div className="flex justify-around max-w-lg mx-auto px-4 py-3">
-                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400"><Home /><span className="text-xs">Home</span></button>
-                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-gray-400"><Clock /><span className="text-xs">Predictions</span></button>
-                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-pink-500"><MessageSquare /><span className="text-xs">Feedback</span></button>
-                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400"><Coffee /><span className="text-xs">Coffee</span></button>
+                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
+                        <div className="flex justify-around max-w-lg mx-auto px-4 py-4">
+                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Home /><span className="text-xs">Home</span></button>
+                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Clock /><span className="text-xs">Predictions</span></button>
+                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-pink-500" style={{marginTop: '-2px'}}><MessageSquare /><span className="text-xs">Feedback</span></button>
+                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Coffee /><span className="text-xs">Coffee</span></button>
                         </div>
                     </div>
                 </div>
@@ -302,18 +303,26 @@
             // Coffee Page (default)
             return (
                 <div className="min-h-screen bg-white p-4 pb-24 flex items-center justify-center">
-                    <div className="max-w-md text-center">
-                        <div className="w-32 h-32 mx-auto mb-8 text-pink-500"><Coffee /></div>
-                        <p className="text-xl mb-8 px-4">Tipping culture is out of control; however, this app is free - so if I've made you some money, buy me a coffee.</p>
+                    <div className="max-w-md w-full text-center px-4">
+                        <div className="w-48 h-48 mx-auto mb-8 text-pink-500 flex items-center justify-center">
+                            <svg width="192" height="192" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                                <line x1="6" y1="1" x2="6" y2="4"></line>
+                                <line x1="10" y1="1" x2="10" y2="4"></line>
+                                <line x1="14" y1="1" x2="14" y2="4"></line>
+                            </svg>
+                        </div>
+                        <p className="text-xl mb-8">Tipping culture is out of control; however, this app is free - so if I've made you some money, buy me a coffee.</p>
                         <button onClick={() => alert('Venmo: @adrian-hutchins')} className="w-full bg-gradient-to-br from-pink-100 to-pink-200 py-4 rounded-lg font-semibold">Buy Her a Coffee</button>
                         <p className="text-xs text-gray-500 mt-4">Venmo: @adrian-hutchins</p>
                     </div>
-                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg">
-                        <div className="flex justify-around max-w-lg mx-auto px-4 py-3">
-                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400"><Home /><span className="text-xs">Home</span></button>
-                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-gray-400"><Clock /><span className="text-xs">Predictions</span></button>
-                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400"><MessageSquare /><span className="text-xs">Feedback</span></button>
-                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-pink-500"><Coffee /><span className="text-xs">Coffee</span></button>
+                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
+                        <div className="flex justify-around max-w-lg mx-auto px-4 py-4">
+                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Home /><span className="text-xs">Home</span></button>
+                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Clock /><span className="text-xs">Predictions</span></button>
+                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><MessageSquare /><span className="text-xs">Feedback</span></button>
+                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-pink-500" style={{marginTop: '-2px'}}><Coffee /><span className="text-xs">Coffee</span></button>
                         </div>
                     </div>
                 </div>
