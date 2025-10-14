@@ -41,7 +41,7 @@
 
             // Fetch top movers - USING CORS PROXY (TEMPORARY)
             useEffect(() => {
-                fetch('https://corsproxy.io/?https://adrianhutchins.pythonanywhere.com/static/stocks.json')
+               fetch('https://api.allorigins.win/raw?url=https://adrianhutchins.pythonanywhere.com/static/stocks.json')
                     .then(res => res.json())
                     .then(data => {
                         setTopMovers(data.stocks || []);
@@ -56,7 +56,7 @@
 
             // Fetch predictions - USING CORS PROXY (TEMPORARY)
             useEffect(() => {
-                fetch('https://corsproxy.io/?https://adrianhutchins.pythonanywhere.com/static/predictions.json')
+               fetch('https://api.allorigins.win/raw?url=https://adrianhutchins.pythonanywhere.com/static/predictions.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictions(data.predictions || []);
@@ -69,7 +69,7 @@
 
             // Fetch prediction history - USING CORS PROXY (TEMPORARY)
             useEffect(() => {
-                fetch('https://corsproxy.io/?https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
+            fetch('https://api.allorigins.win/raw?url=https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictionHistory(data.history || []);
