@@ -42,7 +42,7 @@
                         setLoading(false);
                     })
                     .catch(() => {
-                        setError('Unable to load stock data');
+                        setError('No stocks today match criteria - hopefully tomorrow will be better');
                         setLoading(false);
                     });
             }, []);
