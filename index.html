@@ -32,7 +32,10 @@
             const [loading, setLoading] = useState(true);
             const [error, setError] = useState('');
             const [lastUpdated, setLastUpdated] = useState('');
+            const [predictions, setPredictions] = useState([]);
+            const [predictionHistory, setPredictionHistory] = useState([]);
 
+            // Fetch top movers
             useEffect(() => {
                 fetch('https://adrianhutchins.pythonanywhere.com/static/stocks.json')
                     .then(res => res.json())
@@ -47,46 +50,34 @@
                     });
             }, []);
 
+            // Fetch predictions
+            useEffect(() => {
+                fetch('https://adrianhutchins.pythonanywhere.com/static/predictions.json')
+                    .then(res => res.json())
+                    .then(data => {
+                        setPredictions(data.predictions || []);
+                    })
+                    .catch(() => {
+                        console.log('No predictions available');
+                        setPredictions([]);
+                    });
+            }, []);
+
+            // Fetch prediction history
+            useEffect(() => {
+                fetch('https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
+                    .then(res => res.json())
+                    .then(data => {
+                        setPredictionHistory(data.history || []);
+                    })
+                    .catch(() => {
+                        console.log('No prediction history available');
+                        setPredictionHistory([]);
+                    });
+            }, []);
+
             const isValidEmail = (e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
             const isFormValid = feedback.trim() && email.trim() && isValidEmail(email);
-            
-            const predictions = [
-                { 
-                    ticker: 'MNMD', 
-                    name: 'Mind Medicine', 
-                    price3DaysAgo: 3.78, 
-                    priceToday: 4.12, 
-                    predictedMove: '+15-25%', 
-                    confidence: 72, 
-                    reasoning: 'Upcoming FDA advisory committee meeting. Historical pattern shows pre-meeting rallies. Recent company communications indicate positive momentum.', 
-                    keyFactors: ['FDA catalyst', 'Strong sentiment', 'Bullish options flow'], 
-                    news: 'Company announced positive Phase 2 trial results in after-hours press release. Recent FDA fast-track approval for related compound. Analysts upgraded following breakthrough therapy designation.' 
-                },
-                { 
-                    ticker: 'RIOT', 
-                    name: 'Riot Platforms', 
-                    price3DaysAgo: 6.89, 
-                    priceToday: 7.23, 
-                    predictedMove: '+10-18%', 
-                    confidence: 68, 
-                    reasoning: 'Bitcoin showing strength above key resistance levels. Correlation analysis suggests RIOT will follow crypto momentum.', 
-                    keyFactors: ['BTC momentum', 'Mining metrics', 'Accumulation pattern'], 
-                    news: 'Bitcoin hashrate at all-time highs. Company reported record mining output in latest operations update. Institutional buying detected in after-hours trading session.' 
-                },
-                { 
-                    ticker: 'PLUG', 
-                    name: 'Plug Power', 
-                    price3DaysAgo: 2.45, 
-                    priceToday: 2.67, 
-                    predictedMove: '+12-20%', 
-                    confidence: 65, 
-                    reasoning: 'Clean energy sector rotation gaining momentum. Federal grant announcement expected this week based on government calendar.', 
-                    keyFactors: ['Sector rotation', 'Grant catalyst', 'Technical breakout'], 
-                    news: 'Department of Energy hinted at major hydrogen infrastructure funding. CEO scheduled for CNBC interview this week. Partnership announcement with major automotive manufacturer released after hours.' 
-                }
-            ];
-
-            const predictionHistory = [];
             
             // Main Page
             if (currentPage === 'main') return (
@@ -128,19 +119,23 @@
                     
                     <div className="max-w-6xl mx-auto bg-gray-50 rounded-lg p-4 border">
                         <h2 className="text-xl font-bold flex items-center gap-2 mb-4"><Star />Market Predictions for Tomorrow</h2>
-                        <div className="space-y-2">
-                            {predictions.map(pred => (
-                                <div key={pred.ticker} onClick={() => { setSelectedStock({...pred, isPrediction: true}); setCurrentPage('detail'); }} className="bg-white rounded-lg p-3 border hover:border-purple-500 cursor-pointer">
-                                    <div className="flex justify-between mb-2"><div className="flex gap-2"><span className="font-bold">{pred.ticker}</span><span className="text-xs text-gray-600">{pred.name}</span></div><div className="bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full text-xs">{pred.confidence}%</div></div>
-                                    <div className="text-xs"><span className="text-gray-600">Predicted: </span><span className="text-purple-600 font-bold">{pred.predictedMove}</span></div>
-                                    <div className="flex flex-wrap gap-1 mt-2">
-                                        {pred.keyFactors.map((factor, idx) => (
-                                            <span key={idx} className="bg-purple-100 text-purple-800 px-2 py-0.5 rounded text-xs">{factor}</span>
-                                        ))}
+                        {predictions.length === 0 ? (
+                            <div className="text-center py-12"><p className="text-gray-600">Generating predictions... Check back soon!</p></div>
+                        ) : (
+                            <div className="space-y-2">
+                                {predictions.map(pred => (
+                                    <div key={pred.ticker} onClick={() => { setSelectedStock({...pred, isPrediction: true}); setCurrentPage('detail'); }} className="bg-white rounded-lg p-3 border hover:border-purple-500 cursor-pointer">
+                                        <div className="flex justify-between mb-2"><div className="flex gap-2"><span className="font-bold">{pred.ticker}</span><span className="text-xs text-gray-600">{pred.name}</span></div><div className="bg-purple-200 text-purple-800 px-2 py-0.5 rounded-full text-xs">{pred.confidence}%</div></div>
+                                        <div className="text-xs"><span className="text-gray-600">Predicted: </span><span className="text-purple-600 font-bold">{pred.predictedMove}</span></div>
+                                        <div className="flex flex-wrap gap-1 mt-2">
+                                            {pred.keyFactors.map((factor, idx) => (
+                                                <span key={idx} className="bg-purple-100 text-purple-800 px-2 py-0.5 rounded text-xs">{factor}</span>
+                                            ))}
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
-                        </div>
+                                ))}
+                            </div>
+                        )}
                     </div>
                     
                     <div className="max-w-6xl mx-auto mt-6 px-4">
@@ -224,7 +219,44 @@
                                 <p className="text-gray-600 text-lg">No prediction history yet</p>
                                 <p className="text-gray-500 text-sm mt-2">Check back after predictions are made and verified</p>
                             </div>
-                        ) : null}
+                        ) : (
+                            <div className="space-y-3">
+                                {predictionHistory.map((pred, idx) => (
+                                    <div key={idx} className={`bg-white rounded-lg p-4 border-2 ${pred.wasCorrect ? 'border-green-500' : 'border-red-500'}`}>
+                                        <div className="flex justify-between items-start mb-2">
+                                            <div>
+                                                <span className="font-bold text-lg">{pred.ticker}</span>
+                                                <span className="text-sm text-gray-600 ml-2">{pred.name}</span>
+                                            </div>
+                                            <div className={`px-3 py-1 rounded-full text-sm font-bold ${pred.wasCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                                                {pred.wasCorrect ? '✓ CORRECT' : '✗ WRONG'}
+                                            </div>
+                                        </div>
+                                        <div className="grid grid-cols-2 gap-3 text-sm mb-2">
+                                            <div>
+                                                <span className="text-gray-600">Predicted: </span>
+                                                <span className="font-semibold">{pred.predictedMove}</span>
+                                            </div>
+                                            <div>
+                                                <span className="text-gray-600">Actual: </span>
+                                                <span className="font-semibold">{pred.actualMove}</span>
+                                            </div>
+                                            <div>
+                                                <span className="text-gray-600">Start: </span>
+                                                <span className="font-semibold">${pred.predictedPrice}</span>
+                                            </div>
+                                            <div>
+                                                <span className="text-gray-600">End: </span>
+                                                <span className="font-semibold">${pred.actualPrice}</span>
+                                            </div>
+                                        </div>
+                                        <div className="text-xs text-gray-500">
+                                            Prediction made: {pred.predictionDate} | Confidence: {pred.confidence}%
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
                     </div>
                     <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg">
                         <div className="flex justify-around max-w-lg mx-auto px-4 py-3">
