@@ -237,7 +237,7 @@
                                 {email && !isValidEmail(email) && <p className="text-red-600 text-xs mt-2">Please enter a valid email</p>}
                             </div>
                         </div>
-                        <button disabled={!isFormValid} onClick={() => { alert('Feedback submitted!'); setFeedback(''); setEmail(''); }} className={`w-full mt-6 py-4 rounded-lg font-semibold ${isFormValid ? 'bg-gradient-to-br from-pink-100 to-pink-200' : 'bg-gray-200 text-gray-400'}`}>Let Her Know</button>
+                        <button disabled={!isFormValid} onClick={() => { alert('Feedback submitted!'); setFeedback(''); setEmail(''); }} className={`w-full mt-6 py-4 rounded-lg font-semibold ${isFormValid ? 'bg-gradient-to-br from-pink-100 to-pink-200' : 'bg-gray-200 text-gray-400'}`}>Let Her Know</button> <p className="text-xs text-gray-400 italic text-center mt-4">Your email information will be shared.</p>
                     </div>
                     <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg"><div className="flex justify-around max-w-lg mx-auto px-4 py-3">
                         <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400"><Home /><span className="text-xs">Home</span></button>
