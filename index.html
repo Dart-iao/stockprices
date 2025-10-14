@@ -39,9 +39,9 @@
             const [predictions, setPredictions] = useState([]);
             const [predictionHistory, setPredictionHistory] = useState([]);
 
-            // Fetch top movers
+            // Fetch top movers - USING CORS PROXY (TEMPORARY)
             useEffect(() => {
-                fetch('https://adrianhutchins.pythonanywhere.com/static/stocks.json')
+                fetch('https://corsproxy.io/?https://adrianhutchins.pythonanywhere.com/static/stocks.json')
                     .then(res => res.json())
                     .then(data => {
                         setTopMovers(data.stocks || []);
@@ -54,9 +54,9 @@
                     });
             }, []);
 
-            // Fetch predictions
+            // Fetch predictions - USING CORS PROXY (TEMPORARY)
             useEffect(() => {
-                fetch('https://adrianhutchins.pythonanywhere.com/static/predictions.json')
+                fetch('https://corsproxy.io/?https://adrianhutchins.pythonanywhere.com/static/predictions.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictions(data.predictions || []);
@@ -67,9 +67,9 @@
                     });
             }, []);
 
-            // Fetch prediction history
+            // Fetch prediction history - USING CORS PROXY (TEMPORARY)
             useEffect(() => {
-                fetch('https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
+                fetch('https://corsproxy.io/?https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictionHistory(data.history || []);
