@@ -39,43 +39,44 @@
             const [predictions, setPredictions] = useState([]);
             const [predictionHistory, setPredictionHistory] = useState([]);
 
-            // Fetch top movers
+            // Fetch top movers - DIRECT CONNECTION (NO CORS PROXY)
             useEffect(() => {
-               fetch('https://api.allorigins.win/raw?url=https://adrianhutchins.pythonanywhere.com/static/stocks.json')
+               fetch('https://adrianhutchins.pythonanywhere.com/static/stocks.json')
                     .then(res => res.json())
                     .then(data => {
                         setTopMovers(data.stocks || []);
                         setLastUpdated(data.updateTime || new Date().toLocaleString());
                         setLoading(false);
                     })
-                    .catch(() => {
-                        setError('No stocks today match criteria - hopefully tomorrow will be better');
+                    .catch((err) => {
+                        console.error('Error fetching stocks:', err);
+                        setError('Unable to load stocks. Please check your connection.');
                         setLoading(false);
                     });
             }, []);
 
-            // Fetch predictions
+            // Fetch predictions - DIRECT CONNECTION (NO CORS PROXY)
             useEffect(() => {
-               fetch('https://api.allorigins.win/raw?url=https://adrianhutchins.pythonanywhere.com/static/predictions.json')
+               fetch('https://adrianhutchins.pythonanywhere.com/static/predictions.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictions(data.predictions || []);
                     })
-                    .catch(() => {
-                        console.log('No predictions available');
+                    .catch((err) => {
+                        console.error('Error fetching predictions:', err);
                         setPredictions([]);
                     });
             }, []);
 
-            // Fetch prediction history
+            // Fetch prediction history - DIRECT CONNECTION (NO CORS PROXY)
             useEffect(() => {
-            fetch('https://api.allorigins.win/raw?url=https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
+                fetch('https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictionHistory(data.history || []);
                     })
-                    .catch(() => {
-                        console.log('No prediction history available');
+                    .catch((err) => {
+                        console.error('Error fetching prediction history:', err);
                         setPredictionHistory([]);
                     });
             }, []);
