@@ -105,6 +105,46 @@
                 return 'bg-gray-100 text-gray-800';
             };
             
+            // Generate key factors for yesterday's movers based on their data
+            const generateKeyFactors = (stock) => {
+                const factors = [];
+                
+                // Check for big move
+                if (stock.percentChange >= 30) {
+                    factors.push('Big move');
+                } else if (stock.percentChange >= 20) {
+                    factors.push('Momentum');
+                }
+                
+                // Check for high volume if available
+                if (stock.relativeVolume && stock.relativeVolume > 2) {
+                    factors.push('High volume');
+                } else if (stock.relativeVolume && stock.relativeVolume > 1.5) {
+                    factors.push('Volume spike');
+                }
+                
+                // Check RSI if available
+                if (stock.rsi) {
+                    if (stock.rsi < 30) {
+                        factors.push('Oversold');
+                    } else if (stock.rsi > 70) {
+                        factors.push('Overbought');
+                    }
+                }
+                
+                // Check gap if available
+                if (stock.gapPercent && stock.gapPercent > 10) {
+                    factors.push('Gap up');
+                }
+                
+                // If no factors, add a neutral one
+                if (factors.length === 0) {
+                    factors.push('Price action');
+                }
+                
+                return factors;
+            };
+            
             // Main Page
             if (currentPage === 'main') return (
                 <div className="min-h-screen bg-white p-4 pb-24">
@@ -150,27 +190,28 @@
                             <div className="text-center py-12"><p className="text-gray-600">No stocks found with 20%+ movement. Check back at 6 AM.</p></div>
                         ) : (
                             <div className="space-y-2">
-                                {topMovers.map((stock, idx) => (
-                                    <div key={stock.ticker} onClick={() => { setSelectedStock(stock); setCurrentPage('detail'); }} className="bg-white rounded-lg p-3 border hover:border-blue-500 cursor-pointer">
-                                        <div className="flex items-start justify-between gap-2">
-                                            <div className="flex items-start gap-3 flex-1">
-                                                <div className="text-xl font-bold text-blue-600">#{idx + 1}</div>
-                                                <div className="flex-1">
-                                                    <div className="flex gap-2"><span className="text-lg font-bold">{stock.ticker}</span><span className="text-xs text-gray-600">{stock.name}</span></div>
-                                                    <div className="text-xs text-gray-600 mt-1">{stock.catalyst}</div>
-                                                    {stock.keyFactors && stock.keyFactors.length > 0 && (
+                                {topMovers.map((stock, idx) => {
+                                    const displayFactors = stock.keyFactors || generateKeyFactors(stock);
+                                    return (
+                                        <div key={stock.ticker} onClick={() => { setSelectedStock(stock); setCurrentPage('detail'); }} className="bg-white rounded-lg p-3 border hover:border-blue-500 cursor-pointer">
+                                            <div className="flex items-start justify-between gap-2">
+                                                <div className="flex items-start gap-3 flex-1">
+                                                    <div className="text-xl font-bold text-blue-600">#{idx + 1}</div>
+                                                    <div className="flex-1">
+                                                        <div className="flex gap-2"><span className="text-lg font-bold">{stock.ticker}</span><span className="text-xs text-gray-600">{stock.name}</span></div>
+                                                        <div className="text-xs text-gray-600 mt-1">{stock.catalyst}</div>
                                                         <div className="flex flex-wrap gap-1 mt-2">
-                                                            {stock.keyFactors.map((factor, fIdx) => (
+                                                            {displayFactors.map((factor, fIdx) => (
                                                                 <span key={fIdx} className={`px-2 py-0.5 rounded text-xs ${getFactorColor(factor)}`}>{factor}</span>
                                                             ))}
                                                         </div>
-                                                    )}
+                                                    </div>
                                                 </div>
+                                                <div className="text-right"><div className="text-base font-semibold">${stock.priceToday.toFixed(2)}</div><div className="bg-green-500 text-white px-2 py-0.5 rounded-full text-xs font-bold mt-1">+{stock.percentChange.toFixed(1)}%</div></div>
                                             </div>
-                                            <div className="text-right"><div className="text-base font-semibold">${stock.priceToday.toFixed(2)}</div><div className="bg-green-500 text-white px-2 py-0.5 rounded-full text-xs font-bold mt-1">+{stock.percentChange.toFixed(1)}%</div></div>
                                         </div>
-                                    </div>
-                                ))}
+                                    );
+                                })}
                             </div>
                         )}
                     </div>
