@@ -373,30 +373,56 @@
                                 {email && !isValidEmail(email) && <p className="text-red-600 text-xs mt-2">Please enter a valid email</p>}
                             </div>
                         </div>
-                        <button disabled={!isFormValid} onClick={async () => { 
-                            try {
-                                const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdPV46GRekasxpBYwYsMkX4YWKmjTwpBEUl0lRPrav8KCORVA/formResponse';
-                                const EMAIL_ENTRY_ID = 'entry.1360878470';
-                                const FEEDBACK_ENTRY_ID = 'entry.1214908827';
-                                
-                                const formData = new FormData();
-                                formData.append(EMAIL_ENTRY_ID, email);
-                                formData.append(FEEDBACK_ENTRY_ID, feedback);
-                                
-                                await fetch(GOOGLE_FORM_URL, {
-                                    method: 'POST',
-                                    body: formData,
-                                    mode: 'no-cors'
-                                });
-                                
-                                alert('Feedback sent! Thank you! 💖');
-                                setFeedback('');
-                                setEmail('');
-                            } catch (error) {
-                                alert('Feedback sent! Thank you! 💖');
-                                setFeedback('');
-                                setEmail('');
-                            }
+                        <button disabled={!isFormValid} onClick={() => { 
+                            // Build the Google Form submission URL with pre-filled data
+                            const formId = '1FAIpQLSdPV46GRekasxpBYwYsMkX4YWKmjTwpBEUl0lRPrav8KCORVA';
+                            const emailEntryId = '1360878470';
+                            const feedbackEntryId = '1214908827';
+                            
+                            // Encode the values
+                            const encodedEmail = encodeURIComponent(email);
+                            const encodedFeedback = encodeURIComponent(feedback);
+                            
+                            // Create the submission URL
+                            const submitUrl = `https://docs.google.com/forms/d/e/${formId}/formResponse?entry.${emailEntryId}=${encodedEmail}&entry.${feedbackEntryId}=${encodedFeedback}&submit=Submit`;
+                            
+                            // Open in hidden iframe
+                            const iframe = document.createElement('iframe');
+                            iframe.style.display = 'none';
+                            iframe.name = 'hidden_iframe';
+                            document.body.appendChild(iframe);
+                            
+                            // Submit to iframe
+                            const form = document.createElement('form');
+                            form.method = 'POST';
+                            form.action = `https://docs.google.com/forms/d/e/${formId}/formResponse`;
+                            form.target = 'hidden_iframe';
+                            
+                            const input1 = document.createElement('input');
+                            input1.type = 'hidden';
+                            input1.name = `entry.${emailEntryId}`;
+                            input1.value = email;
+                            form.appendChild(input1);
+                            
+                            const input2 = document.createElement('input');
+                            input2.type = 'hidden';
+                            input2.name = `entry.${feedbackEntryId}`;
+                            input2.value = feedback;
+                            form.appendChild(input2);
+                            
+                            document.body.appendChild(form);
+                            form.submit();
+                            
+                            // Clean up
+                            setTimeout(() => {
+                                document.body.removeChild(form);
+                                document.body.removeChild(iframe);
+                            }, 1000);
+                            
+                            // Show success and clear form
+                            alert('Feedback sent! Thank you! 💖');
+                            setFeedback('');
+                            setEmail('');
                         }} className={`w-full mt-6 py-4 rounded-lg font-semibold ${isFormValid ? 'bg-gradient-to-br from-pink-100 to-pink-200' : 'bg-gray-200 text-gray-400'}`}>Let Her Know</button> 
                         <p className="text-xs text-gray-400 italic text-center mt-4">Your email information will be shared.</p>
                     </div>
