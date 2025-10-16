@@ -425,7 +425,19 @@
                             </svg>
                         </div>
                         <p className="text-xl mb-8">Tipping culture is out of control; however, this app is free - so if I've made you some money, buy me a coffee.</p>
-                        <button onClick={() => alert('Venmo: @adrian-hutchins')} className="w-full bg-gradient-to-br from-pink-100 to-pink-200 py-4 rounded-lg font-semibold">Buy Her a Coffee</button>
+                        <button onClick={() => {
+                            // Try to open Venmo app first, fallback to web
+                            const venmoUrl = 'venmo://paycharge?txn=pay&recipients=adrian-hutchins';
+                            const venmoWebUrl = 'https://venmo.com/u/adrian-hutchins';
+                            
+                            // Try to open Venmo app
+                            window.location.href = venmoUrl;
+                            
+                            // Fallback to web after 1 second if app doesn't open
+                            setTimeout(() => {
+                                window.open(venmoWebUrl, '_blank');
+                            }, 1000);
+                        }} className="w-full bg-gradient-to-br from-pink-100 to-pink-200 py-4 rounded-lg font-semibold">Buy Her a Coffee</button>
                         <p className="text-xs text-gray-500 mt-4">Venmo: @adrian-hutchins</p>
                     </div>
                     <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
