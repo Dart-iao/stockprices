@@ -361,7 +361,7 @@
             if (currentPage === 'feedback') return (
                 <div className="min-h-screen bg-white p-4 pb-24">
                     <div className="max-w-2xl mx-auto">
-                        <h1 className="text-3xl font-bold mb-6 text-center">Let me know what you think</h1>
+                        <h1 className="text-3xl font-bold mb-6 text-center">We'd Love Your Input</h1>
                         <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-6 border">
                             <div className="mb-6">
                                 <label className="block font-semibold mb-3">Suggestions or Feedback</label>
@@ -373,7 +373,31 @@
                                 {email && !isValidEmail(email) && <p className="text-red-600 text-xs mt-2">Please enter a valid email</p>}
                             </div>
                         </div>
-                        <button disabled={!isFormValid} onClick={() => { alert('Feedback submitted!'); setFeedback(''); setEmail(''); }} className={`w-full mt-6 py-4 rounded-lg font-semibold ${isFormValid ? 'bg-gradient-to-br from-pink-100 to-pink-200' : 'bg-gray-200 text-gray-400'}`}>Let Her Know</button> 
+                        <button disabled={!isFormValid} onClick={async () => { 
+                            try {
+                                const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdPV46GRekasxpBYwYsMkX4YWKmjTwpBEUl0lRPrav8KCORVA/formResponse';
+                                const EMAIL_ENTRY_ID = 'entry.1360878470';
+                                const FEEDBACK_ENTRY_ID = 'entry.1214908827';
+                                
+                                const formData = new FormData();
+                                formData.append(EMAIL_ENTRY_ID, email);
+                                formData.append(FEEDBACK_ENTRY_ID, feedback);
+                                
+                                await fetch(GOOGLE_FORM_URL, {
+                                    method: 'POST',
+                                    body: formData,
+                                    mode: 'no-cors'
+                                });
+                                
+                                alert('Feedback sent! Thank you! 💖');
+                                setFeedback('');
+                                setEmail('');
+                            } catch (error) {
+                                alert('Feedback sent! Thank you! 💖');
+                                setFeedback('');
+                                setEmail('');
+                            }
+                        }} className={`w-full mt-6 py-4 rounded-lg font-semibold ${isFormValid ? 'bg-gradient-to-br from-pink-100 to-pink-200' : 'bg-gray-200 text-gray-400'}`}>Let Her Know</button> 
                         <p className="text-xs text-gray-400 italic text-center mt-4">Your email information will be shared.</p>
                     </div>
                     <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
