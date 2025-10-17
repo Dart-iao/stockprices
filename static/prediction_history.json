@@ -1,0 +1,10 @@
+{
+  "history": [
+    {
+      "ticker": "ARTV",
+      "name": "Artiva Biotherapeutics, Inc.",
+      "predictedPrice": 5.58,
+      "actualPrice": 5.48,
+      "predictedMove": "+131-197%",
+      "actualMove": "-1.8%",
+      "wasCorrect": 

@@ -1,0 +1,229 @@
+{
+  "predictions": [
+    {
+      "ticker": "ARTV",
+      "name": "Artiva Biotherapeutics, Inc.",
+      "price3DaysAgo": 2.77,
+      "priceToday": 5.58,
+      "predictedMove": "+131-197%",
+      "confidence": 85,
+      "reasoning": "Gapping up 101.4%. Volume spike 9.5x. Low float (5.4M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "news": "Artiva Biotherapeutics Announces Refractory Rheuma | Artiva Biotherapeutics to Participate in the Canto",
+      "catalyst": "Artiva Biotherapeutics Announces Refractory Rheumatoid Arthritis as Lead Indication, Upcoming Data R",
+      "gap_percent": 101.4,
+      "volume_ratio": 9.5,
+      "float": 5.4,
+      "short_percent": 2.3,
+      "news_count": 9,
+      "isPrediction": true
+    },
+    {
+      "ticker": "WNLV",
+      "name": "Winvest Group Ltd.",
+      "price3DaysAgo": 0.05,
+      "priceToday": 0.07,
+      "predictedMove": "+44-67%",
+      "confidence": 85,
+      "reasoning": "Gapping up 34.6%. Volume spike 19.0x. Low float (46.1M)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "High volatility"
+      ],
+      "news": "Gap: 34.6%, Vol: 19.0x",
+      "catalyst": "Technical setup",
+      "gap_percent": 34.6,
+      "volume_ratio": 19.0,
+      "float": 46.1,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    },
+    {
+      "ticker": "XTRRF",
+      "name": "Comet Lithium Corporation",
+      "price3DaysAgo": 0.01,
+      "priceToday": 0.15,
+      "predictedMove": "+2049-3074%",
+      "confidence": 85,
+      "reasoning": "Gapping up 1400.0%. Volume spike 18.8x. Low float (25.5M)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "High volatility"
+      ],
+      "news": "Gap: 1400.0%, Vol: 18.8x",
+      "catalyst": "Technical setup",
+      "gap_percent": 1400.0,
+      "volume_ratio": 18.8,
+      "float": 25.5,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    },
+    {
+      "ticker": "FTRS",
+      "name": "Futuris Company",
+      "price3DaysAgo": 0.0,
+      "priceToday": 0.01,
+      "predictedMove": "+69-115%",
+      "confidence": 70,
+      "reasoning": "Gapping up 65.2%. Low float (0.0M)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "High volatility"
+      ],
+      "news": "Gap: 65.2%, Vol: 1.0x",
+      "catalyst": "Technical setup",
+      "gap_percent": 65.2,
+      "volume_ratio": 1.0,
+      "float": 0.0,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    },
+    {
+      "ticker": "ELOG",
+      "name": "Eastern International Ltd.",
+      "price3DaysAgo": 2.15,
+      "priceToday": 2.33,
+      "predictedMove": "+18-30%",
+      "confidence": 68,
+      "reasoning": "Low float (2.5M). 1 recent articles (moderate pump)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "Breaking news",
+        "High volatility"
+      ],
+      "news": "Eastern International Ltd. Announces Closing of $6",
+      "catalyst": "Eastern International Ltd. Announces Closing of $6.4 Million Initial Public Offering",
+      "gap_percent": 8.4,
+      "volume_ratio": 0.2,
+      "float": 2.5,
+      "short_percent": 0.1,
+      "news_count": 1,
+      "isPrediction": true
+    },
+    {
+      "ticker": "NNUP",
+      "name": "Nocopi Technologies, Inc.",
+      "price3DaysAgo": 1.59,
+      "priceToday": 1.53,
+      "predictedMove": "+8-14%",
+      "confidence": 67,
+      "reasoning": "Volume spike 12.0x. Low float (3.6M)",
+      "keyFactors": [
+        "Volume spike",
+        "Low float"
+      ],
+      "news": "Gap: -3.8%, Vol: 12.0x",
+      "catalyst": "Technical setup",
+      "gap_percent": -3.8,
+      "volume_ratio": 12.0,
+      "float": 3.6,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    },
+    {
+      "ticker": "ORGEF",
+      "name": "Oregen Energy Corp.",
+      "price3DaysAgo": 0.09,
+      "priceToday": 0.13,
+      "predictedMove": "+25-50%",
+      "confidence": 65,
+      "reasoning": "Gapping up 35.4%",
+      "keyFactors": [
+        "Gap up",
+        "High volatility"
+      ],
+      "news": "Gap: 35.4%, Vol: 1.0x",
+      "catalyst": "Technical setup",
+      "gap_percent": 35.4,
+      "volume_ratio": 1.0,
+      "float": 60.0,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    },
+    {
+      "ticker": "RNWF",
+      "name": "Renewal Fuels, Inc.",
+      "price3DaysAgo": 0.0,
+      "priceToday": 0.0,
+      "predictedMove": "+41-82%",
+      "confidence": 60,
+      "reasoning": "Gapping up 66.7%. Volume spike 3.5x",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "High volatility"
+      ],
+      "news": "Gap: 66.7%, Vol: 3.5x",
+      "catalyst": "Technical setup",
+      "gap_percent": 66.7,
+      "volume_ratio": 3.5,
+      "float": 2625.1,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    },
+    {
+      "ticker": "CLOW",
+      "name": "Cloudweb, Inc.",
+      "price3DaysAgo": 0.02,
+      "priceToday": 0.02,
+      "predictedMove": "+35-71%",
+      "confidence": 60,
+      "reasoning": "Gapping up 41.2%. Low float (2.2M)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "High volatility"
+      ],
+      "news": "Gap: 41.2%, Vol: 0.3x",
+      "catalyst": "Technical setup",
+      "gap_percent": 41.2,
+      "volume_ratio": 0.3,
+      "float": 2.2,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    },
+    {
+      "ticker": "DDNFF",
+      "name": "Adamera Minerals Corp.",
+      "price3DaysAgo": 0.05,
+      "priceToday": 0.06,
+      "predictedMove": "+29-59%",
+      "confidence": 57,
+      "reasoning": "Gapping up 20.0%. Low float (30.6M)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "High volatility"
+      ],
+      "news": "Gap: 20.0%, Vol: 1.5x",
+      "catalyst": "Technical setup",
+      "gap_percent": 20.0,
+      "volume_ratio": 1.5,
+      "float": 30.6,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true
+    }
+  ],
+  "generatedTime": "2025-10-17 02:09 PM",
+  "targetDate": "2025-10-17",
+  "tradingStyle": "DAY_TRADING"
+}
