@@ -4,7 +4,102 @@
       "ticker": "ARTV",
       "name": "Artiva Biotherapeutics, Inc.",
       "predictedPrice": 5.58,
-      "actualPrice": 5.48,
+      "actualPrice": 6.82,
       "predictedMove": "+131-197%",
-      "actualMove": "-1.8%",
-      "wasCorrect": 
+      "actualMove": "+22.2%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 101.4%. Volume spike 9.5x. Low float (5.4M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-17",
+      "targetDate": "2025-10-17",
+      "checkDate": "2025-10-17"
+    },
+    {
+      "ticker": "WNLV",
+      "name": "Winvest Group Ltd.",
+      "predictedPrice": 0.07,
+      "actualPrice": 0.07,
+      "predictedMove": "+44-67%",
+      "actualMove": "+0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 34.6%. Volume spike 19.0x. Low float (46.1M)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "High volatility"
+      ],
+      "predictionDate": "2025-10-17",
+      "targetDate": "2025-10-17",
+      "checkDate": "2025-10-17"
+    },
+    {
+      "ticker": "ELOG",
+      "name": "Eastern International Ltd.",
+      "predictedPrice": 2.33,
+      "actualPrice": 2.32,
+      "predictedMove": "+18-30%",
+      "actualMove": "-0.4%",
+      "wasCorrect": false,
+      "confidence": 68,
+      "reasoning": "Low float (2.5M). 1 recent articles (moderate pump)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "Breaking news",
+        "High volatility"
+      ],
+      "predictionDate": "2025-10-17",
+      "targetDate": "2025-10-17",
+      "checkDate": "2025-10-17"
+    },
+    {
+      "ticker": "NNUP",
+      "name": "Nocopi Technologies, Inc.",
+      "predictedPrice": 1.53,
+      "actualPrice": 1.6,
+      "predictedMove": "+8-14%",
+      "actualMove": "+4.6%",
+      "wasCorrect": false,
+      "confidence": 67,
+      "reasoning": "Volume spike 12.0x. Low float (3.6M)",
+      "keyFactors": [
+        "Volume spike",
+        "Low float"
+      ],
+      "predictionDate": "2025-10-17",
+      "targetDate": "2025-10-17",
+      "checkDate": "2025-10-17"
+    },
+    {
+      "ticker": "DDNFF",
+      "name": "Adamera Minerals Corp.",
+      "predictedPrice": 0.06,
+      "actualPrice": 0.06,
+      "predictedMove": "+29-59%",
+      "actualMove": "-7.0%",
+      "wasCorrect": false,
+      "confidence": 57,
+      "reasoning": "Gapping up 20.0%. Low float (30.6M)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "High volatility"
+      ],
+      "predictionDate": "2025-10-17",
+      "targetDate": "2025-10-17",
+      "checkDate": "2025-10-17"
+    }
+  ],
+  "lastUpdated": "2025-10-17 05:17 PM",
+  "totalPredictions": 5,
+  "correctPredictions": 0,
+  "accuracy": 0.0
+}
