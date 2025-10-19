@@ -96,10 +96,188 @@
       "predictionDate": "2025-10-17",
       "targetDate": "2025-10-17",
       "checkDate": "2025-10-17"
+    },
+    {
+      "ticker": "ARTV",
+      "name": "Artiva Biotherapeutics, Inc.",
+      "predictedPrice": 6.01,
+      "actualPrice": 6.01,
+      "predictedMove": "+152-228%",
+      "actualMove": "+0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 117.0%. Volume spike 18.0x. Low float (5.4M). 10 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "EQ",
+      "name": "Equillium, Inc.",
+      "predictedPrice": 1.46,
+      "actualPrice": 1.46,
+      "predictedMove": "+26-40%",
+      "actualMove": "+0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 18.7%. Volume spike 4.2x. Low float (42.1M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "UBXG",
+      "name": "U-BX Technology Ltd.",
+      "predictedPrice": 2.42,
+      "actualPrice": 2.42,
+      "predictedMove": "+19-29%",
+      "actualMove": "+0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 19.2%. Volume spike 2.9x. Low float (2.0M). 6 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "WNLV",
+      "name": "Winvest Group Ltd.",
+      "predictedPrice": 0.06,
+      "actualPrice": 0.06,
+      "predictedMove": "+22-33%",
+      "actualMove": "+1.7%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 17.3%. Volume spike 54.7x. Low float (46.1M)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "High volatility"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "IMDX",
+      "name": "Insight Molecular Diagnostics Inc.",
+      "predictedPrice": 5.3,
+      "actualPrice": 5.3,
+      "predictedMove": "+11-17%",
+      "actualMove": "-0.1%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 14.5%. Volume spike 2.9x. Low float (7.8M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "SNYR",
+      "name": "Synergy CHC Corp.",
+      "predictedPrice": 2.69,
+      "actualPrice": 2.69,
+      "predictedMove": "+21-32%",
+      "actualMove": "+0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 13.5%. Low float (4.1M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "Breaking news",
+        "High volatility"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "LICN",
+      "name": "Lichen International Limited",
+      "predictedPrice": 4.17,
+      "actualPrice": 4.17,
+      "predictedMove": "+11-17%",
+      "actualMove": "+0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Volume spike 5.9x. Low float (0.8M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "STKE",
+      "name": "Sol Strategies Inc.",
+      "predictedPrice": 3.09,
+      "actualPrice": 3.09,
+      "predictedMove": "+3-5%",
+      "actualMove": "-0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Volume spike 13.1x. Low float (16.9M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
+    },
+    {
+      "ticker": "DTCK",
+      "name": "Davis Commodities Limited",
+      "predictedPrice": 0.79,
+      "actualPrice": 0.79,
+      "predictedMove": "+15-23%",
+      "actualMove": "-0.3%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Low float (8.0M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Low float",
+        "Breaking news",
+        "High volatility"
+      ],
+      "predictionDate": "2025-10-18",
+      "targetDate": "2025-10-18",
+      "checkDate": "2025-10-19"
     }
   ],
-  "lastUpdated": "2025-10-17 05:17 PM",
-  "totalPredictions": 5,
+  "lastUpdated": "2025-10-19 04:01 AM",
+  "totalPredictions": 14,
   "correctPredictions": 0,
   "accuracy": 0.0
 }
