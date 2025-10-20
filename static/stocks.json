@@ -13,7 +13,7 @@
     },
     {
       "ticker": "CHNTF",
-      "name": "CHNTF",
+      "name": "China HK Power Smart Energy Group Limited",
       "priceToday": 0.15,
       "price3DaysAgo": 0.01,
       "percentChange": 900.0,
@@ -386,7 +386,7 @@
       "rsi": 50.0
     }
   ],
-  "updateTime": "2025-10-18 06:16 AM",
-  "scanDate": "2025-10-18",
+  "updateTime": "2025-10-19 06:13 AM",
+  "scanDate": "2025-10-19",
   "count": 35
 }
