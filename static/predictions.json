@@ -7,20 +7,20 @@
       "priceToday": 6.01,
       "predictedMove": "+152-228%",
       "confidence": 85,
-      "reasoning": "Gapping up 117.0%. Volume spike 18.0x. Low float (5.4M). 10 recent articles (explosive)",
+      "reasoning": "Gapping up 117.0%. Volume spike 18.0x. Low float (5.4M). 11 recent articles (explosive)",
       "keyFactors": [
         "Gap up",
         "Volume spike",
         "Low float",
         "Breaking news"
       ],
-      "news": "Top Midday Gainers | Artiva Biotherapeutics Announces Refractory Rheuma",
-      "catalyst": "Top Midday Gainers",
+      "news": "Artiva Biotherapeutics (ARTV) Is Up 113.9% After F | Top Midday Gainers",
+      "catalyst": "Artiva Biotherapeutics (ARTV) Is Up 113.9% After FDA Fast Track for AlloNK in Refractory RA \u2013 Has th",
       "gap_percent": 117.0,
       "volume_ratio": 18.0,
       "float": 5.4,
       "short_percent": 2.3,
-      "news_count": 10,
+      "news_count": 11,
       "isPrediction": true
     },
     {
@@ -184,6 +184,28 @@
       "isPrediction": true
     },
     {
+      "ticker": "TLYS",
+      "name": "Tilly's, Inc.",
+      "price3DaysAgo": 1.53,
+      "priceToday": 1.5,
+      "predictedMove": "+6-10%",
+      "confidence": 85,
+      "reasoning": "Volume spike 2.5x. Low float (8.8M). 10 recent articles (explosive)",
+      "keyFactors": [
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "news": "Zumiez Shows Financial Strength With Robust Liquid | Zumiez Shows Financial Strength With Robust Liquid",
+      "catalyst": "Zumiez Shows Financial Strength With Robust Liquidity and No Debt",
+      "gap_percent": -2.0,
+      "volume_ratio": 2.5,
+      "float": 8.8,
+      "short_percent": 4.9,
+      "news_count": 10,
+      "isPrediction": true
+    },
+    {
       "ticker": "STKE",
       "name": "Sol Strategies Inc.",
       "price3DaysAgo": 3.21,
@@ -204,32 +226,9 @@
       "short_percent": 0.0,
       "news_count": 9,
       "isPrediction": true
-    },
-    {
-      "ticker": "DTCK",
-      "name": "Davis Commodities Limited",
-      "price3DaysAgo": 0.74,
-      "priceToday": 0.79,
-      "predictedMove": "+15-23%",
-      "confidence": 85,
-      "reasoning": "Low float (8.0M). 9 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Low float",
-        "Breaking news",
-        "High volatility"
-      ],
-      "news": "Davis Commodities Evaluates USD 500 Million+ ESG A | Davis Commodities Reviews $2.5 Billion Digital Com",
-      "catalyst": "Davis Commodities Evaluates USD 500 Million+ ESG Agri-Trade Expansion Across Asia and Africa",
-      "gap_percent": 6.3,
-      "volume_ratio": 0.3,
-      "float": 8.0,
-      "short_percent": 0.3,
-      "news_count": 9,
-      "isPrediction": true
     }
   ],
-  "generatedTime": "2025-10-19 05:45 AM",
-  "targetDate": "2025-10-19",
+  "generatedTime": "2025-10-20 05:47 AM",
+  "targetDate": "2025-10-20",
   "tradingStyle": "DAY_TRADING"
 }
