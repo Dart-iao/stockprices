@@ -629,10 +629,177 @@
       "predictionDate": "2025-10-20",
       "targetDate": "2025-10-20",
       "checkDate": "2025-10-21"
+    },
+    {
+      "ticker": "HOFV",
+      "name": "Hall of Fame Resort & Entertainment Company",
+      "predictedPrice": 0.5,
+      "actualPrice": 0.5,
+      "predictedMove": "+24-36%",
+      "actualMove": "0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Volume spike 6.6x. Low float (4.9M). High short interest 26.4%",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Short squeeze"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "FCUV",
+      "name": "Focus Universal Inc.",
+      "predictedPrice": 4.24,
+      "actualPrice": 4.35,
+      "predictedMove": "+31-46%",
+      "actualMove": "+2.6%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 16.8%. Volume spike 3.0x. Low float (3.5M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "STKE",
+      "name": "Sol Strategies Inc.",
+      "predictedPrice": 3.65,
+      "actualPrice": 3.89,
+      "predictedMove": "+31-46%",
+      "actualMove": "+6.6%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 18.1%. Volume spike 2.6x. Low float (16.9M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "CTMX",
+      "name": "CytomX Therapeutics, Inc.",
+      "predictedPrice": 3.74,
+      "actualPrice": 3.94,
+      "predictedMove": "+25-37%",
+      "actualMove": "+5.3%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Gapping up 16.9%. Volume spike 2.7x. High short interest 19.7%. 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Short squeeze",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "IMDX",
+      "name": "Insight Molecular Diagnostics Inc.",
+      "predictedPrice": 5.89,
+      "actualPrice": 6.34,
+      "predictedMove": "+10-15%",
+      "actualMove": "+7.6%",
+      "wasCorrect": true,
+      "confidence": 85,
+      "reasoning": "Gapping up 11.2%. Volume spike 2.0x. Low float (7.8M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "ULCC",
+      "name": "Frontier Group Holdings, Inc.",
+      "predictedPrice": 4.35,
+      "actualPrice": 4.36,
+      "predictedMove": "+13-19%",
+      "actualMove": "+0.2%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "High short interest 43.0%. 11 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Short squeeze",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "ARTW",
+      "name": "Art's-Way Manufacturing Co., Inc.",
+      "predictedPrice": 2.53,
+      "actualPrice": 2.83,
+      "predictedMove": "+15-22%",
+      "actualMove": "+11.9%",
+      "wasCorrect": true,
+      "confidence": 85,
+      "reasoning": "Volume spike 5.0x. Low float (2.4M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Volume spike",
+        "Low float",
+        "Breaking news",
+        "High volatility"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "MDCX",
+      "name": "Medicus Pharma Ltd.",
+      "predictedPrice": 2.49,
+      "actualPrice": 2.63,
+      "predictedMove": "+12-18%",
+      "actualMove": "+5.6%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Volume spike 3.2x. Low float (10.8M). 9 recent articles (explosive)",
+      "keyFactors": [
+        "Gap up",
+        "Volume spike",
+        "Low float",
+        "Breaking news"
+      ],
+      "predictionDate": "2025-10-21",
+      "targetDate": "2025-10-21",
+      "checkDate": "2025-10-22",
+      "priceType": "Pre-Market High (4-9 AM)"
     }
   ],
-  "lastUpdated": "2025-10-21 04:01 AM",
-  "totalPredictions": 32,
-  "correctPredictions": 4,
-  "accuracy": 12.5
+  "lastUpdated": "2025-10-22 04:02 AM",
+  "totalPredictions": 40,
+  "correctPredictions": 6,
+  "accuracy": 15.0
 }
