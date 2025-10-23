@@ -796,10 +796,209 @@
       "targetDate": "2025-10-21",
       "checkDate": "2025-10-22",
       "priceType": "Pre-Market High (4-9 AM)"
+    },
+    {
+      "ticker": "YDKG",
+      "name": "Yueda Digital Holding",
+      "predictedPrice": 0.06,
+      "actualPrice": 0.07,
+      "predictedMove": "+25-40%",
+      "actualMove": "+10.0%",
+      "wasCorrect": false,
+      "confidence": 92,
+      "reasoning": "Strong 50.0% pre-market gap + massive 10.1x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 50.0%",
+        "Volume: 10.1x avg",
+        "Low float: 22M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "QUTIF",
+      "name": "Questor Technology Inc.",
+      "predictedPrice": 0.45,
+      "actualPrice": 0.45,
+      "predictedMove": "+25-40%",
+      "actualMove": "-0.0%",
+      "wasCorrect": false,
+      "confidence": 85,
+      "reasoning": "Strong 32.4% pre-market gap + massive 32.1x volume spike + 1 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 32.4%",
+        "Volume: 32.1x avg",
+        "Low float: 23M",
+        "1 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "SMX",
+      "name": "SMX (Security Matters) Public Limited Company",
+      "predictedPrice": 0.82,
+      "actualPrice": 0.8,
+      "predictedMove": "+10-20%",
+      "actualMove": "-2.8%",
+      "wasCorrect": false,
+      "confidence": 82,
+      "reasoning": "Moderate 5.5% gap + massive 3.0x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 5.5%",
+        "Volume: 3.0x avg",
+        "Low float: 0M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "FPAY",
+      "name": "FlexShopper, Inc.",
+      "predictedPrice": 0.2,
+      "actualPrice": 0.2,
+      "predictedMove": "+10-20%",
+      "actualMove": "+1.1%",
+      "wasCorrect": false,
+      "confidence": 78,
+      "reasoning": "Moderate 5.3% gap + strong 2.1x volume + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 5.3%",
+        "Volume: 2.1x avg",
+        "Low float: 10M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "SLGB",
+      "name": "Smart Logistics Global Limited",
+      "predictedPrice": 3.76,
+      "actualPrice": 3.85,
+      "predictedMove": "+10-20%",
+      "actualMove": "+2.4%",
+      "wasCorrect": false,
+      "confidence": 76,
+      "reasoning": "Strong 20.1% pre-market gap + 3 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 20.1%",
+        "Low float: 1M",
+        "3 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "ALEC",
+      "name": "Alector, Inc.",
+      "predictedPrice": 1.57,
+      "actualPrice": 1.71,
+      "predictedMove": "+8-15%",
+      "actualMove": "+8.9%",
+      "wasCorrect": true,
+      "confidence": 72,
+      "reasoning": "massive 18.1x volume spike + 10 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Volume: 18.1x avg",
+        "10 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "PRPH",
+      "name": "ProPhase Labs, Inc.",
+      "predictedPrice": 0.39,
+      "actualPrice": 0.49,
+      "predictedMove": "+8-15%",
+      "actualMove": "+26.9%",
+      "wasCorrect": true,
+      "confidence": 71,
+      "reasoning": "massive 4.4x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Volume: 4.4x avg",
+        "Low float: 38M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "AAMMF",
+      "name": "Almadex Minerals Ltd.",
+      "predictedPrice": 0.5,
+      "actualPrice": 0.37,
+      "predictedMove": "+10-20%",
+      "actualMove": "-26.0%",
+      "wasCorrect": false,
+      "confidence": 68,
+      "reasoning": "Strong 31.6% pre-market gap + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 31.6%"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "WOSGF",
+      "name": "Watches of Switzerland Group PLC",
+      "predictedPrice": 5.25,
+      "actualPrice": 5.25,
+      "predictedMove": "+10-20%",
+      "actualMove": "0.0%",
+      "wasCorrect": false,
+      "confidence": 65,
+      "reasoning": "Moderate 6.4% gap + massive 53.0x volume spike + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 6.4%",
+        "Volume: 53.0x avg"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "KNOP",
+      "name": "KNOT Offshore Partners LP",
+      "predictedPrice": 9.09,
+      "actualPrice": 8.78,
+      "predictedMove": "+8-15%",
+      "actualMove": "-3.4%",
+      "wasCorrect": false,
+      "confidence": 65,
+      "reasoning": "9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Low float: 22M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-22",
+      "targetDate": "2025-10-22",
+      "checkDate": "2025-10-23",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
     }
   ],
-  "lastUpdated": "2025-10-22 04:02 AM",
-  "totalPredictions": 40,
-  "correctPredictions": 6,
-  "accuracy": 15.0
+  "lastUpdated": "2025-10-23 04:02 AM",
+  "totalPredictions": 50,
+  "correctPredictions": 8,
+  "accuracy": 16.0
 }

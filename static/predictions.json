@@ -1,236 +1,326 @@
 {
   "predictions": [
     {
-      "ticker": "BNET",
-      "name": "Bion Environmental Technologies, Inc.",
-      "price3DaysAgo": 0.18,
-      "priceToday": 0.22,
-      "predictedMove": "+35-53%",
-      "confidence": 85,
-      "reasoning": "Gapping up 22.2%. Volume spike 5.6x. Low float (46.7M)",
+      "ticker": "YDKG",
+      "name": "Yueda Digital Holding",
+      "price3DaysAgo": 0.04,
+      "priceToday": 0.06,
+      "predictedMove": "+25-40%",
+      "confidence": 92,
+      "reasoning": "Strong 50.0% pre-market gap + massive 10.1x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
       "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "High volatility"
+        "Gap: 50.0%",
+        "Volume: 10.1x avg",
+        "Low float: 22M",
+        "9 news articles"
       ],
-      "news": "Gap: 22.2%, Vol: 5.6x",
-      "catalyst": "Technical setup",
-      "gap_percent": 22.2,
-      "volume_ratio": 5.6,
-      "float": 46.7,
+      "news": "Yueda Digital Holding Announces Pricing of $28 Mil | AirNet Technology Inc. Announces Name Change to Yu",
+      "catalyst": "Yueda Digital Holding Announces Pricing of $28 Million Registered Direct Offering",
+      "gap_percent": 50.0,
+      "volume_ratio": 10.1,
+      "float": 22.0,
+      "short_percent": 1.1,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "QUTIF",
+      "name": "Questor Technology Inc.",
+      "price3DaysAgo": 0.34,
+      "priceToday": 0.45,
+      "predictedMove": "+25-40%",
+      "confidence": 85,
+      "reasoning": "Strong 32.4% pre-market gap + massive 32.1x volume spike + 1 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 32.4%",
+        "Volume: 32.1x avg",
+        "Low float: 23M",
+        "1 news articles"
+      ],
+      "news": "There is an alarm flashing at the heart of the US ",
+      "catalyst": "There is an alarm flashing at the heart of the US economy",
+      "gap_percent": 32.4,
+      "volume_ratio": 32.1,
+      "float": 22.5,
       "short_percent": 0.0,
-      "news_count": 0,
-      "isPrediction": true
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
     },
     {
-      "ticker": "MEIL",
-      "name": "Methes Energies International Ltd.",
-      "price3DaysAgo": 0.0,
-      "priceToday": 0.0,
-      "predictedMove": "+129-194%",
-      "confidence": 85,
-      "reasoning": "Gapping up 100.0%. Volume spike 1098.2x. Low float (0.0M)",
+      "ticker": "SMX",
+      "name": "SMX (Security Matters) Public Limited Company",
+      "price3DaysAgo": 0.78,
+      "priceToday": 0.82,
+      "predictedMove": "+10-20%",
+      "confidence": 82,
+      "reasoning": "Moderate 5.5% gap + massive 3.0x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
       "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "High volatility"
+        "Gap: 5.5%",
+        "Volume: 3.0x avg",
+        "Low float: 0M",
+        "9 news articles"
       ],
-      "news": "Gap: 100.0%, Vol: 1098.2x",
-      "catalyst": "Technical setup",
-      "gap_percent": 100.0,
-      "volume_ratio": 1098.2,
-      "float": 0.0,
-      "short_percent": 0.4,
-      "news_count": 0,
-      "isPrediction": true
-    },
-    {
-      "ticker": "HOFV",
-      "name": "Hall of Fame Resort & Entertainment Company",
-      "price3DaysAgo": 0.46,
-      "priceToday": 0.5,
-      "predictedMove": "+24-36%",
-      "confidence": 85,
-      "reasoning": "Volume spike 6.6x. Low float (4.9M). High short interest 26.4%",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "Short squeeze"
-      ],
-      "news": "Gap: 8.5%, Vol: 6.6x",
-      "catalyst": "Technical setup",
-      "gap_percent": 8.5,
-      "volume_ratio": 6.6,
-      "float": 4.9,
-      "short_percent": 26.4,
-      "news_count": 0,
-      "isPrediction": true
-    },
-    {
-      "ticker": "FCUV",
-      "name": "Focus Universal Inc.",
-      "price3DaysAgo": 3.63,
-      "priceToday": 4.24,
-      "predictedMove": "+31-46%",
-      "confidence": 85,
-      "reasoning": "Gapping up 16.8%. Volume spike 3.0x. Low float (3.5M). 9 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "Breaking news"
-      ],
-      "news": "Focus Universal Inc. Launches Universal Smart IoT  | Focus Universal to Unveil Fully Automated AI-Drive",
-      "catalyst": "Focus Universal Inc. Launches Universal Smart IoT Apps",
-      "gap_percent": 16.8,
-      "volume_ratio": 3.0,
-      "float": 3.5,
-      "short_percent": 2.2,
-      "news_count": 9,
-      "isPrediction": true
-    },
-    {
-      "ticker": "STKE",
-      "name": "Sol Strategies Inc.",
-      "price3DaysAgo": 3.09,
-      "priceToday": 3.65,
-      "predictedMove": "+31-46%",
-      "confidence": 85,
-      "reasoning": "Gapping up 18.1%. Volume spike 2.6x. Low float (16.9M). 9 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "Breaking news"
-      ],
-      "news": "SOL Strategies to Participate in Water Tower Resea | SOL Strategies Announces Purchase of 88,433 SOL fr",
-      "catalyst": "SOL Strategies to Participate in Water Tower Research Fireside Chat on October 16",
-      "gap_percent": 18.1,
-      "volume_ratio": 2.6,
-      "float": 16.9,
-      "short_percent": 0.0,
-      "news_count": 9,
-      "isPrediction": true
-    },
-    {
-      "ticker": "CTMX",
-      "name": "CytomX Therapeutics, Inc.",
-      "price3DaysAgo": 3.2,
-      "priceToday": 3.74,
-      "predictedMove": "+25-37%",
-      "confidence": 85,
-      "reasoning": "Gapping up 16.9%. Volume spike 2.7x. High short interest 19.7%. 9 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Short squeeze",
-        "Breaking news"
-      ],
-      "news": "CytomX Therapeutics Appoints Rachael Lester as Chi | Why CytomX Therapeutics Stock Was Skyrocketing Thi",
-      "catalyst": "CytomX Therapeutics Appoints Rachael Lester as Chief Business Officer",
-      "gap_percent": 16.9,
-      "volume_ratio": 2.7,
-      "float": 120.3,
-      "short_percent": 19.7,
-      "news_count": 9,
-      "isPrediction": true
-    },
-    {
-      "ticker": "IMDX",
-      "name": "Insight Molecular Diagnostics Inc.",
-      "price3DaysAgo": 5.3,
-      "priceToday": 5.89,
-      "predictedMove": "+10-15%",
-      "confidence": 85,
-      "reasoning": "Gapping up 11.2%. Volume spike 2.0x. Low float (7.8M). 9 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "Breaking news"
-      ],
-      "news": "iMDx Welcomes New VP Marketing to Prepare for Comm | iMDx Reports Kidney Transplant Patient Achieved 'I",
-      "catalyst": "iMDx Welcomes New VP Marketing to Prepare for Commercial Transplant Assay Launch",
-      "gap_percent": 11.2,
-      "volume_ratio": 2.0,
-      "float": 7.8,
-      "short_percent": 2.1,
-      "news_count": 9,
-      "isPrediction": true
-    },
-    {
-      "ticker": "ULCC",
-      "name": "Frontier Group Holdings, Inc.",
-      "price3DaysAgo": 4.08,
-      "priceToday": 4.35,
-      "predictedMove": "+13-19%",
-      "confidence": 85,
-      "reasoning": "High short interest 43.0%. 11 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Short squeeze",
-        "Breaking news"
-      ],
-      "news": "What Could Shift the Narrative for Frontier Airlin | Airlines cutting fare is 'putting pressure' on low",
-      "catalyst": "What Could Shift the Narrative for Frontier Airlines After Recent Analyst Upgrades and Industry Chan",
-      "gap_percent": 6.6,
-      "volume_ratio": 1.3,
-      "float": 56.7,
-      "short_percent": 43.0,
-      "news_count": 11,
-      "isPrediction": true
-    },
-    {
-      "ticker": "ARTW",
-      "name": "Art's-Way Manufacturing Co., Inc.",
-      "price3DaysAgo": 2.45,
-      "priceToday": 2.53,
-      "predictedMove": "+15-22%",
-      "confidence": 85,
-      "reasoning": "Volume spike 5.0x. Low float (2.4M). 9 recent articles (explosive)",
-      "keyFactors": [
-        "Volume spike",
-        "Low float",
-        "Breaking news",
-        "High volatility"
-      ],
-      "news": "Art's Way Reports Improved Results With Modular Bu | This Penny Stock Has Doubled in Just the Last Mont",
-      "catalyst": "Art's Way Reports Improved Results With Modular Buildings Growth Offsetting Ag Market Challenges",
-      "gap_percent": 3.3,
-      "volume_ratio": 5.0,
-      "float": 2.4,
-      "short_percent": 0.1,
-      "news_count": 9,
-      "isPrediction": true
-    },
-    {
-      "ticker": "MDCX",
-      "name": "Medicus Pharma Ltd.",
-      "price3DaysAgo": 2.36,
-      "priceToday": 2.49,
-      "predictedMove": "+12-18%",
-      "confidence": 85,
-      "reasoning": "Volume spike 3.2x. Low float (10.8M). 9 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "Breaking news"
-      ],
-      "news": "The Vanderbilt Report: Medicus Pharma Ltd Built Th | Medicus Pharma Ltd. to Present at The Maxim Growth",
-      "catalyst": "The Vanderbilt Report: Medicus Pharma Ltd Built Three Separate Billion-Dollar Bets",
+      "news": "California's Chance: Allow Global Brands and the P | Rolling Stone Isn't Singing Solo - A Global Chorus",
+      "catalyst": "California's Chance: Allow Global Brands and the Plastic Industry Invest in Proof, Not Punishment (N",
       "gap_percent": 5.5,
-      "volume_ratio": 3.2,
-      "float": 10.8,
-      "short_percent": 3.0,
+      "volume_ratio": 3.0,
+      "float": 0.2,
+      "short_percent": 7.5,
       "news_count": 9,
-      "isPrediction": true
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "FPAY",
+      "name": "FlexShopper, Inc.",
+      "price3DaysAgo": 0.19,
+      "priceToday": 0.2,
+      "predictedMove": "+10-20%",
+      "confidence": 78,
+      "reasoning": "Moderate 5.3% gap + strong 2.1x volume + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 5.3%",
+        "Volume: 2.1x avg",
+        "Low float: 10M",
+        "9 news articles"
+      ],
+      "news": "FlexShopper, Inc. Announces Receipt of Delisting N | FlexShopper Receives Notification of Deficiency fr",
+      "catalyst": "FlexShopper, Inc. Announces Receipt of Delisting Notification from Nasdaq",
+      "gap_percent": 5.3,
+      "volume_ratio": 2.1,
+      "float": 9.9,
+      "short_percent": 0.3,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "SLGB",
+      "name": "Smart Logistics Global Limited",
+      "price3DaysAgo": 3.13,
+      "priceToday": 3.76,
+      "predictedMove": "+10-20%",
+      "confidence": 76,
+      "reasoning": "Strong 20.1% pre-market gap + 3 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 20.1%",
+        "Low float: 1M",
+        "3 news articles"
+      ],
+      "news": "Wall Street Set to Open Higher Monday as Investors | Investors Look Ahead to Key Earnings Reports as US",
+      "catalyst": "Wall Street Set to Open Higher Monday as Investors Look Ahead to a Week of Earnings Reports",
+      "gap_percent": 20.1,
+      "volume_ratio": 0.5,
+      "float": 1.0,
+      "short_percent": 0.0,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "ALEC",
+      "name": "Alector, Inc.",
+      "price3DaysAgo": 3.21,
+      "priceToday": 1.57,
+      "predictedMove": "+8-15%",
+      "confidence": 72,
+      "reasoning": "massive 18.1x volume spike + 10 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Volume: 18.1x avg",
+        "10 news articles"
+      ],
+      "news": "Alector dementia drug, partnered with GSK, fails i | Alector dementia drug, partnered with GSK, fails i",
+      "catalyst": "Alector dementia drug, partnered with GSK, fails in key study",
+      "gap_percent": -51.2,
+      "volume_ratio": 18.1,
+      "float": 84.6,
+      "short_percent": 6.8,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "PRPH",
+      "name": "ProPhase Labs, Inc.",
+      "price3DaysAgo": 0.51,
+      "priceToday": 0.39,
+      "predictedMove": "+8-15%",
+      "confidence": 71,
+      "reasoning": "massive 4.4x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Volume: 4.4x avg",
+        "Low float: 38M",
+        "9 news articles"
+      ],
+      "news": "ProPhase Labs Announces Study Validating BE-Smart  | Critical Biotech giant files Chapter 11 for 3 COVI",
+      "catalyst": "ProPhase Labs Announces Study Validating BE-Smart Esophageal Cancer Test Accepted by Journal of Clin",
+      "gap_percent": -23.3,
+      "volume_ratio": 4.4,
+      "float": 38.2,
+      "short_percent": 2.8,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "AAMMF",
+      "name": "Almadex Minerals Ltd.",
+      "price3DaysAgo": 0.38,
+      "priceToday": 0.5,
+      "predictedMove": "+10-20%",
+      "confidence": 68,
+      "reasoning": "Strong 31.6% pre-market gap + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 31.6%"
+      ],
+      "news": "Gap: 31.6%, Vol: 1.6x",
+      "catalyst": "Technical setup",
+      "gap_percent": 31.6,
+      "volume_ratio": 1.6,
+      "float": 57.2,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "WOSGF",
+      "name": "Watches of Switzerland Group PLC",
+      "price3DaysAgo": 4.93,
+      "priceToday": 5.25,
+      "predictedMove": "+10-20%",
+      "confidence": 65,
+      "reasoning": "Moderate 6.4% gap + massive 53.0x volume spike + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 6.4%",
+        "Volume: 53.0x avg"
+      ],
+      "news": "Gap: 6.4%, Vol: 53.0x",
+      "catalyst": "Technical setup",
+      "gap_percent": 6.4,
+      "volume_ratio": 53.0,
+      "float": 208.2,
+      "short_percent": 0.0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
+    },
+    {
+      "ticker": "KNOP",
+      "name": "KNOT Offshore Partners LP",
+      "price3DaysAgo": 8.79,
+      "priceToday": 9.09,
+      "predictedMove": "+8-15%",
+      "confidence": 65,
+      "reasoning": "9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Low float: 22M",
+        "9 news articles"
+      ],
+      "news": "Strength Seen in Knot Offshore (KNOP): Can Its 8.4 | KNOT Offshore Partners LP Announces 3rd Quarter 20",
+      "catalyst": "Strength Seen in Knot Offshore (KNOP): Can Its 8.4% Jump Turn into More Strength?",
+      "gap_percent": 3.4,
+      "volume_ratio": 0.4,
+      "float": 22.2,
+      "short_percent": 0.9,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0
+      }
     }
   ],
-  "generatedTime": "2025-10-21 05:46 AM",
-  "targetDate": "2025-10-21",
-  "tradingStyle": "DAY_TRADING"
+  "generatedTime": "2025-10-22 03:41 PM",
+  "targetDate": "2025-10-22",
+  "tradingStyle": "DAY_TRADING",
+  "learningSystem": {
+    "enabled": true,
+    "historicalPredictions": 40,
+    "weights": {
+      "gap_weight": 1.0,
+      "volume_weight": 1.0,
+      "news_weight": 1.0,
+      "float_weight": 1.0,
+      "short_weight": 1.0,
+      "sentiment_weight": 1.0
+    },
+    "insights": {
+      "best_gap_range": {
+        "range": "High (10-20%)",
+        "accuracy": 100.0
+      },
+      "recent_trend": 30.0,
+      "confidence_adjustment": -10
+    }
+  }
 }
