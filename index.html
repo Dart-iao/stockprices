@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dart App</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://dart-iao.github.io/stockprices/darticon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://dart-iao.github.io/stockprices/darticon.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="https://dart-iao.github.io/stockprices/darticon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://dart-iao.github.io/stockprices/darticon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://dart-iao.github.io/stockprices/darticon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dart-iao.github.io/stockprices/darticon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dart-iao.github.io/stockprices/static/darticon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Dart App">
@@ -154,10 +154,10 @@
             if (currentPage === 'main') return (
                 <div className="min-h-screen bg-white p-4 pb-24">
                     <div className="max-w-6xl mx-auto mb-6">
-                        <div className="flex items-center justify-between mb-2">
-                            <div className="flex items-center gap-2 bg-pink-100 px-3 py-2 rounded-lg">
-                                <div className="text-pink-500"><Activity /></div>
-                                <span className="text-sm font-small text-pink-500">Updated 4 AM EST</span>
+                        <div className="flex items-center justify-end mb-2">
+                            <div className="flex items-center gap-1 bg-pink-100 px-2 py-1 rounded-lg whitespace-nowrap">
+                                <div className="text-pink-500 flex-shrink-0"><Activity /></div>
+                                <span className="text-xs font-medium text-pink-500">6 AM Updates</span>
                             </div>
                         </div>
                         {lastUpdated && <p className="text-xs text-gray-500 mt-1">Last updated: {lastUpdated}</p>}
@@ -187,7 +187,7 @@
 
                     <div className="max-w-6xl mx-auto mb-8 bg-gray-50 rounded-lg p-4 border">
                         <h2 className="text-xl font-bold flex items-center gap-2 mb-4"><TrendingUp />Yesterday's movers</h2>
-                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.<b/>Yellow means the stock is also predicted above.</p>
+                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.</p>
                         {loading ? (
                             <div className="text-center py-12"><Activity /><p className="text-gray-600">Loading...</p></div>
                         ) : topMovers.length === 0 ? (
