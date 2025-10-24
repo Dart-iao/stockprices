@@ -321,15 +321,28 @@
                 yesterday.setDate(yesterday.getDate() - 1);
                 const yesterdayStr = yesterday.toISOString().split('T')[0];
                 
-                const yesterdayPredictions = recentPredictions.filter(pred => 
-                    new Date(pred.predictionDate) < yesterday
-                );
+                // Get ONLY yesterday's predictions (not all time before yesterday)
+                const yesterdayPredictions = recentPredictions.filter(pred => {
+                    const predDate = new Date(pred.predictionDate).toISOString().split('T')[0];
+                    return predDate === yesterdayStr;
+                });
                 const yesterdayCorrect = yesterdayPredictions.filter(pred => pred.wasCorrect).length;
                 const yesterdayTotal = yesterdayPredictions.length;
                 const yesterdayAccuracy = yesterdayTotal > 0 ? ((yesterdayCorrect / yesterdayTotal) * 100).toFixed(1) : null;
                 
-                // Calculate change from yesterday
-                const accuracyChange = yesterdayAccuracy !== null ? (parseFloat(accuracyPercentage) - parseFloat(yesterdayAccuracy)).toFixed(1) : null;
+                // Get TODAY's predictions only
+                const today = new Date();
+                const todayStr = today.toISOString().split('T')[0];
+                const todayPredictions = recentPredictions.filter(pred => {
+                    const predDate = new Date(pred.predictionDate).toISOString().split('T')[0];
+                    return predDate === todayStr;
+                });
+                const todayCorrect = todayPredictions.filter(pred => pred.wasCorrect).length;
+                const todayTotal = todayPredictions.length;
+                const todayAccuracy = todayTotal > 0 ? ((todayCorrect / todayTotal) * 100).toFixed(1) : null;
+                
+                // Calculate change from yesterday to today
+                const accuracyChange = (yesterdayAccuracy !== null && todayAccuracy !== null) ? (parseFloat(todayAccuracy) - parseFloat(yesterdayAccuracy)).toFixed(1) : null;
                 
                 // Format date to abbreviated format (e.g., "Wed. - October 22")
                 const formatDate = (dateStr) => {
