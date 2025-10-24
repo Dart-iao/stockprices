@@ -319,7 +319,6 @@
                 
                 // Calculate most recent date's accuracy (THIS IS THE BIG NUMBER)
                 const mostRecentPredictions = recentPredictions.filter(pred => pred.predictionDate === mostRecentDate);
-                });
                 const mostRecentCorrect = mostRecentPredictions.filter(pred => pred.wasCorrect).length;
                 const mostRecentTotal = mostRecentPredictions.length;
                 const mostRecentAccuracy = mostRecentTotal > 0 ? ((mostRecentCorrect / mostRecentTotal) * 100).toFixed(1) : 0;
@@ -333,7 +332,6 @@
                 
                 // Calculate second most recent date's accuracy
                 const secondMostRecentPredictions = recentPredictions.filter(pred => pred.predictionDate === secondMostRecentDate);
-                });
                 const secondMostRecentCorrect = secondMostRecentPredictions.filter(pred => pred.wasCorrect).length;
                 const secondMostRecentTotal = secondMostRecentPredictions.length;
                 const secondMostRecentAccuracy = secondMostRecentTotal > 0 ? ((secondMostRecentCorrect / secondMostRecentTotal) * 100).toFixed(1) : null;
