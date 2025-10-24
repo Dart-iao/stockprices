@@ -306,10 +306,13 @@
                 // Sort predictions by date (newest first) and limit to 2 weeks (14 days)
                 const twoWeeksAgo = new Date();
                 twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
+                const twoWeeksAgoStr = twoWeeksAgo.toISOString().split('T')[0];
                 
                 const recentPredictions = predictionHistory
-                    .filter(pred => new Date(pred.predictionDate) >= twoWeeksAgo)
+                    .filter(pred => pred.predictionDate >= twoWeeksAgoStr)
                     .sort((a, b) => new Date(b.predictionDate) - new Date(a.predictionDate));
+                
+                console.log('DEBUG: recentPredictions first 3 dates =', recentPredictions.slice(0, 3).map(p => p.predictionDate));
                 
                 // Get the two most recent prediction dates to compare
                 const uniqueDates = [...new Set(recentPredictions.map(pred => pred.predictionDate))].sort().reverse(); // Most recent first
@@ -350,7 +353,8 @@
                 
                 // Format date to abbreviated format (e.g., "Wed. - October 22")
                 const formatDate = (dateStr) => {
-                    const date = new Date(dateStr);
+                    const [year, month, day] = dateStr.split('-').map(Number);
+                    const date = new Date(year, month - 1, day);
                     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
                     const months = ['January', 'February', 'March', 'April', 'May', 'June', 
                                     'July', 'August', 'September', 'October', 'November', 'December'];
