@@ -7,7 +7,7 @@
       "actualPrice": 6.82,
       "predictedMove": "+131-197%",
       "actualMove": "+22.2%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "Gapping up 101.4%. Volume spike 9.5x. Low float (5.4M). 9 recent articles (explosive)",
       "keyFactors": [
@@ -67,7 +67,7 @@
       "actualPrice": 1.6,
       "predictedMove": "+8-14%",
       "actualMove": "+4.6%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 67,
       "reasoning": "Volume spike 12.0x. Low float (3.6M)",
       "keyFactors": [
@@ -164,7 +164,7 @@
       "actualPrice": 0.06,
       "predictedMove": "+22-33%",
       "actualMove": "+1.7%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "Gapping up 17.3%. Volume spike 54.7x. Low float (46.1M)",
       "keyFactors": [
@@ -342,7 +342,7 @@
       "actualPrice": 0.06,
       "predictedMove": "+22-33%",
       "actualMove": "+1.7%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "Gapping up 17.3%. Volume spike 54.7x. Low float (46.1M)",
       "keyFactors": [
@@ -658,7 +658,7 @@
       "actualPrice": 4.35,
       "predictedMove": "+31-46%",
       "actualMove": "+2.6%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "Gapping up 16.8%. Volume spike 3.0x. Low float (3.5M). 9 recent articles (explosive)",
       "keyFactors": [
@@ -679,7 +679,7 @@
       "actualPrice": 3.89,
       "predictedMove": "+31-46%",
       "actualMove": "+6.6%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "Gapping up 18.1%. Volume spike 2.6x. Low float (16.9M). 9 recent articles (explosive)",
       "keyFactors": [
@@ -700,7 +700,7 @@
       "actualPrice": 3.94,
       "predictedMove": "+25-37%",
       "actualMove": "+5.3%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "Gapping up 16.9%. Volume spike 2.7x. High short interest 19.7%. 9 recent articles (explosive)",
       "keyFactors": [
@@ -742,7 +742,7 @@
       "actualPrice": 4.36,
       "predictedMove": "+13-19%",
       "actualMove": "+0.2%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "High short interest 43.0%. 11 recent articles (explosive)",
       "keyFactors": [
@@ -783,7 +783,7 @@
       "actualPrice": 2.63,
       "predictedMove": "+12-18%",
       "actualMove": "+5.6%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 85,
       "reasoning": "Volume spike 3.2x. Low float (10.8M). 9 recent articles (explosive)",
       "keyFactors": [
@@ -804,7 +804,7 @@
       "actualPrice": 0.07,
       "predictedMove": "+25-40%",
       "actualMove": "+10.0%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 92,
       "reasoning": "Strong 50.0% pre-market gap + massive 10.1x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
       "keyFactors": [
@@ -867,7 +867,7 @@
       "actualPrice": 0.2,
       "predictedMove": "+10-20%",
       "actualMove": "+1.1%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 78,
       "reasoning": "Moderate 5.3% gap + strong 2.1x volume + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
       "keyFactors": [
@@ -888,7 +888,7 @@
       "actualPrice": 3.85,
       "predictedMove": "+10-20%",
       "actualMove": "+2.4%",
-      "wasCorrect": false,
+      "wasCorrect": true,
       "confidence": 76,
       "reasoning": "Strong 20.1% pre-market gap + 3 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
       "keyFactors": [
@@ -1141,8 +1141,8 @@
       "priceType": "Pre-Market High (4:00-8:59 AM EST)"
     }
   ],
-  "lastUpdated": "2025-10-24 02:13 AM",
+  "lastUpdated": "2025-10-24 02:18 AM",
   "totalPredictions": 57,
-  "correctPredictions": 14,
-  "accuracy": 24.6
+  "correctPredictions": 26,
+  "accuracy": 45.6
 }
