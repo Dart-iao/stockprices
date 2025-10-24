@@ -307,7 +307,7 @@
             if (currentPage === 'predictions') {
                 // Sort predictions by date (newest first) and limit to 2 weeks ( days)
                 const twoWeeksAgo = new Date();
-                twoWeeksAgo.setDate(twoWeeksAgo.getDate() - );
+                twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
                 
                 const recentPredictions = predictionHistory
                     .filter(pred => new Date(pred.predictionDate) >= twoWeeksAgo)
