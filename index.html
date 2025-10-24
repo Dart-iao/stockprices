@@ -311,38 +311,41 @@
                     .filter(pred => new Date(pred.predictionDate) >= twoWeeksAgo)
                     .sort((a, b) => new Date(b.predictionDate) - new Date(a.predictionDate));
                 
-                // Calculate overall accuracy
+                // Get the two most recent prediction dates to compare
+                const uniqueDates = [...new Set(recentPredictions.map(pred => 
+                    new Date(pred.predictionDate).toISOString().split('T')[0]
+                ))].sort().reverse(); // Most recent first
+                
+                const mostRecentDate = uniqueDates[0];
+                const secondMostRecentDate = uniqueDates[1];
+                
+                // Calculate most recent date's accuracy (THIS IS THE BIG NUMBER)
+                const mostRecentPredictions = recentPredictions.filter(pred => {
+                    const predDate = new Date(pred.predictionDate).toISOString().split('T')[0];
+                    return predDate === mostRecentDate;
+                });
+                const mostRecentCorrect = mostRecentPredictions.filter(pred => pred.wasCorrect).length;
+                const mostRecentTotal = mostRecentPredictions.length;
+                const mostRecentAccuracy = mostRecentTotal > 0 ? ((mostRecentCorrect / mostRecentTotal) * 100).toFixed(1) : 0;
+                
+                // Use the most recent day's accuracy as the main display
+                const accuracyPercentage = mostRecentAccuracy;
+                
+                // Calculate overall accuracy for the "Results" section
                 const correctPredictions = recentPredictions.filter(pred => pred.wasCorrect).length;
                 const totalPredictions = recentPredictions.length;
-                const accuracyPercentage = totalPredictions > 0 ? ((correctPredictions / totalPredictions) * 100).toFixed(1) : 0;
                 
-                // Calculate yesterday's accuracy for comparison
-                const yesterday = new Date();
-                yesterday.setDate(yesterday.getDate() - 1);
-                const yesterdayStr = yesterday.toISOString().split('T')[0];
-                
-                // Get ONLY yesterday's predictions (not all time before yesterday)
-                const yesterdayPredictions = recentPredictions.filter(pred => {
+                // Calculate second most recent date's accuracy
+                const secondMostRecentPredictions = recentPredictions.filter(pred => {
                     const predDate = new Date(pred.predictionDate).toISOString().split('T')[0];
-                    return predDate === yesterdayStr;
+                    return predDate === secondMostRecentDate;
                 });
-                const yesterdayCorrect = yesterdayPredictions.filter(pred => pred.wasCorrect).length;
-                const yesterdayTotal = yesterdayPredictions.length;
-                const yesterdayAccuracy = yesterdayTotal > 0 ? ((yesterdayCorrect / yesterdayTotal) * 100).toFixed(1) : null;
+                const secondMostRecentCorrect = secondMostRecentPredictions.filter(pred => pred.wasCorrect).length;
+                const secondMostRecentTotal = secondMostRecentPredictions.length;
+                const secondMostRecentAccuracy = secondMostRecentTotal > 0 ? ((secondMostRecentCorrect / secondMostRecentTotal) * 100).toFixed(1) : null;
                 
-                // Get TODAY's predictions only
-                const today = new Date();
-                const todayStr = today.toISOString().split('T')[0];
-                const todayPredictions = recentPredictions.filter(pred => {
-                    const predDate = new Date(pred.predictionDate).toISOString().split('T')[0];
-                    return predDate === todayStr;
-                });
-                const todayCorrect = todayPredictions.filter(pred => pred.wasCorrect).length;
-                const todayTotal = todayPredictions.length;
-                const todayAccuracy = todayTotal > 0 ? ((todayCorrect / todayTotal) * 100).toFixed(1) : null;
-                
-                // Calculate change from yesterday to today
-                const accuracyChange = (yesterdayAccuracy !== null && todayAccuracy !== null) ? (parseFloat(todayAccuracy) - parseFloat(yesterdayAccuracy)).toFixed(1) : null;
+                // Calculate change between the two most recent dates
+                const accuracyChange = (mostRecentAccuracy !== null && secondMostRecentAccuracy !== null) ? (parseFloat(mostRecentAccuracy) - parseFloat(secondMostRecentAccuracy)).toFixed(1) : null;
                 
                 // Format date to abbreviated format (e.g., "Wed. - October 22")
                 const formatDate = (dateStr) => {
