@@ -995,10 +995,154 @@
       "targetDate": "2025-10-22",
       "checkDate": "2025-10-23",
       "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "YDKG",
+      "name": "Yueda Digital Holding",
+      "predictedPrice": 0.07,
+      "actualPrice": 0.1,
+      "predictedMove": "+25-40%",
+      "actualMove": "+46.9%",
+      "wasCorrect": true,
+      "confidence": 89,
+      "reasoning": "Strong 16.7% pre-market gap + massive 3.7x volume spike + 9 recent catalysts + [Gap size in optimal range (80% success rate) | \u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 16.7%",
+        "Volume: 3.7x avg",
+        "Low float: 22M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-23",
+      "targetDate": "2025-10-23",
+      "checkDate": "2025-10-24",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "SMX",
+      "name": "SMX (Security Matters) Public Limited Company",
+      "predictedPrice": 0.87,
+      "actualPrice": 8.8,
+      "predictedMove": "+20-35%",
+      "actualMove": "+911.5%",
+      "wasCorrect": true,
+      "confidence": 87,
+      "reasoning": "Strong 11.0% pre-market gap + massive 3.9x volume spike + 9 recent catalysts + [Gap size in optimal range (80% success rate) | \u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 11.0%",
+        "Volume: 3.9x avg",
+        "Low float: 0M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-23",
+      "targetDate": "2025-10-23",
+      "checkDate": "2025-10-24",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "GRAN",
+      "name": "Grande Group Limited",
+      "predictedPrice": 3.35,
+      "actualPrice": 3.46,
+      "predictedMove": "+15-25%",
+      "actualMove": "+3.3%",
+      "wasCorrect": true,
+      "confidence": 83,
+      "reasoning": "Strong 11.7% pre-market gap + strong 2.3x volume + 5 recent catalysts + [Gap size in optimal range (80% success rate) | \u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 11.7%",
+        "Volume: 2.3x avg",
+        "Low float: 5M",
+        "5 news articles"
+      ],
+      "predictionDate": "2025-10-23",
+      "targetDate": "2025-10-23",
+      "checkDate": "2025-10-24",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "JDZG",
+      "name": "JIADE Limited",
+      "predictedPrice": 1.94,
+      "actualPrice": 2.0,
+      "predictedMove": "+10-20%",
+      "actualMove": "+3.1%",
+      "wasCorrect": true,
+      "confidence": 82,
+      "reasoning": "Moderate 6.0% gap + 7 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 6.0%",
+        "Low float: 0M",
+        "Short interest: 112.7%",
+        "7 news articles"
+      ],
+      "predictionDate": "2025-10-23",
+      "targetDate": "2025-10-23",
+      "checkDate": "2025-10-24",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "SLGB",
+      "name": "Smart Logistics Global Limited",
+      "predictedPrice": 4.09,
+      "actualPrice": 4.18,
+      "predictedMove": "+10-20%",
+      "actualMove": "+2.2%",
+      "wasCorrect": true,
+      "confidence": 76,
+      "reasoning": "Strong 30.7% pre-market gap + 3 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 30.7%",
+        "Low float: 1M",
+        "3 news articles"
+      ],
+      "predictionDate": "2025-10-23",
+      "targetDate": "2025-10-23",
+      "checkDate": "2025-10-24",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "PRPH",
+      "name": "ProPhase Labs, Inc.",
+      "predictedPrice": 0.41,
+      "actualPrice": 0.55,
+      "predictedMove": "+8-15%",
+      "actualMove": "+34.1%",
+      "wasCorrect": true,
+      "confidence": 74,
+      "reasoning": "massive 5.3x volume spike + 9 recent catalysts + [\u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Volume: 5.3x avg",
+        "Low float: 38M",
+        "9 news articles"
+      ],
+      "predictionDate": "2025-10-23",
+      "targetDate": "2025-10-23",
+      "checkDate": "2025-10-24",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "HYLQF",
+      "name": "HYLQ Strategy Corp.",
+      "predictedPrice": 1.05,
+      "actualPrice": 0.97,
+      "predictedMove": "+20-35%",
+      "actualMove": "-8.1%",
+      "wasCorrect": false,
+      "confidence": 73,
+      "reasoning": "Strong 13.9% pre-market gap + strong 2.7x volume + [Gap size in optimal range (80% success rate) | \u26a0\ufe0f Model struggling recently (30% accuracy) - increased scrutiny]",
+      "keyFactors": [
+        "Gap: 13.9%",
+        "Volume: 2.7x avg",
+        "Low float: 7M"
+      ],
+      "predictionDate": "2025-10-23",
+      "targetDate": "2025-10-23",
+      "checkDate": "2025-10-24",
+      "priceType": "Pre-Market High (4:00-8:59 AM EST)"
     }
   ],
-  "lastUpdated": "2025-10-23 04:02 AM",
-  "totalPredictions": 50,
-  "correctPredictions": 8,
-  "accuracy": 16.0
+  "lastUpdated": "2025-10-24 02:13 AM",
+  "totalPredictions": 57,
+  "correctPredictions": 14,
+  "accuracy": 24.6
 }
