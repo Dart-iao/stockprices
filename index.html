@@ -48,7 +48,7 @@
 
             // Fetch top movers
             useEffect(() => {
-               fetch('https://adrianhutchins.pythonanywhere.com/static/stocks.json')
+               fetch('./static/stocks.json')
                     .then(res => res.json())
                     .then(data => {
                         setTopMovers(data.stocks || []);
@@ -64,7 +64,7 @@
 
             // Fetch predictions
             useEffect(() => {
-               fetch('https://adrianhutchins.pythonanywhere.com/static/predictions.json')
+            fetch('./static/predictions.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictions(data.predictions || []);
@@ -77,7 +77,7 @@
 
             // Fetch prediction history
             useEffect(() => {
-                fetch('https://adrianhutchins.pythonanywhere.com/static/prediction_history.json')
+                fetch('./static/prediction_history.json')
                     .then(res => res.json())
                     .then(data => {
                         setPredictionHistory(data.history || []);
