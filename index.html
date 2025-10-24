@@ -157,7 +157,7 @@
                         <div className="flex items-center justify-end mb-2">
                             <div className="flex items-center gap-1 bg-pink-100 px-2 py-1 rounded-lg whitespace-nowrap">
                                 <div className="text-pink-500 flex-shrink-0"><Activity /></div>
-                                <span className="text-xs font-medium text-pink-500">6 AM Updates</span>
+                                <span className="text-xs font-medium text-pink-500">Updated 4 AM EST</span>
                             </div>
                         </div>
                         {lastUpdated && <p className="text-xs text-gray-500 mt-1">Last updated: {lastUpdated}</p>}
@@ -187,7 +187,7 @@
 
                     <div className="max-w-6xl mx-auto mb-8 bg-gray-50 rounded-lg p-4 border">
                         <h2 className="text-xl font-bold flex items-center gap-2 mb-4"><TrendingUp />Yesterday's movers</h2>
-                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.</p>
+                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.<b/> Yellow were those predicted to move again today (above).</p>
                         {loading ? (
                             <div className="text-center py-12"><Activity /><p className="text-gray-600">Loading...</p></div>
                         ) : topMovers.length === 0 ? (
