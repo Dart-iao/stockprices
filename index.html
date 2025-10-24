@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dart App</title>
-    <link rel="apple-touch-icon" href="https://adrianhutchins.github.io/stockprices/icon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://github.com/Dart-iao/stockprices/blob/main/Dart%20icon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Dart-iao/stockprices/blob/main/Dart%20icon.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="https://github.com/Dart-iao/stockprices/blob/main/Dart%20icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Dart App">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -112,34 +117,29 @@
                 // Check for big move
                 if (stock.percentChange >= 30) {
                     factors.push('Big move');
-                } else if (stock.percentChange >= 20) {
-                    factors.push('Momentum');
                 }
                 
-                // Check for high volume if available
-                if (stock.relativeVolume && stock.relativeVolume > 2) {
-                    factors.push('High volume');
-                } else if (stock.relativeVolume && stock.relativeVolume > 1.5) {
+                // Check for volume
+                if (stock.volume && stock.volume > 10000000) {
                     factors.push('Volume spike');
                 }
                 
-                // Check RSI if available
-                if (stock.rsi) {
-                    if (stock.rsi < 30) {
-                        factors.push('Oversold');
-                    } else if (stock.rsi > 70) {
-                        factors.push('Overbought');
-                    }
-                }
-                
-                // Check gap if available
-                if (stock.gapPercent && stock.gapPercent > 10) {
+                // Check for gap moves
+                if (stock.percentChange >= 40) {
                     factors.push('Gap up');
                 }
                 
-                // If no factors, add a neutral one
-                if (factors.length === 0) {
-                    factors.push('Price action');
+                // Add premarket status
+                if (stock.preMarketChange && Math.abs(stock.preMarketChange) >= 5) {
+                    factors.push(stock.preMarketChange > 0 ? 'Pre-market surge' : 'Pre-market drop');
+                }
+                
+                // Pattern recognition
+                if (stock.catalyst) {
+                    const catalystLower = stock.catalyst.toLowerCase();
+                    if (catalystLower.includes('earnings')) factors.push('Earnings catalyst');
+                    if (catalystLower.includes('news') || catalystLower.includes('announcement')) factors.push('News driven');
+                    if (catalystLower.includes('upgrade') || catalystLower.includes('analyst')) factors.push('Analyst activity');
                 }
                 
                 return factors;
@@ -183,7 +183,7 @@
 
                     <div className="max-w-6xl mx-auto mb-8 bg-gray-50 rounded-lg p-4 border">
                         <h2 className="text-xl font-bold flex items-center gap-2 mb-4"><TrendingUp />Yesterday's movers</h2>
-                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.</p>
+                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.<br/> Yellow blocks are showing up in today's predictions above. </p>
                         {loading ? (
                             <div className="text-center py-12"><Activity /><p className="text-gray-600">Loading...</p></div>
                         ) : topMovers.length === 0 ? (
@@ -221,17 +221,13 @@
                             <p className="text-xs text-gray-700 text-center mb-2">
                                 <strong>DISCLAIMER:</strong> This app is for informational and entertainment purposes only. 
                                 Nothing on this site constitutes financial, investment, legal, or tax advice. 
-                                Stock predictions are based on automated analysis and may be inaccurate. 
-                                Past performance does not guarantee future results. Trading stocks involves risk, 
-                                including loss of principal. Always do your own research and consult a licensed 
-                                financial advisor before making investment decisions. We are not registered investment advisors.
-                            </p>
-                            <p className="text-xs text-gray-500 text-center">
-                                Data sources: Yahoo Finance, NewsAPI, Alpha Vantage, Finviz
+                                All investments carry risk, and past performance does not guarantee future results. 
+                                You are solely responsible for your own investment decisions. 
+                                Please consult with a qualified financial advisor before making any investment.
                             </p>
                         </div>
                     </div>
-                    
+
                     <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
                         <div className="flex justify-around max-w-lg mx-auto px-4 py-4">
                             <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-pink-500" style={{marginTop: '-2px'}}><Home /><span className="text-xs">Home</span></button>
@@ -242,221 +238,194 @@
                     </div>
                 </div>
             );
-            
-            // Detail Page
-            if (currentPage === 'detail' && selectedStock) return (
-                <div className="min-h-screen bg-white p-4 pb-24">
-                    <div className="max-w-4xl mx-auto">
-                        <button onClick={() => setCurrentPage('main')} className="flex items-center gap-2 text-pink-500 hover:text-pink-600 mb-4">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-                            <span className="font-medium">Back</span>
-                        </button>
-                        <div className="bg-gray-50 rounded-lg p-4 border mb-4">
-                            <div className="flex items-center justify-between mb-4">
-                                <div><h1 className="text-3xl font-bold">{selectedStock.ticker}</h1><p className="text-sm text-gray-600">{selectedStock.name}</p></div>
-                                <div className="text-right"><div className="text-xs text-gray-600">Movement</div><div className="text-2xl font-bold text-green-600">{selectedStock.isPrediction ? selectedStock.predictedMove : `+${selectedStock.percentChange.toFixed(1)}%`}</div></div>
-                            </div>
-                            <div className="grid grid-cols-2 gap-4 pt-4 border-t">
-                                <div><div className="text-xs text-gray-600">2 Days Ago</div><div className="text-lg font-semibold">${selectedStock.price3DaysAgo.toFixed(2)}</div></div>
-                                <div><div className="text-xs text-gray-600">Today</div><div className="text-lg font-semibold">${selectedStock.priceToday.toFixed(2)}</div></div>
-                            </div>
-                        </div>
-                        <div className="space-y-4">
-                            {selectedStock.breakoutPotential && (
-                                <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg p-5 border-2 border-purple-300">
-                                    <h3 className="font-bold text-purple-700 mb-3 flex items-center gap-2"><Star fill={true} />Breakout Potential Score</h3>
-                                    <div className="flex items-center justify-between mb-2"><span className="text-sm font-semibold">Explosive Move Potential</span><span className="text-2xl font-bold text-purple-700">{selectedStock.breakoutPotential}/100</span></div>
-                                    <div className="w-full bg-gray-200 rounded-full h-3"><div className="h-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600" style={{ width: `${selectedStock.breakoutPotential}%` }} /></div>
-                                </div>
-                            )}
-                            {selectedStock.gapPercent && (
-                                <div className="bg-gray-50 rounded-lg p-5 border">
-                                    <h3 className="font-bold mb-3 flex items-center gap-2"><TrendingUp />Market Gap Analysis</h3>
-                                    <div className="grid grid-cols-2 gap-3">
-                                        <div className="bg-white p-3 rounded border"><div className="text-xs text-gray-600">Gap %</div><div className="text-xl font-bold text-green-600">{selectedStock.gapPercent.toFixed(1)}%</div></div>
-                                        <div className="bg-white p-3 rounded border"><div className="text-xs text-gray-600">Relative Volume</div><div className="text-xl font-bold text-blue-600">{selectedStock.relativeVolume}x</div></div>
-                                    </div>
-                                </div>
-                            )}
-                            <div className="bg-gray-50 rounded-lg p-5 border">
-                                <h3 className="font-bold mb-3 flex items-center gap-2"><DollarSign />Primary Catalyst & Recent News</h3>
-                                <p className="text-sm font-semibold mb-2">{selectedStock.catalyst}</p>
-                                <p className="text-xs text-gray-600">{selectedStock.news || selectedStock.reasoning}</p>
-                            </div>
-                            {selectedStock.isPrediction && selectedStock.confidence && (
-                                <div className="bg-purple-50 rounded-lg p-5 border-2 border-purple-300">
-                                    <h3 className="font-bold text-purple-700 mb-3 flex items-center gap-2"><Star />Prediction Analysis</h3>
-                                    <div className="flex items-center justify-between mb-2"><span className="text-sm font-semibold">Confidence Level</span><span className="text-xl font-bold text-purple-700">{selectedStock.confidence}%</span></div>
-                                    <div className="w-full bg-gray-200 rounded-full h-3 mb-3"><div className="h-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600" style={{ width: `${selectedStock.confidence}%` }} /></div>
-                                    <p className="text-xs text-gray-700">{selectedStock.reasoning}</p>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </div>
-            );
 
-            // Predictions History Page
-            if (currentPage === 'predictions') {
-                // Sort predictions by date (newest first) and limit to 2 weeks (14 days)
-                const twoWeeksAgo = new Date();
-                twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
-                
-                const recentPredictions = predictionHistory
-                    .filter(pred => new Date(pred.predictionDate) >= twoWeeksAgo)
-                    .sort((a, b) => new Date(b.predictionDate) - new Date(a.predictionDate));
-                
-                // Calculate overall accuracy
-                const correctPredictions = recentPredictions.filter(pred => pred.wasCorrect).length;
-                const totalPredictions = recentPredictions.length;
-                const accuracyPercentage = totalPredictions > 0 ? ((correctPredictions / totalPredictions) * 100).toFixed(1) : 0;
-                
-                // Calculate yesterday's accuracy for comparison
-                const yesterday = new Date();
-                yesterday.setDate(yesterday.getDate() - 1);
-                const yesterdayStr = yesterday.toISOString().split('T')[0];
-                
-                const yesterdayPredictions = recentPredictions.filter(pred => 
-                    new Date(pred.predictionDate) < yesterday
-                );
-                const yesterdayCorrect = yesterdayPredictions.filter(pred => pred.wasCorrect).length;
-                const yesterdayTotal = yesterdayPredictions.length;
-                const yesterdayAccuracy = yesterdayTotal > 0 ? ((yesterdayCorrect / yesterdayTotal) * 100).toFixed(1) : null;
-                
-                // Calculate change from yesterday
-                const accuracyChange = yesterdayAccuracy !== null ? (parseFloat(accuracyPercentage) - parseFloat(yesterdayAccuracy)).toFixed(1) : null;
-                
-                // Format date to abbreviated format (e.g., "Wed. - October 22")
-                const formatDate = (dateStr) => {
-                    const date = new Date(dateStr);
-                    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-                    const months = ['January', 'February', 'March', 'April', 'May', 'June', 
-                                    'July', 'August', 'September', 'October', 'November', 'December'];
-                    return `${days[date.getDay()]}. - ${months[date.getMonth()]} ${date.getDate()}`;
-                };
-                
+            // Detail Page
+            if (currentPage === 'detail' && selectedStock) {
+                const displayFactors = selectedStock.isPrediction ? selectedStock.keyFactors : (selectedStock.keyFactors || generateKeyFactors(selectedStock));
                 return (
                     <div className="min-h-screen bg-white p-4 pb-24">
-                        <div className="max-w-6xl mx-auto mb-6">
-                            <h1 className="text-3xl font-bold mb-2">Prediction History</h1>
-                        </div>
-                        
-                        {/* Gray Container matching home page */}
-                        <div className="max-w-6xl mx-auto bg-gray-50 rounded-lg p-4 border">
+                        <div className="max-w-4xl mx-auto">
+                            <button onClick={() => setCurrentPage('main')} className="flex items-center gap-2 text-pink-500 mb-6 font-semibold">← Back to Quick Movers</button>
                             
-                            {/* Accuracy Stats - Option A Layout */}
-                            {totalPredictions > 0 && (
-                                <div className="mb-6">
-                                    {/* Big Percentage in White Card */}
-                                    <div className="bg-white rounded-xl p-6 border mb-4 text-center">
-                                        <div className="text-6xl font-bold text-pink-600 mb-2">{accuracyPercentage}%</div>
-                                        <div className="text-lg text-gray-600">Accurate</div>
-                                    </div>
-                                    
-                                    {/* Two Cards Side by Side */}
-                                    <div className="grid grid-cols-2 gap-3 mb-3">
-                                        <div className="bg-white rounded-lg p-4 border text-center">
-                                            <div className="text-sm text-gray-600 mb-1">Change</div>
-                                            {accuracyChange !== null ? (
-                                                <>
-                                                    <div className={`text-xl font-bold ${parseFloat(accuracyChange) >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                                                        {parseFloat(accuracyChange) >= 0 ? '↑' : '↓'} {Math.abs(accuracyChange)}%
-                                                    </div>
-                                                    <div className="text-xs text-gray-500">from yesterday</div>
-                                                </>
-                                            ) : (
-                                                <div className="text-xl font-bold text-gray-400">—</div>
-                                            )}
-                                        </div>
-                                        <div className="bg-white rounded-lg p-4 border text-center">
-                                            <div className="text-sm text-gray-600 mb-1">Results</div>
-                                            <div className="text-xl font-bold text-gray-700">{correctPredictions}/{totalPredictions}</div>
-                                            <div className="text-xs text-gray-500">Correct</div>
-                                        </div>
-                                    </div>
-                                    
-                                    {/* Subtext */}
-                                    <div className="text-xs text-gray-500 italic text-center">
-                                        Wrong/Right is based on highest price from 4am-9am
-                                    </div>
+                            <div className={`rounded-xl p-6 mb-6 ${selectedStock.isPrediction ? 'bg-gradient-to-br from-purple-50 to-purple-100' : 'bg-gradient-to-br from-blue-50 to-blue-100'}`}>
+                                <div className="flex justify-between items-start mb-4">
+                                    <div><h1 className="text-4xl font-bold mb-2">{selectedStock.ticker}</h1><p className="text-lg text-gray-700">{selectedStock.name}</p></div>
+                                    {selectedStock.isPrediction ? (
+                                        <div className="bg-purple-200 text-purple-800 px-4 py-2 rounded-full text-lg font-bold">{selectedStock.confidence}% Confidence</div>
+                                    ) : (
+                                        <div><div className="text-3xl font-bold text-right mb-1">${selectedStock.priceToday.toFixed(2)}</div><div className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold">+{selectedStock.percentChange.toFixed(1)}%</div></div>
+                                    )}
                                 </div>
-                            )}
-                            
-                            {recentPredictions.length === 0 ? (
-                            <div className="text-center py-20">
-                                <div className="w-20 h-20 mx-auto mb-4 text-gray-300"><Clock /></div>
-                                <p className="text-gray-600 text-lg">No prediction history yet</p>
-                                <p className="text-gray-500 text-sm mt-2">Check back after predictions are made and verified</p>
+                                
+                                {selectedStock.isPrediction && (
+                                    <div className="mt-4 bg-white bg-opacity-60 rounded-lg p-4">
+                                        <div className="text-sm text-gray-600 mb-1">Predicted Movement</div>
+                                        <div className="text-2xl font-bold text-purple-600">{selectedStock.predictedMove}</div>
+                                    </div>
+                                )}
+                                
+                                {selectedStock.catalyst && (
+                                    <div className="mt-4 bg-white bg-opacity-60 rounded-lg p-4">
+                                        <div className="text-sm font-semibold text-gray-700 mb-2">Catalyst</div>
+                                        <p className="text-gray-800">{selectedStock.catalyst}</p>
+                                    </div>
+                                )}
                             </div>
-                        ) : (
-                            <div className="space-y-2">
-                                {recentPredictions.map((pred, idx) => (
-                                    <div key={idx} className={`bg-white rounded-lg p-3 border-2 ${pred.wasCorrect ? 'border-green-500' : 'border-red-500'}`}>
-                                        <div className="flex justify-between items-start mb-2 gap-2">
-                                            <div className="flex-1 min-w-0">
-                                                <div className="flex gap-2">
-                                                    <span className="font-bold">{pred.ticker}</span>
-                                                    <span className="text-xs text-gray-600">{pred.name}</span>
+
+                            <div className="bg-white border rounded-xl p-6 mb-6">
+                                <h2 className="text-xl font-bold mb-4 flex items-center gap-2"><Activity />Key Factors</h2>
+                                <div className="flex flex-wrap gap-2">
+                                    {displayFactors.map((factor, idx) => (
+                                        <span key={idx} className={`px-3 py-2 rounded-lg text-sm font-medium ${getFactorColor(factor)}`}>{factor}</span>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {!selectedStock.isPrediction && (
+                                <>
+                                    {selectedStock.volume && (
+                                        <div className="bg-white border rounded-xl p-6 mb-6">
+                                            <h2 className="text-xl font-bold mb-3">Volume</h2>
+                                            <p className="text-2xl font-semibold text-gray-800">{selectedStock.volume.toLocaleString()}</p>
+                                        </div>
+                                    )}
+                                    
+                                    {selectedStock.previousClose && (
+                                        <div className="bg-white border rounded-xl p-6 mb-6">
+                                            <div className="grid grid-cols-2 gap-4">
+                                                <div><div className="text-sm text-gray-600 mb-1">Previous Close</div><div className="text-xl font-semibold">${selectedStock.previousClose.toFixed(2)}</div></div>
+                                                <div><div className="text-sm text-gray-600 mb-1">Today's Price</div><div className="text-xl font-semibold">${selectedStock.priceToday.toFixed(2)}</div></div>
+                                            </div>
+                                        </div>
+                                    )}
+                                </>
+                            )}
+
+                            <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+                                <p className="text-xs text-gray-700 text-center">
+                                    <strong>Remember:</strong> This information is for educational purposes only. Always do your own research and consult with a financial advisor before making investment decisions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
+
+            // Predictions Page
+            if (currentPage === 'predictions') {
+                const groupedHistory = {};
+                predictionHistory.forEach(pred => {
+                    const date = pred.predictionDate;
+                    if (!groupedHistory[date]) groupedHistory[date] = [];
+                    groupedHistory[date].push(pred);
+                });
+                const sortedDates = Object.keys(groupedHistory).sort((a, b) => new Date(b) - new Date(a));
+
+                return (
+                    <div className="min-h-screen bg-white p-4 pb-24">
+                        <div className="max-w-4xl mx-auto">
+                            <div className="flex items-center justify-center mb-6 mt-2 gap-2">
+                                <Clock />
+                                <h1 className="text-3xl font-bold">Prediction History</h1>
+                            </div>
+
+                            {sortedDates.length === 0 ? (
+                                <div className="text-center py-12">
+                                    <div className="text-gray-400 mb-4"><Clock /></div>
+                                    <p className="text-gray-600">No prediction history yet. Check back after the first market close!</p>
+                                </div>
+                            ) : (
+                                sortedDates.map(date => {
+                                    const preds = groupedHistory[date];
+                                    const correctPreds = preds.filter(p => p.outcome === 'correct').length;
+                                    const totalPreds = preds.length;
+                                    const accuracy = ((correctPreds / totalPreds) * 100).toFixed(0);
+
+                                    return (
+                                        <div key={date} className="mb-8">
+                                            <div className="flex items-center justify-between mb-4 pb-2 border-b">
+                                                <h2 className="text-xl font-bold">{new Date(date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</h2>
+                                                <div className="flex items-center gap-3">
+                                                    <span className={`px-3 py-1 rounded-full text-sm font-bold ${accuracy >= 60 ? 'bg-green-100 text-green-800' : accuracy >= 40 ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}`}>
+                                                        {accuracy}% Accurate
+                                                    </span>
+                                                    <span className="text-sm text-gray-600">{correctPreds}/{totalPreds} correct</span>
                                                 </div>
                                             </div>
-                                            <div className={`px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-bold whitespace-nowrap flex-shrink-0 ${pred.wasCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-                                                {pred.wasCorrect ? '✓ CORRECT' : '✗ WRONG'}
+
+                                            <div className="space-y-3">
+                                                {preds.map((pred, idx) => {
+                                                    const wasCorrect = pred.outcome === 'correct';
+                                                    return (
+                                                        <div key={idx} className={`rounded-lg p-4 border-2 ${wasCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
+                                                            <div className="flex justify-between items-start mb-2">
+                                                                <div>
+                                                                    <div className="flex items-center gap-2 mb-1">
+                                                                        <span className="text-xl font-bold">{pred.ticker}</span>
+                                                                        <span className={`px-2 py-0.5 rounded-full text-xs font-bold ${wasCorrect ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800'}`}>
+                                                                            {wasCorrect ? '✓ Correct' : '✗ Incorrect'}
+                                                                        </span>
+                                                                    </div>
+                                                                    <p className="text-sm text-gray-600">{pred.name}</p>
+                                                                </div>
+                                                                <div className="text-right">
+                                                                    <div className="text-sm text-gray-600">Confidence</div>
+                                                                    <div className="text-lg font-bold">{pred.confidence}%</div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div className="grid grid-cols-3 gap-3 mt-3 text-sm">
+                                                                <div>
+                                                                    <div className="text-gray-600">Predicted</div>
+                                                                    <div className="font-semibold">{pred.predictedMove}</div>
+                                                                </div>
+                                                                <div>
+                                                                    <div className="text-gray-600">Actual</div>
+                                                                    <div className={`font-semibold ${pred.actualMove.startsWith('+') ? 'text-green-600' : 'text-red-600'}`}>{pred.actualMove}</div>
+                                                                </div>
+                                                                <div>
+                                                                    <div className="text-gray-600">Close Price</div>
+                                                                    <div className="font-semibold">${pred.closePrice.toFixed(2)}</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    );
+                                                })}
                                             </div>
                                         </div>
-                                        <div className="grid grid-cols-2 gap-3 text-xs mb-2">
-                                            <div>
-                                                <span className="text-gray-600">Predicted: </span>
-                                                <span className={`font-semibold ${pred.predictedMove.startsWith('+') ? 'text-green-600' : pred.predictedMove.startsWith('-') ? 'text-red-600' : 'text-gray-700'}`}>
-                                                    {pred.predictedMove}
-                                                </span>
-                                            </div>
-                                            <div>
-                                                <span className="text-gray-600">Actual: </span>
-                                                <span className={`font-semibold ${pred.actualMove.startsWith('+') ? 'text-green-600' : pred.actualMove.startsWith('-') ? 'text-red-600' : 'text-gray-700'}`}>
-                                                    {pred.actualMove}
-                                                </span>
-                                            </div>
-                                            <div>
-                                                <span className="text-gray-600">Start: </span>
-                                                <span className="font-semibold">${pred.predictedPrice}</span>
-                                            </div>
-                                            <div>
-                                                <span className="text-gray-600">End: </span>
-                                                <span className="font-semibold">${pred.actualPrice}</span>
-                                            </div>
-                                        </div>
-                                        <div className="text-xs text-gray-600">
-                                            {formatDate(pred.predictionDate)} | Confidence: {pred.confidence}%
-                                        </div>
-                                    </div>
-                                ))}
+                                    );
+                                })
+                            )}
+                        </div>
+
+                        <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
+                            <div className="flex justify-around max-w-lg mx-auto px-4 py-4">
+                                <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Home /><span className="text-xs">Home</span></button>
+                                <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-pink-500" style={{marginTop: '-2px'}}><Clock /><span className="text-xs">Predictions</span></button>
+                                <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><MessageSquare /><span className="text-xs">Feedback</span></button>
+                                <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Coffee /><span className="text-xs">Coffee</span></button>
                             </div>
-                        )}
-                    </div>
-                    <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
-                        <div className="flex justify-around max-w-lg mx-auto px-4 py-4">
-                            <button onClick={() => setCurrentPage('main')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Home /><span className="text-xs">Home</span></button>
-                            <button onClick={() => setCurrentPage('predictions')} className="flex flex-col items-center gap-1 text-pink-500" style={{marginTop: '-2px'}}><Clock /><span className="text-xs">Predictions</span></button>
-                            <button onClick={() => setCurrentPage('feedback')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><MessageSquare /><span className="text-xs">Feedback</span></button>
-                            <button onClick={() => setCurrentPage('coffee')} className="flex flex-col items-center gap-1 text-gray-400" style={{marginTop: '-2px'}}><Coffee /><span className="text-xs">Coffee</span></button>
                         </div>
                     </div>
-                </div>
-            );
+                );
             }
-            
+
             // Feedback Page
             if (currentPage === 'feedback') return (
                 <div className="min-h-screen bg-white p-4 pb-24">
-                    <div className="max-w-2xl mx-auto">
-                        <h1 className="text-3xl font-bold mb-6 text-center">We'd Love Your Input</h1>
-                        <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-6 border">
-                            <div className="mb-6">
-                                <label className="block font-semibold mb-3">Suggestions or Feedback</label>
-                                <textarea value={feedback} onChange={(e) => setFeedback(e.target.value)} placeholder="Share your thoughts..." className="w-full h-32 px-4 py-3 border rounded-lg resize-none bg-white" />
+                    <div className="max-w-lg mx-auto">
+                        <div className="flex items-center justify-center mb-6 mt-2 gap-2">
+                            <MessageSquare />
+                            <h1 className="text-2xl font-bold">Feedback</h1>
+                        </div>
+                        <p className="text-center mb-6 text-gray-600">Let the developer know what you think!</p>
+                        <div className="space-y-4">
+                            <div>
+                                <label className="block text-sm font-semibold mb-2">Your Feedback</label>
+                                <textarea value={feedback} onChange={(e) => setFeedback(e.target.value)} placeholder="Share your thoughts, bugs, or feature requests..." className="w-full px-4 py-3 border rounded-lg h-32 bg-white" />
                             </div>
                             <div>
-                                <label className="block font-semibold mb-3">Email Address</label>
+                                <label className="block text-sm font-semibold mb-2">Your Email</label>
                                 <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="your.email@example.com" className="w-full px-4 py-3 border rounded-lg bg-white" />
                                 {email && !isValidEmail(email) && <p className="text-red-600 text-xs mt-2">Please enter a valid email</p>}
                             </div>
