@@ -80,8 +80,10 @@
                 fetch('./static/prediction_history.json')
                     .then(res => res.json())
                     .then(data => {
-                      setPredictionHistory((data.history || []).reverse());
-                    })
+    console.log('Loaded prediction history:', data.history);
+    console.log('Last prediction date:', data.history[data.history.length - 1]?.predictionDate);
+    setPredictionHistory(data.history || []);
+})
                     .catch((err) => {
                         console.error('Error fetching prediction history:', err);
                         setPredictionHistory([]);
@@ -303,9 +305,9 @@
 
             // Predictions History Page
             if (currentPage === 'predictions') {
-                // Sort predictions by date (newest first) and limit to 2 weeks (14 days)
+                // Sort predictions by date (newest first) and limit to 2 weeks ( days)
                 const twoWeeksAgo = new Date();
-                twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
+                twoWeeksAgo.setDate(twoWeeksAgo.getDate() - );
                 
                 const recentPredictions = predictionHistory
                     .filter(pred => new Date(pred.predictionDate) >= twoWeeksAgo)
@@ -519,7 +521,7 @@
                             // Build the Google Form submission URL with pre-filled data
                             const formId = '1FAIpQLSdPV46GRekasxpBYwYsMkX4YWKmjTwpBEUl0lRPrav8KCORVA';
                             const emailEntryId = '1360878470';
-                            const feedbackEntryId = '1214908827';
+                            const feedbackEntryId = '12908827';
                             
                             // Encode the values
                             const encodedEmail = encodeURIComponent(email);
