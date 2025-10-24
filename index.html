@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dart App</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://dart-iao.github.io/stockprices/static/darticon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://dart-iao.github.io/stockprices/static/darticon.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="https://dart-iao.github.io/stockprices/static/darticon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://dart-iao.github.io/stockprices/static/darticon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://dart-iao.github.io/stockprices/static/darticon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dart-iao.github.io/stockprices/static/darticon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dart-iao.github.io/stockprices/darticon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://dart-iao.github.io/stockprices/darticon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://dart-iao.github.io/stockprices/darticon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://dart-iao.github.io/stockprices/darticon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dart-iao.github.io/stockprices/darticon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dart-iao.github.io/stockprices/darticon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Dart App">
@@ -44,6 +44,7 @@
             const [lastUpdated, setLastUpdated] = useState('');
             const [predictions, setPredictions] = useState([]);
             const [predictionHistory, setPredictionHistory] = useState([]);
+            const [showAllPredictions, setShowAllPredictions] = useState(false);
 
             // Fetch top movers
             useEffect(() => {
@@ -187,7 +188,7 @@
 
                     <div className="max-w-6xl mx-auto mb-8 bg-gray-50 rounded-lg p-4 border">
                         <h2 className="text-xl font-bold flex items-center gap-2 mb-4"><TrendingUp />Yesterday's movers</h2>
-                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.<b/> Yellow were those predicted to move again today (above).</p>
+                        <p className="text-sm text-gray-600 mb-4">These stocks under $10 moved 20% over the last two days.<br/>Caution: these may not move anymore because of yesterday's jump.<br/>Those in yellow were also predicted to move again today (above.)</p>
                         {loading ? (
                             <div className="text-center py-12"><Activity /><p className="text-gray-600">Loading...</p></div>
                         ) : topMovers.length === 0 ? (
@@ -393,8 +394,9 @@
                                 <p className="text-gray-500 text-sm mt-2">Check back after predictions are made and verified</p>
                             </div>
                         ) : (
+                            <>
                             <div className="space-y-2">
-                                {recentPredictions.map((pred, idx) => {
+                                {recentPredictions.slice(0, showAllPredictions ? recentPredictions.length : 20).map((pred, idx) => {
                                     // Check if stock didn't move at all
                                     const actualMove = pred.actualMove || '0%';
                                     const movePercent = parseFloat(actualMove.replace('%', '').replace('+', ''));
@@ -457,6 +459,17 @@
                                     );
                                 })}
                             </div>
+                            {recentPredictions.length > 20 && (
+                                <div className="text-center mt-4">
+                                    <button 
+                                        onClick={() => setShowAllPredictions(!showAllPredictions)}
+                                        className="px-6 py-2 bg-pink-500 text-white rounded-lg hover:bg-pink-600 font-medium"
+                                    >
+                                        {showAllPredictions ? 'Show Less' : `Show ${recentPredictions.length - 20} More`}
+                                    </button>
+                                </div>
+                            )}
+                            </>
                         )}
                     </div>
                     <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg" style={{paddingBottom: 'env(safe-area-inset-bottom)'}}>
