@@ -80,7 +80,7 @@
                 fetch('./static/prediction_history.json')
                     .then(res => res.json())
                     .then(data => {
-                        setPredictionHistory(data.history || []);
+                      setPredictionHistory((data.history || []).reverse());
                     })
                     .catch((err) => {
                         console.error('Error fetching prediction history:', err);
