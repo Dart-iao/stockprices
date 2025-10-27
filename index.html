@@ -17,6 +17,7 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body>
     <div id="root"></div>
@@ -812,7 +813,7 @@
                                 {/* Feedback Button */}
                                 <button 
                                     onClick={() => setShowFeedbackForm(true)}
-                                    className="mt-8 w-full bg-gradient-to-br from-pink-100 to-pink-200 py-4 rounded-lg font-semibold flex items-center justify-center gap-2"
+                                    className="mt-8 w-full bg-gradient-to-br from-purple-100 to-purple-200 py-4 rounded-lg font-semibold flex items-center justify-center gap-2"
                                 >
                                     <MessageSquare />
                                     Send Feedback
@@ -932,7 +933,93 @@
             );
         }
 
-        ReactDOM.render(<QuickMovers />, document.getElementById('root'));
+        // Main App Wrapper with Popup
+        function App() {
+            const [popup, setPopup] = useState(null);
+
+            // Fetch popup announcements
+            useEffect(() => {
+                fetch('https://adrianhutchins.pythonanywhere.com/static/Announcements')
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.enabled) {
+                            const lastVersion = localStorage.getItem('popupVersion');
+                            if (data.showOnce && lastVersion === data.version) {
+                                return; // Don't show again if user already saw this version
+                            }
+                            setPopup(data);
+                        }
+                    })
+                    .catch(() => {
+                        // Silently fail if popup doesn't exist yet
+                    });
+            }, []);
+
+            const closePopup = () => {
+                if (popup && popup.showOnce) {
+                    localStorage.setItem('popupVersion', popup.version);
+                }
+                setPopup(null);
+            };
+
+            return (
+                <>
+                    <QuickMovers />
+                    
+                    {/* Popup Announcement - Shows on ALL pages */}
+                    {popup && (
+                        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4" onClick={closePopup}>
+                            <div className="bg-pink-200 rounded-2xl p-6 max-w-md w-full shadow-2xl" onClick={(e) => e.stopPropagation()}>
+                                {/* White inner container */}
+                                <div className="bg-white rounded-xl p-6">
+                                    {/* Lottie/Video/GIF/Image at top (if provided) */}
+                                    {popup.imageUrl && (
+                                        <div className="flex justify-center mb-4">
+                                            {popup.imageUrl.endsWith('.lottie') || popup.imageUrl.endsWith('.json') ? (
+                                                <lottie-player
+                                                    src={popup.imageUrl}
+                                                    background="transparent"
+                                                    speed="1"
+                                                    style={{width: '128px', height: '128px'}}
+                                                    loop
+                                                    autoplay
+                                                ></lottie-player>
+                                            ) : popup.imageUrl.endsWith('.webm') || popup.imageUrl.endsWith('.mp4') ? (
+                                                <video 
+                                                    src={popup.imageUrl} 
+                                                    autoPlay 
+                                                    loop 
+                                                    muted 
+                                                    playsInline
+                                                    className="w-32 h-32 object-contain"
+                                                />
+                                            ) : (
+                                                <img 
+                                                    src={popup.imageUrl} 
+                                                    alt="Announcement" 
+                                                    className="w-32 h-32 object-contain"
+                                                />
+                                            )}
+                                        </div>
+                                    )}
+                                    
+                                    <h2 className="text-2xl font-bold mb-3 text-gray-900 text-center">{popup.title}</h2>
+                                    <p className="text-gray-700 mb-6 leading-relaxed text-center">{popup.message}</p>
+                                    <button 
+                                        onClick={closePopup}
+                                        className="w-full bg-gradient-to-br from-pink-400 to-pink-500 text-white py-3 rounded-lg font-semibold hover:from-pink-500 hover:to-pink-600 transition-all"
+                                    >
+                                        {popup.buttonText || 'Got it!'}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+                </>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('root'));
     </script>
 </body>
 </html>
