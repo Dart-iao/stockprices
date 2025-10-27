@@ -453,8 +453,11 @@
                                                 <p className="text-xs text-gray-600 leading-tight mb-1">
                                                     Start: <span className="font-semibold">${pred.predictedPrice !== undefined ? pred.predictedPrice.toFixed(2) : '0.00'}</span>
                                                 </p>
+                                                <p className="text-xs text-gray-500 leading-tight mb-1">
+                                                    {formatDate(pred.predictionDate)}
+                                                </p>
                                                 <p className="text-xs text-gray-500 leading-tight">
-                                                    {formatDate(pred.predictionDate)} | Confidence: {pred.confidence !== undefined ? pred.confidence : '0'}%
+                                                    Confidence: {pred.confidence !== undefined ? pred.confidence : '0'}%
                                                 </p>
                                             </div>
                                             
