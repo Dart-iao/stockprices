@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -245,7 +245,7 @@
                                 financial advisor before making investment decisions. We are not registered investment advisors.
                             </p>
                             <p className="text-xs text-gray-500 text-center">
-                                Data sources: Yahoo Finance, Marketwatch, FinnHub, Polygon, Alpha Vantage, Finviz
+                                Data sources: Yahoo Finance, NewsAPI, Alpha Vantage, Finviz
                             </p>
                         </div>
                     </div>
@@ -880,12 +880,8 @@
 
             useEffect(() => {
                 fetch('https://adrianhutchins.pythonanywhere.com/static/Announcements.json')
-                    .then(res => {
-                        if (!res.ok) throw new Error('Failed to fetch');
-                        return res.json();
-                    })
+                    .then(res => res.json())
                     .then(data => {
-                        console.log('Announcement data:', data);
                         if (data.enabled) {
                             const lastVersion = localStorage.getItem('popupVersion');
                             if (!data.showOnce || lastVersion !== data.version) {
@@ -894,7 +890,7 @@
                         }
                     })
                     .catch(err => {
-                        console.error('Error fetching Announcements.json:', err);
+                        console.error('Error fetching announcements:', err);
                     });
             }, []);
 
