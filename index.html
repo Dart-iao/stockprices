@@ -80,23 +80,120 @@
             const isValidEmail = (e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
             const isFormValid = feedback.trim() && email.trim() && isValidEmail(email);
             
-            // Color code key factors
+            // Enhanced color coding for key factors based on numerical values
             const getFactorColor = (factor) => {
                 const lowerFactor = factor.toLowerCase();
                 
-                // Good (green)
-                const goodKeywords = ['oversold', 'high volume', 'momentum', 'bullish', 'breakthrough', 'upgrade', 'approval', 'deal', 'partnership', 'breakout'];
+                // Check for Gap percentage
+                if (lowerFactor.includes('gap:')) {
+                    const gapMatch = lowerFactor.match(/gap:\s*([\d.]+)/);
+                    if (gapMatch) {
+                        const gapValue = parseFloat(gapMatch[1]);
+                        if (gapValue > 15) return 'bg-green-100 text-green-800'; // Very strong gap
+                        if (gapValue > 8) return 'bg-green-50 text-green-700'; // Strong gap
+                        if (gapValue > 5) return 'bg-yellow-100 text-yellow-800'; // Moderate gap
+                        if (gapValue < 2) return 'bg-red-100 text-red-800'; // Weak gap
+                        return 'bg-gray-100 text-gray-800';
+                    }
+                }
+                
+                // Check for Volume ratio
+                if (lowerFactor.includes('volume:')) {
+                    const volMatch = lowerFactor.match(/volume:\s*([\d.]+)/);
+                    if (volMatch) {
+                        const volValue = parseFloat(volMatch[1]);
+                        if (volValue > 5) return 'bg-green-100 text-green-800'; // Extreme volume
+                        if (volValue > 3) return 'bg-green-50 text-green-700'; // High volume
+                        if (volValue > 2) return 'bg-yellow-100 text-yellow-800'; // Elevated volume
+                        if (volValue < 1.5) return 'bg-red-100 text-red-800'; // Low volume (concerning)
+                        return 'bg-gray-100 text-gray-800';
+                    }
+                }
+                
+                // Check for Float
+                if (lowerFactor.includes('float:')) {
+                    const floatMatch = lowerFactor.match(/float:\s*([\d.]+)/);
+                    if (floatMatch) {
+                        const floatValue = parseFloat(floatMatch[1]);
+                        if (floatValue < 10) return 'bg-green-100 text-green-800'; // Ultra low float (good for squeeze)
+                        if (floatValue < 30) return 'bg-green-50 text-green-700'; // Low float
+                        if (floatValue < 50) return 'bg-yellow-100 text-yellow-800'; // Medium float
+                        if (floatValue > 100) return 'bg-red-100 text-red-800'; // High float (harder to move)
+                        return 'bg-gray-100 text-gray-800';
+                    }
+                }
+                
+                // Check for Short Interest
+                if (lowerFactor.includes('short:')) {
+                    const shortMatch = lowerFactor.match(/short:\s*([\d.]+)/);
+                    if (shortMatch) {
+                        const shortValue = parseFloat(shortMatch[1]);
+                        if (shortValue > 30) return 'bg-orange-100 text-orange-800'; // Very high (squeeze risk/opportunity)
+                        if (shortValue > 20) return 'bg-yellow-100 text-yellow-800'; // High short interest
+                        if (shortValue > 15) return 'bg-yellow-50 text-yellow-700'; // Elevated
+                        return 'bg-gray-100 text-gray-800';
+                    }
+                }
+                
+                // Check for News count
+                if (lowerFactor.includes('news:')) {
+                    const newsMatch = lowerFactor.match(/news:\s*(\d+)/);
+                    if (newsMatch) {
+                        const newsCount = parseInt(newsMatch[1]);
+                        if (newsCount >= 5) return 'bg-green-100 text-green-800'; // Heavy news coverage
+                        if (newsCount >= 3) return 'bg-green-50 text-green-700'; // Good news coverage
+                        if (newsCount >= 1) return 'bg-yellow-100 text-yellow-800'; // Some news
+                        if (newsCount === 0) return 'bg-red-100 text-red-800'; // No news catalyst
+                        return 'bg-gray-100 text-gray-800';
+                    }
+                }
+                
+                // Text-based patterns from reasoning strings
+                if (lowerFactor.includes('strong') && lowerFactor.includes('gap')) {
+                    return 'bg-green-100 text-green-800';
+                }
+                if (lowerFactor.includes('solid') && lowerFactor.includes('gap')) {
+                    return 'bg-green-50 text-green-700';
+                }
+                if (lowerFactor.includes('volume spike')) {
+                    return 'bg-green-100 text-green-800';
+                }
+                if (lowerFactor.includes('elevated volume')) {
+                    return 'bg-yellow-100 text-yellow-800';
+                }
+                if (lowerFactor.includes('fresh news')) {
+                    return 'bg-green-100 text-green-800';
+                }
+                if (lowerFactor.includes('low float')) {
+                    return 'bg-green-50 text-green-700';
+                }
+                if (lowerFactor.includes('high short interest')) {
+                    return 'bg-orange-100 text-orange-800';
+                }
+                if (lowerFactor.includes('trending')) {
+                    return 'bg-purple-100 text-purple-800';
+                }
+                if (lowerFactor.includes('technical setup')) {
+                    return 'bg-gray-100 text-gray-800'; // Neutral
+                }
+                
+                // Original keyword-based logic as fallback
+                const goodKeywords = ['oversold', 'bullish', 'breakthrough', 'upgrade', 'approval', 'deal', 'partnership', 'breakout', 'catalyst', 'momentum'];
                 if (goodKeywords.some(keyword => lowerFactor.includes(keyword))) {
                     return 'bg-green-100 text-green-800';
                 }
                 
-                // Bad (red)
-                const badKeywords = ['overbought', 'bearish', 'downgrade', 'concern', 'warning', 'loss', 'decline', 'weak'];
+                const badKeywords = ['overbought', 'bearish', 'downgrade', 'concern', 'warning', 'loss', 'decline', 'weak', 'resistance', 'rejected'];
                 if (badKeywords.some(keyword => lowerFactor.includes(keyword))) {
                     return 'bg-red-100 text-red-800';
                 }
                 
-                // Neutral (gray) - default
+                const cautionKeywords = ['volatile', 'risky', 'uncertain'];
+                if (cautionKeywords.some(keyword => lowerFactor.includes(keyword))) {
+                    return 'bg-yellow-100 text-yellow-800';
+                }
+                
+                // Default to neutral gray
                 return 'bg-gray-100 text-gray-800';
             };
             
@@ -409,7 +506,6 @@
             
             // Insights Page (keeping as is)
             if (currentPage === 'insights') {
-                // [Keep all existing Insights page code unchanged]
                 const twoWeeksAgo = new Date();
                 twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
                 const twoWeeksAgoStr = twoWeeksAgo.toISOString().split('T')[0];
