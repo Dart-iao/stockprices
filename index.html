@@ -879,7 +879,7 @@
             const [popup, setPopup] = useState(null);
 
             useEffect(() => {
-                fetch('https://adrianhutchins.pythonanywhere.com/static/Announcements')
+                fetch('https://adrianhutchins.pythonanywhere.com/static/Announcements.json')
                     .then(res => {
                         if (!res.ok) throw new Error('Failed to fetch');
                         return res.json();
@@ -894,7 +894,7 @@
                         }
                     })
                     .catch(err => {
-                        console.error('Error fetching announcements:', err);
+                        console.error('Error fetching Announcements.json:', err);
                     });
             }, []);
 
