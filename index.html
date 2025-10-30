@@ -880,9 +880,15 @@
 
             useEffect(() => {
                 fetch('https://adrianhutchins.pythonanywhere.com/static/Announcements.json')
-                    .then(res => res.json())
+                    .then(res => {
+                        if (!res.ok) {
+                            console.error('Failed to fetch announcements:', res.status);
+                            return null;
+                        }
+                        return res.json();
+                    })
                     .then(data => {
-                        if (data.enabled) {
+                        if (data && data.enabled) {
                             const lastVersion = localStorage.getItem('popupVersion');
                             if (!data.showOnce || lastVersion !== data.version) {
                                 setPopup(data);
