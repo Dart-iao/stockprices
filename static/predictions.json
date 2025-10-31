@@ -1,26 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "MSAI",
-      "name": "MultiSensor AI Holdings, Inc.",
-      "price3DaysAgo": 1.32,
-      "priceToday": 2.02,
-      "predictedMove": "+14% (Strong)",
+      "ticker": "VSME",
+      "name": "VS MEDIA Holdings Limited",
+      "price3DaysAgo": 0.96,
+      "priceToday": 0.78,
+      "predictedMove": "+10% (Moderate)",
       "confidence": 85.0,
-      "reasoning": "Strong 53.0% gap, elevated volume, fresh news catalyst, low float, trending on social media",
+      "reasoning": "elevated volume, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 53.0%",
-        "Volume: 2.2x",
-        "Float: 15.5M",
-        "News: 8"
+        "Gap: -18.9%",
+        "Volume: 2.0x",
+        "Float: 9.3M",
+        "News: 2"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
       "catalyst": "",
-      "gap_percent": 53.0,
-      "volume_ratio": 2.2,
-      "float": 15.5,
-      "short_percent": 0.5,
-      "news_count": 8,
+      "gap_percent": -18.9,
+      "volume_ratio": 2.0,
+      "float": 9.3,
+      "short_percent": 1.0,
+      "news_count": 2,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -31,17 +31,18 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 40,
+      "tier": 2,
+      "momentum_indicators": [
+        "news (2 articles)",
+        "ultra-low float (9.3M)",
+        "micro-cap (35M)"
+      ],
+      "social_score": 30,
       "is_trending": true,
-      "red_flags": [
-        "Extreme gap - possible data error or halt",
-        "Large move may have already occurred"
-      ]
+      "red_flags": []
     }
   ],
-  "generatedTime": "2025-10-31 03:21 PM",
+  "generatedTime": "2025-10-31 06:51 PM",
   "targetDate": "2025-10-31",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
