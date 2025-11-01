@@ -1139,10 +1139,36 @@
       "targetDate": "2025-10-23",
       "checkDate": "2025-10-24",
       "priceType": "Pre-Market High (4:00-8:59 AM EST)"
+    },
+    {
+      "ticker": "VSME",
+      "name": "VS MEDIA Holdings Limited",
+      "predictedPrice": 0.78,
+      "actualPrice": 1.01,
+      "predictedMove": "+10% (Moderate)",
+      "actualMove": "+29.5%",
+      "wasCorrect": true,
+      "confidence": 85,
+      "reasoning": "elevated volume, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -18.9%",
+        "Volume: 2.0x",
+        "Float: 9.3M",
+        "News: 2"
+      ],
+      "predictionDate": "2025-10-31",
+      "targetDate": "2025-10-31",
+      "checkDate": "2025-11-01",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": -18.9,
+      "volume_ratio": 2.0,
+      "float": 9.3,
+      "short_percent": 1.0,
+      "news_count": 2
     }
   ],
-  "lastUpdated": "2025-10-24 03:42 PM",
-  "totalPredictions": 57,
-  "correctPredictions": 26,
-  "accuracy": 45.6
+  "lastUpdated": "2025-11-01 05:31 AM",
+  "totalPredictions": 58,
+  "correctPredictions": 27,
+  "accuracy": 46.6
 }
