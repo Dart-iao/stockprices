@@ -1,26 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "VSME",
-      "name": "VS MEDIA Holdings Limited",
-      "price3DaysAgo": 0.96,
-      "priceToday": 0.78,
-      "predictedMove": "+10% (Moderate)",
-      "confidence": 85.0,
-      "reasoning": "elevated volume, fresh news catalyst, low float, trending on social media",
+      "ticker": "SXTC",
+      "name": "China SXT Pharmaceuticals, Inc.",
+      "price3DaysAgo": 1.42,
+      "priceToday": 1.38,
+      "predictedMove": "+3%",
+      "confidence": 90.0,
+      "reasoning": "5.5x volume spike, fresh news catalyst, trending on social media",
       "keyFactors": [
-        "Gap: -18.9%",
-        "Volume: 2.0x",
-        "Float: 9.3M",
-        "News: 2"
+        "Gap: -3.2%",
+        "Volume: 5.5x",
+        "Float: 75.0M",
+        "News: 10"
       ],
       "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
       "catalyst": "",
-      "gap_percent": -18.9,
-      "volume_ratio": 2.0,
-      "float": 9.3,
-      "short_percent": 1.0,
-      "news_count": 2,
+      "gap_percent": -3.2,
+      "volume_ratio": 5.5,
+      "float": 75.0,
+      "short_percent": 0.1,
+      "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -33,21 +33,61 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (2 articles)",
-        "ultra-low float (9.3M)",
-        "micro-cap (35M)"
+        "news (10 articles)",
+        "extreme volume (5.5x)",
+        "accelerating volume (3 days)",
+        "micro-cap (160M)"
       ],
-      "social_score": 30,
+      "social_score": 25,
       "is_trending": true,
       "red_flags": []
+    },
+    {
+      "ticker": "TGE",
+      "name": "The Generation Essentials Group",
+      "price3DaysAgo": 0.78,
+      "priceToday": 1.18,
+      "predictedMove": "+17% (Strong)",
+      "confidence": 80.0,
+      "reasoning": "elevated volume, Strong 51.7% gap, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 51.7%",
+        "Volume: 2.1x",
+        "Float: 1.4M"
+      ],
+      "news": "Gap: 51.7%, Vol: 2.1x | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": 51.7,
+      "volume_ratio": 2.1,
+      "float": 1.4,
+      "short_percent": 0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred",
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
     }
   ],
-  "generatedTime": "2025-10-31 06:51 PM",
-  "targetDate": "2025-10-31",
+  "generatedTime": "2025-11-03 03:14 PM",
+  "targetDate": "2025-11-03",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
-    "historicalPredictions": 57,
+    "historicalPredictions": 58,
     "weights": {
       "gap_weight": 1.0,
       "volume_weight": 1.0,
@@ -73,6 +113,7 @@
     "trapAvoidance": true,
     "newsQualityScoring": true,
     "dynamicScreeners": true,
-    "dataValidation": true
+    "dataValidation": true,
+    "extremeVolumeDetection": true
   }
 }

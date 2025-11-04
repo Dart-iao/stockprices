@@ -1165,10 +1165,61 @@
       "float": 9.3,
       "short_percent": 1.0,
       "news_count": 2
+    },
+    {
+      "ticker": "SXTC",
+      "name": "China SXT Pharmaceuticals, Inc.",
+      "predictedPrice": 1.38,
+      "actualPrice": 1.44,
+      "predictedMove": "+3%",
+      "actualMove": "+4.4%",
+      "wasCorrect": true,
+      "confidence": 90,
+      "reasoning": "5.5x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -3.2%",
+        "Volume: 5.5x",
+        "Float: 75.0M",
+        "News: 10"
+      ],
+      "predictionDate": "2025-11-03",
+      "targetDate": "2025-11-03",
+      "checkDate": "2025-11-04",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": -3.2,
+      "volume_ratio": 5.5,
+      "float": 75.0,
+      "short_percent": 0.1,
+      "news_count": 10
+    },
+    {
+      "ticker": "TGE",
+      "name": "The Generation Essentials Group",
+      "predictedPrice": 1.18,
+      "actualPrice": 1.47,
+      "predictedMove": "+17% (Strong)",
+      "actualMove": "+24.6%",
+      "wasCorrect": true,
+      "confidence": 80,
+      "reasoning": "elevated volume, Strong 51.7% gap, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 51.7%",
+        "Volume: 2.1x",
+        "Float: 1.4M"
+      ],
+      "predictionDate": "2025-11-03",
+      "targetDate": "2025-11-03",
+      "checkDate": "2025-11-04",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 51.7,
+      "volume_ratio": 2.1,
+      "float": 1.4,
+      "short_percent": 0.0,
+      "news_count": 0
     }
   ],
-  "lastUpdated": "2025-11-01 05:31 AM",
-  "totalPredictions": 58,
-  "correctPredictions": 27,
-  "accuracy": 46.6
+  "lastUpdated": "2025-11-04 05:31 AM",
+  "totalPredictions": 60,
+  "correctPredictions": 29,
+  "accuracy": 48.3
 }
