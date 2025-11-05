@@ -207,10 +207,13 @@
                         {error && <div className="mt-4 bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-600">{error}</div>}
                     </div>
                     
-                    <div className="max-w-6xl mx-auto mb-8 bg-gray-100 rounded-lg p-4 border">
-                        <div className="flex items-center justify-between mb-4">
-                            <h2 className="text-xl font-bold flex items-center gap-2"><div className="text-pink-500"><ThumbsUp /></div>Likely to move today</h2>
-                            <div className="text-xs text-gray-600">Confidence Score</div>
+                     <div className="max-w-6xl mx-auto mb-8 bg-gray-100 rounded-lg p-4 border">
+                        <div className="mb-4">
+                            <h2 className="text-xl font-bold flex items-center gap-2">
+                                <div className="text-pink-500"><ThumbsUp /></div>
+                                Likely to move today
+                            </h2>
+                            <div className="text-xs text-gray-500 mt-1 text-right">Confidence Score</div>
                         </div>
                         {loading ? (
                             <div className="text-center py-12"><Activity /><p className="text-gray-600">Loading...</p></div>
