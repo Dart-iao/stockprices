@@ -1216,10 +1216,87 @@
       "float": 1.4,
       "short_percent": 0.0,
       "news_count": 0
+    },
+    {
+      "ticker": "SMHI",
+      "name": "SEACOR Marine Holdings Inc.",
+      "predictedPrice": 7.03,
+      "actualPrice": 7.44,
+      "predictedMove": "+4%",
+      "actualMove": "+5.8%",
+      "wasCorrect": true,
+      "confidence": 95,
+      "reasoning": "elevated volume, Strong 10.5% gap, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 10.5%",
+        "Volume: 2.5x",
+        "Float: 21.7M",
+        "News: 10"
+      ],
+      "predictionDate": "2025-11-04",
+      "targetDate": "2025-11-04",
+      "checkDate": "2025-11-05",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 10.5,
+      "volume_ratio": 2.5,
+      "float": 21.7,
+      "short_percent": 3.6,
+      "news_count": 10
+    },
+    {
+      "ticker": "KXIN",
+      "name": "Kaixin Holdings",
+      "predictedPrice": 1.27,
+      "actualPrice": 1.56,
+      "predictedMove": "+4%",
+      "actualMove": "+22.8%",
+      "wasCorrect": true,
+      "confidence": 80,
+      "reasoning": "Strong 15.5% gap, low float",
+      "keyFactors": [
+        "Gap: 15.5%",
+        "Volume: 1.5x",
+        "Float: 10.1M"
+      ],
+      "predictionDate": "2025-11-04",
+      "targetDate": "2025-11-04",
+      "checkDate": "2025-11-05",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 15.5,
+      "volume_ratio": 1.5,
+      "float": 10.1,
+      "short_percent": 1.7,
+      "news_count": 0
+    },
+    {
+      "ticker": "OKUR",
+      "name": "OnKure Therapeutics, Inc.",
+      "predictedPrice": 3.27,
+      "actualPrice": 3.31,
+      "predictedMove": "+5%",
+      "actualMove": "+1.2%",
+      "wasCorrect": true,
+      "confidence": 70,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -3.5%",
+        "Volume: 1.4x",
+        "Float: 5.8M",
+        "News: 3"
+      ],
+      "predictionDate": "2025-11-04",
+      "targetDate": "2025-11-04",
+      "checkDate": "2025-11-05",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": -3.5,
+      "volume_ratio": 1.4,
+      "float": 5.8,
+      "short_percent": 0.7,
+      "news_count": 3
     }
   ],
-  "lastUpdated": "2025-11-04 05:31 AM",
-  "totalPredictions": 60,
-  "correctPredictions": 29,
-  "accuracy": 48.3
+  "lastUpdated": "2025-11-05 03:16 PM",
+  "totalPredictions": 63,
+  "correctPredictions": 32,
+  "accuracy": 50.8
 }
