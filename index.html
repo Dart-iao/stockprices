@@ -297,7 +297,7 @@
                 const secondMostRecentPredictions = recentPredictions.filter(pred => pred.predictionDate === secondMostRecentDate);
                 const secondMostRecentCorrect = secondMostRecentPredictions.filter(pred => pred.wasCorrect).length;
                 const secondMostRecentTotal = secondMostRecentPredictions.length;
-                const secondMostRecentAccuracy = secondMostRecentTotal > 0 ? ((secondMostRecentCorrect / secondMostRecentTotal) * 100).toFixed(1) : null;
+                const secondMostRecentAccuracy = secondMostRecentTotal > 0 ? ((secondMostRecentCorrect / secondMostRecentTotal) * 100).toFixed(0) : null;
                 
                 const accuracyChange = (mostRecentAccuracy !== null && secondMostRecentAccuracy !== null) ? (parseFloat(mostRecentAccuracy) - parseFloat(secondMostRecentAccuracy)).toFixed(1) : null;
                 
