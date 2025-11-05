@@ -202,10 +202,6 @@
                 <div className="min-h-screen bg-white p-4 pb-24" style={{paddingTop: 'calc(1rem + env(safe-area-inset-top))'}}>
                     <div className="max-w-6xl mx-auto mb-6">
                         <div className="flex items-center justify-end mb-2">
-                            <div className="flex items-center gap-1 bg-pink-100 px-2 py-1 rounded-lg whitespace-nowrap">
-                                <div className="text-pink-500 flex-shrink-0"><Activity /></div>
-                                <span className="text-xs font-medium text-pink-500">Updated 4 AM EST</span>
-                            </div>
                         </div>
                         {lastUpdated && <p className="text-xs text-gray-500 mt-1">Last updated: {lastUpdated}</p>}
                         {error && <div className="mt-4 bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-600">{error}</div>}
