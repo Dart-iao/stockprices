@@ -346,7 +346,7 @@
                                                         {(() => {
                                                             const ninetyDayCorrect = predictionHistory.filter(p => p.wasCorrect).length;
                                                             const ninetyDayTotal = predictionHistory.length;
-                                                            return ninetyDayTotal > 0 ? ((ninetyDayCorrect / ninetyDayTotal) * 100).toFixed(1) : 0;
+                                                            return ninetyDayTotal > 0 ? ((ninetyDayCorrect / ninetyDayTotal) * 100).toFixed(0) : 0;
                                                         })()}%
                                                     </div>
                                                     <div className="text-xs text-gray-500 mt-1">
@@ -382,7 +382,7 @@
                                     </div>
                                     
                                     <div className="text-xs text-gray-500 italic text-center">
-                                        Wrong/Right is based on highest price from 4am-10am
+                                        Wrong/Right is based on highest price from 4am-10am. History below shows only 2 weeks worth of stocks. Behind the scenes it holds 90 days worth for the learning module.
                                     </div>
                                 </div>
                             )}
