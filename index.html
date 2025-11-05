@@ -287,7 +287,7 @@
                 const mostRecentPredictions = recentPredictions.filter(pred => pred.predictionDate === mostRecentDate);
                 const mostRecentCorrect = mostRecentPredictions.filter(pred => pred.wasCorrect).length;
                 const mostRecentTotal = mostRecentPredictions.length;
-                const mostRecentAccuracy = mostRecentTotal > 0 ? ((mostRecentCorrect / mostRecentTotal) * 100).toFixed(1) : 0;
+                const mostRecentAccuracy = mostRecentTotal > 0 ? ((mostRecentCorrect / mostRecentTotal) * 100).toFixed(0) : 0;
                 
                 const accuracyPercentage = mostRecentAccuracy;
                 
@@ -299,7 +299,7 @@
                 const secondMostRecentTotal = secondMostRecentPredictions.length;
                 const secondMostRecentAccuracy = secondMostRecentTotal > 0 ? ((secondMostRecentCorrect / secondMostRecentTotal) * 100).toFixed(0) : null;
                 
-                const accuracyChange = (mostRecentAccuracy !== null && secondMostRecentAccuracy !== null) ? (parseFloat(mostRecentAccuracy) - parseFloat(secondMostRecentAccuracy)).toFixed(1) : null;
+                const accuracyChange = (mostRecentAccuracy !== null && secondMostRecentAccuracy !== null) ? (parseFloat(mostRecentAccuracy) - parseFloat(secondMostRecentAccuracy)).toFixed(0) : null;
                 
                 const formatDate = (dateStr) => {
                     const [year, month, day] = dateStr.split('-').map(Number);
