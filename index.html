@@ -269,7 +269,44 @@
                 </div>
             );
             
-            // Predictions History Page - keeping full original code
+            // Detail Page - keeping as is from original
+            if (currentPage === 'detail' && selectedStock) return (
+                <div className="min-h-screen bg-white p-4 pb-24" style={{paddingTop: 'calc(1rem + env(safe-area-inset-top))'}}>
+                    <div className="max-w-4xl mx-auto">
+                        <button onClick={() => setCurrentPage('main')} className="flex items-center gap-2 text-pink-500 hover:text-pink-600 mb-4">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                            <span className="font-medium">Back</span>
+                        </button>
+                        <div className="bg-gray-100 rounded-lg p-4 border mb-4">
+                            <div className="flex items-center justify-between mb-4">
+                                <div><h1 className="text-3xl font-bold">{selectedStock.ticker}</h1><p className="text-sm text-gray-600">{selectedStock.name}</p></div>
+                                <div className="text-right"><div className="text-xs text-gray-600">Movement</div><div className="text-2xl font-bold text-green-600">{selectedStock.predictedMove}</div></div>
+                            </div>
+                            <div className="grid grid-cols-2 gap-4 pt-4 border-t">
+                                <div><div className="text-xs text-gray-600">Previous Close</div><div className="text-lg font-semibold">${selectedStock.price3DaysAgo.toFixed(2)}</div></div>
+                                <div><div className="text-xs text-gray-600">Current Price</div><div className="text-lg font-semibold">${selectedStock.priceToday.toFixed(2)}</div></div>
+                            </div>
+                        </div>
+                        <div className="space-y-4">
+                            <div className="bg-gray-100 rounded-lg p-5 border">
+                                <h3 className="font-bold mb-3 flex items-center gap-2"><DollarSign />Primary Catalyst & Recent News</h3>
+                                <p className="text-sm font-semibold mb-2">{selectedStock.catalyst}</p>
+                                <p className="text-xs text-gray-600">{selectedStock.news || selectedStock.reasoning}</p>
+                            </div>
+                            {selectedStock.isPrediction && selectedStock.confidence && (
+                                <div className="bg-purple-50 rounded-lg p-5 border-2 border-purple-300">
+                                    <h3 className="font-bold text-purple-700 mb-3 flex items-center gap-2"><Star />Prediction Analysis</h3>
+                                    <div className="flex items-center justify-between mb-2"><span className="text-sm font-semibold">Confidence Level</span><span className="text-xl font-bold text-purple-700">{selectedStock.confidence}%</span></div>
+                                    <div className="w-full bg-gray-200 rounded-full h-3 mb-3"><div className="h-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600" style={{ width: `${selectedStock.confidence}%` }} /></div>
+                                    <p className="text-xs text-gray-700">{selectedStock.reasoning}</p>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            );
+
+            // Predictions History Page
             if (currentPage === 'predictions') {
                 const twoWeeksAgo = new Date();
                 twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
@@ -395,11 +432,33 @@
                             </div>
                         ) : (
                             <>
+                            {/* Color-Coded Legend */}
+                            <div className="bg-white rounded-lg p-4 border mb-4">
+                                <h3 className="text-sm font-semibold text-gray-700 mb-3 text-center">Prediction Results Legend</h3>
+                                <div className="grid grid-cols-3 gap-2 text-center">
+                                    <div className="flex flex-col items-center">
+                                        <div className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-semibold mb-1">✓ PERFECT</div>
+                                        <div className="text-xs text-gray-600">Right direction & within range</div>
+                                    </div>
+                                    <div className="flex flex-col items-center">
+                                        <div className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-xs font-semibold mb-1">~ PARTIAL</div>
+                                        <div className="text-xs text-gray-600">Right direction but missed range</div>
+                                    </div>
+                                    <div className="flex flex-col items-center">
+                                        <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-xs font-semibold mb-1">✗ WRONG</div>
+                                        <div className="text-xs text-gray-600">Wrong direction</div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="space-y-2">
                                 {recentPredictions.slice(0, showAllPredictions ? recentPredictions.length : 20).map((pred, idx) => {
                                     const actualMove = pred.actualMove || '0%';
                                     const movePercent = parseFloat(actualMove.replace('%', '').replace('+', ''));
                                     const noMovement = movePercent === 0;
+                                    
+                                    // Use status field if available, otherwise fall back to old logic
+                                    const status = pred.status || (pred.wasCorrect ? 'PERFECT' : 'WRONG');
                                     
                                     let borderColor = 'border-red-500';
                                     let badgeColor = 'bg-red-100 text-red-800';
@@ -409,10 +468,14 @@
                                         borderColor = 'border-gray-300';
                                         badgeColor = 'bg-gray-100 text-gray-600';
                                         badgeText = '— NO MOVE';
-                                    } else if (pred.wasCorrect) {
+                                    } else if (status === 'PERFECT') {
                                         borderColor = 'border-green-500';
                                         badgeColor = 'bg-green-100 text-green-800';
-                                        badgeText = '✓ CORRECT';
+                                        badgeText = '✓ PERFECT';
+                                    } else if (status === 'PARTIAL') {
+                                        borderColor = 'border-orange-500';
+                                        badgeColor = 'bg-orange-100 text-orange-800';
+                                        badgeText = '~ PARTIAL';
                                     }
                                     
                                     return (
@@ -520,7 +583,7 @@
             );
             }
             
-            // Insights Page (keeping as is)
+            // Insights Page - keeping unchanged from document 4
             if (currentPage === 'insights') {
                 const twoWeeksAgo = new Date();
                 twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
@@ -748,7 +811,7 @@
                 );
             }
             
-            // Coffee Page
+            // Coffee Page - keeping unchanged from document 4
             return (
                 <div className="min-h-screen bg-white p-4 pb-24" style={{paddingTop: 'calc(1rem + env(safe-area-inset-top))'}}>
                     <div className="max-w-md w-full mx-auto">
