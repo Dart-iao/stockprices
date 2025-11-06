@@ -322,17 +322,17 @@
                 const secondMostRecentDate = uniqueDates[1];
                 
                 const mostRecentPredictions = recentPredictions.filter(pred => pred.predictionDate === mostRecentDate);
-                const mostRecentCorrect = mostRecentPredictions.filter(pred => pred.wasCorrect).length;
+                const mostRecentCorrect = mostRecentPredictions.filter(pred => pred.status === 'PERFECT' || pred.status === 'PARTIAL').length;
                 const mostRecentTotal = mostRecentPredictions.length;
                 const mostRecentAccuracy = mostRecentTotal > 0 ? ((mostRecentCorrect / mostRecentTotal) * 100).toFixed(0) : 0;
                 
                 const accuracyPercentage = mostRecentAccuracy;
                 
-                const correctPredictions = recentPredictions.filter(pred => pred.wasCorrect).length;
+                const correctPredictions = recentPredictions.filter(pred => pred.status === 'PERFECT' || pred.status === 'PARTIAL').length;
                 const totalPredictions = recentPredictions.length;
                 
                 const secondMostRecentPredictions = recentPredictions.filter(pred => pred.predictionDate === secondMostRecentDate);
-                const secondMostRecentCorrect = secondMostRecentPredictions.filter(pred => pred.wasCorrect).length;
+                const secondMostRecentCorrect = secondMostRecentPredictions.filter(pred => pred.status === 'PERFECT' || pred.status === 'PARTIAL').length;
                 const secondMostRecentTotal = secondMostRecentPredictions.length;
                 const secondMostRecentAccuracy = secondMostRecentTotal > 0 ? ((secondMostRecentCorrect / secondMostRecentTotal) * 100).toFixed(0) : null;
                 
@@ -381,13 +381,13 @@
                                                     <div className="text-xs text-gray-600 mb-1">90 Days</div>
                                                     <div className="text-xl font-bold text-green-700">
                                                         {(() => {
-                                                            const ninetyDayCorrect = predictionHistory.filter(p => p.wasCorrect).length;
+                                                            const ninetyDayCorrect = predictionHistory.filter(p => p.status === 'PERFECT' || p.status === 'PARTIAL').length;
                                                             const ninetyDayTotal = predictionHistory.length;
                                                             return ninetyDayTotal > 0 ? ((ninetyDayCorrect / ninetyDayTotal) * 100).toFixed(0) : 0;
                                                         })()}%
                                                     </div>
                                                     <div className="text-xs text-gray-500 mt-1">
-                                                        {predictionHistory.filter(p => p.wasCorrect).length}/{predictionHistory.length}
+                                                        {predictionHistory.filter(p => p.status === 'PERFECT' || p.status === 'PARTIAL').length}/{predictionHistory.length}
                                                     </div>
                                                 </div>
                                             </div>
@@ -410,7 +410,7 @@
                                                 <div className="bg-white rounded-lg p-2 border text-center">
                                                     <div className="text-xs text-gray-600 mb-1">90 Days</div>
                                                     <div className="text-xl font-bold text-gray-700">
-                                                        {predictionHistory.filter(p => p.wasCorrect).length}/{predictionHistory.length}
+                                                        {predictionHistory.filter(p => p.status === 'PERFECT' || p.status === 'PARTIAL').length}/{predictionHistory.length}
                                                     </div>
                                                     <div className="text-xs text-gray-500 mt-1">correct</div>
                                                 </div>
@@ -620,7 +620,7 @@
                         dayStats[dayName] = { correct: 0, total: 0 };
                     }
                     dayStats[dayName].total++;
-                    if (pred.wasCorrect) dayStats[dayName].correct++;
+                    if (pred.status === 'PERFECT' || pred.status === 'PARTIAL') dayStats[dayName].correct++;
                 });
                 
                 const weeklyStats = [];
@@ -635,7 +635,7 @@
                         return predDate >= weekStart && predDate < weekEnd;
                     });
                     
-                    const correct = weekPreds.filter(p => p.wasCorrect).length;
+                    const correct = weekPreds.filter(p => p.status === 'PERFECT' || p.status === 'PARTIAL').length;
                     const total = weekPreds.length;
                     const accuracy = total > 0 ? ((correct / total) * 100).toFixed(0) : 0;
                     
@@ -776,7 +776,7 @@
                                         <div className="bg-white rounded-lg p-3 border border-blue-200 text-center">
                                             <div className="text-xs text-gray-600 mb-1">Win Rate</div>
                                             <div className="text-2xl font-bold text-green-600">
-                                                {((recentHistory.filter(p => p.wasCorrect).length / recentHistory.length) * 100).toFixed(0)}%
+                                                {((recentHistory.filter(p => p.status === 'PERFECT' || p.status === 'PARTIAL').length / recentHistory.length) * 100).toFixed(0)}%
                                             </div>
                                             <div className="text-xs text-gray-500">Overall</div>
                                         </div>
