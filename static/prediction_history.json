@@ -1538,10 +1538,66 @@
       "float": 34.2,
       "short_percent": 2.5,
       "news_count": 10
+    },
+    {
+      "ticker": "KRO",
+      "name": "Kronos Worldwide, Inc.",
+      "predictedPrice": 4.63,
+      "actualPrice": 4.73,
+      "predictedMove": "+2%",
+      "actualMove": "+2.2%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 83,
+      "reasoning": "Solid 5.2% gap, fresh news catalyst",
+      "keyFactors": [
+        "Gap: 5.2%",
+        "Volume: 1.4x",
+        "Float: 21.5M",
+        "Short: 8%",
+        "News: 10"
+      ],
+      "predictionDate": "2025-11-11",
+      "targetDate": "2025-11-11",
+      "checkDate": "2025-11-12",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 5.2,
+      "volume_ratio": 1.4,
+      "float": 21.5,
+      "short_percent": 8.1,
+      "news_count": 10
+    },
+    {
+      "ticker": "CIMDF",
+      "name": "CIMB Group Holdings Berhad",
+      "predictedPrice": 1.82,
+      "actualPrice": 2.1,
+      "predictedMove": "+6% (Moderate)",
+      "actualMove": "+15.4%",
+      "wasCorrect": true,
+      "status": "PERFECT",
+      "confidence": 79,
+      "reasoning": "Strong 21.3% gap, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 21.3%",
+        "Volume: 1.6x",
+        "Float: 7980.3M",
+        "News: 3"
+      ],
+      "predictionDate": "2025-11-11",
+      "targetDate": "2025-11-11",
+      "checkDate": "2025-11-12",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 21.3,
+      "volume_ratio": 1.6,
+      "float": 7980.3,
+      "short_percent": 0.0,
+      "news_count": 3
     }
   ],
-  "lastUpdated": "2025-11-06 03:43 PM",
-  "totalPredictions": 72,
-  "correctPredictions": 32,
-  "accuracy": 44.0
+  "lastUpdated": "2025-11-12 10:06 PM",
+  "totalPredictions": 74,
+  "correctPredictions": 33,
+  "accuracy": 45.0,
+  "previousAccuracy": 44.0
 }
