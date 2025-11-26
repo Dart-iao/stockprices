@@ -1,107 +1,25 @@
 {
   "predictions": [
     {
-      "ticker": "OLGPF",
-      "name": "Olam Group Limited",
-      "price3DaysAgo": 0.71,
-      "priceToday": 0.71,
-      "predictedMove": "+8% (Moderate)",
-      "confidence": 88.5,
-      "reasoning": "16.7x volume spike, fresh news catalyst, trending on social media",
+      "ticker": "PAVS",
+      "name": "Paranovus Entertainment Technology Ltd.",
+      "price3DaysAgo": 0.58,
+      "priceToday": 0.82,
+      "predictedMove": "+21% (Major Move)",
+      "confidence": 95,
+      "reasoning": "9.9x volume spike, Strong 41.3% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 0.4%",
-        "Volume: 16.7x",
-        "Float: 817.1M",
-        "News: 10"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "",
-      "gap_percent": 0.4,
-      "volume_ratio": 16.7,
-      "float": 817.1,
-      "short_percent": 0,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 0.9,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (16.7x)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "CWH",
-      "name": "Camping World Holdings, Inc.",
-      "price3DaysAgo": 10.17,
-      "priceToday": 9.52,
-      "predictedMove": "+2%",
-      "confidence": 77.0,
-      "reasoning": "fresh news catalyst, high short interest (17%), trending on social media",
-      "keyFactors": [
-        "Gap: -6.4%",
-        "Volume: 1.3x",
-        "Float: 57.8M",
-        "Short: 17%",
-        "News: 10"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "",
-      "gap_percent": -6.4,
-      "volume_ratio": 1.3,
-      "float": 57.8,
-      "short_percent": 16.6,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 0.9,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 25,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "ZSPC",
-      "name": "zSpace, Inc.",
-      "price3DaysAgo": 0.78,
-      "priceToday": 0.62,
-      "predictedMove": "+8% (Moderate)",
-      "confidence": 71.5,
-      "reasoning": "fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -20.6%",
-        "Volume: 1.4x",
-        "Float: 8.5M",
-        "Short: 10%",
+        "Gap: 41.3%",
+        "Volume: 9.9x",
+        "Float: 6.7M",
         "News: 3"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
       "catalyst": "",
-      "gap_percent": -20.6,
-      "volume_ratio": 1.4,
-      "float": 8.5,
-      "short_percent": 9.8,
+      "gap_percent": 41.3,
+      "volume_ratio": 9.9,
+      "float": 6.7,
+      "short_percent": 0.2,
       "news_count": 3,
       "isPrediction": true,
       "learningWeights": {
@@ -113,38 +31,36 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (3 articles)",
-        "ultra-low float (8.5M)",
-        "micro-cap (18M)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 30,
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
       "is_trending": true,
-      "red_flags": []
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
     },
     {
-      "ticker": "RIME",
-      "name": "Algorhythm Holdings, Inc.",
-      "price3DaysAgo": 1.98,
-      "priceToday": 1.52,
+      "ticker": "SONM",
+      "name": "Sonim Technologies, Inc.",
+      "price3DaysAgo": 7.39,
+      "priceToday": 5.69,
       "predictedMove": "+14% (Strong)",
-      "confidence": 62.0,
-      "reasoning": "\u26a0\ufe0f EXTREME 52.7x volume (SUSPICIOUS), fresh news catalyst, low float, trending on social media",
+      "confidence": 95,
+      "reasoning": "6.2x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: -23.2%",
-        "Volume: 52.7x",
-        "Float: 2.5M",
-        "News: 4"
+        "Gap: -23.0%",
+        "Volume: 6.2x",
+        "Float: 0.9M",
+        "Short: 7%",
+        "News: 2"
       ],
-      "news": "Algorhythm Holdings, Inc. (RIME) Q3 2025 Earnings  |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Algorhythm Holdings, Inc. (RIME) Q3 2025 Earnings Call Transcript",
-      "gap_percent": -23.2,
-      "volume_ratio": 52.7,
-      "float": 2.5,
-      "short_percent": 3.2,
-      "news_count": 4,
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": -23.0,
+      "volume_ratio": 6.2,
+      "float": 0.9,
+      "short_percent": 6.6,
+      "news_count": 2,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -157,24 +73,185 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (3 articles)",
-        "extreme volume (52.7x)",
-        "ultra-low float (2.5M)",
+        "news (2 articles)",
+        "extreme volume (6.2x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (0.9M)",
         "near 52-week low bounce"
       ],
-      "social_score": 95,
+      "social_score": 100,
       "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
-      ]
+      "red_flags": []
+    },
+    {
+      "ticker": "OBIO",
+      "name": "Orchestra BioMed Holdings, Inc.",
+      "price3DaysAgo": 4.84,
+      "priceToday": 5.35,
+      "predictedMove": "+4%",
+      "confidence": 92.5,
+      "reasoning": "Strong 10.5% gap, fresh news catalyst",
+      "keyFactors": [
+        "Gap: 10.5%",
+        "Volume: 1.6x",
+        "Float: 32.7M",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": 10.5,
+      "volume_ratio": 1.6,
+      "float": 32.7,
+      "short_percent": 2.7,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 0.9,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "accelerating volume (3 days)",
+        "large gap (10.5%)",
+        "3-day momentum (18.1% gain)",
+        "broke above $5"
+      ],
+      "social_score": 15,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "ADTN",
+      "name": "ADTRAN Holdings, Inc.",
+      "price3DaysAgo": 7.35,
+      "priceToday": 7.7,
+      "predictedMove": "+2%",
+      "confidence": 82.0,
+      "reasoning": "fresh news catalyst",
+      "keyFactors": [
+        "Gap: 4.8%",
+        "Volume: 1.9x",
+        "Float: 73.0M",
+        "Short: 10%",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": 4.8,
+      "volume_ratio": 1.9,
+      "float": 73.0,
+      "short_percent": 10.2,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 0.9,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "SMGBF",
+      "name": "San Miguel Corporation",
+      "price3DaysAgo": 1.32,
+      "priceToday": 1.32,
+      "predictedMove": "+5%",
+      "confidence": 79.5,
+      "reasoning": "12.0x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 0.0%",
+        "Volume: 12.0x",
+        "Float: 505.0M",
+        "News: 1"
+      ],
+      "news": " | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "",
+      "gap_percent": 0.0,
+      "volume_ratio": 12.0,
+      "float": 505.0,
+      "short_percent": 0,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 0.9,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (1 articles)",
+        "extreme volume (12.0x)",
+        "accelerating volume (3 days)",
+        "3-day momentum (30.7% gain)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "KWM",
+      "name": "K Wave Media Ltd.",
+      "price3DaysAgo": 0.9,
+      "priceToday": 0.51,
+      "predictedMove": "+8% (Moderate)",
+      "confidence": 59.5,
+      "reasoning": "elevated volume, trending on social media",
+      "keyFactors": [
+        "Gap: -43.4%",
+        "Volume: 2.5x",
+        "Float: 63.6M"
+      ],
+      "news": "Gap: -43.4%, Vol: 2.5x | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": -43.4,
+      "volume_ratio": 2.5,
+      "float": 63.6,
+      "short_percent": 0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 0.9,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "micro-cap (32M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
     }
   ],
-  "generatedTime": "2025-11-20 01:36 AM",
-  "targetDate": "2025-11-20",
+  "generatedTime": "2025-11-26 01:37 AM",
+  "targetDate": "2025-11-26",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
-    "historicalPredictions": 76,
+    "historicalPredictions": 77,
     "weights": {
       "gap_weight": 1.0,
       "volume_weight": 1.0,
