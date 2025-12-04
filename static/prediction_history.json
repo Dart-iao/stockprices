@@ -1,46 +1,6 @@
 {
   "history": [
     {
-      "ticker": "ARTV",
-      "name": "Artiva Biotherapeutics, Inc.",
-      "predictedPrice": 5.58,
-      "actualPrice": 6.82,
-      "predictedMove": "+131-197%",
-      "actualMove": "+22.2%",
-      "wasCorrect": true,
-      "confidence": 85,
-      "reasoning": "Gapping up 101.4%. Volume spike 9.5x. Low float (5.4M). 9 recent articles (explosive)",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "Breaking news"
-      ],
-      "predictionDate": "2025-10-17",
-      "targetDate": "2025-10-17",
-      "checkDate": "2025-10-17"
-    },
-    {
-      "ticker": "WNLV",
-      "name": "Winvest Group Ltd.",
-      "predictedPrice": 0.07,
-      "actualPrice": 0.07,
-      "predictedMove": "+44-67%",
-      "actualMove": "+0.0%",
-      "wasCorrect": false,
-      "confidence": 85,
-      "reasoning": "Gapping up 34.6%. Volume spike 19.0x. Low float (46.1M)",
-      "keyFactors": [
-        "Gap up",
-        "Volume spike",
-        "Low float",
-        "High volatility"
-      ],
-      "predictionDate": "2025-10-17",
-      "targetDate": "2025-10-17",
-      "checkDate": "2025-10-17"
-    },
-    {
       "ticker": "ELOG",
       "name": "Eastern International Ltd.",
       "predictedPrice": 2.33,
@@ -1974,11 +1934,121 @@
       "float": 22.4,
       "short_percent": 3.3,
       "news_count": 2
+    },
+    {
+      "ticker": "MNTS",
+      "name": "Momentus Inc.",
+      "predictedPrice": 0.67,
+      "actualPrice": 0.83,
+      "predictedMove": "+4%",
+      "actualMove": "+23.9%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 95,
+      "reasoning": "elevated volume, Strong 11.5% gap, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 11.5%",
+        "Volume: 2.2x",
+        "Float: 23.9M",
+        "Short: 7%",
+        "News: 8"
+      ],
+      "predictionDate": "2025-12-03",
+      "targetDate": "2025-12-03",
+      "checkDate": "2025-12-04",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 11.5,
+      "volume_ratio": 2.2,
+      "float": 23.9,
+      "short_percent": 7.2,
+      "news_count": 8
+    },
+    {
+      "ticker": "NOTE",
+      "name": "FiscalNote Holdings, Inc.",
+      "predictedPrice": 2.03,
+      "actualPrice": 2.19,
+      "predictedMove": "+12% (Strong)",
+      "actualMove": "+7.9%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 95,
+      "reasoning": "fresh news catalyst, low float, high short interest (29%), trending on social media",
+      "keyFactors": [
+        "Gap: -7.3%",
+        "Volume: 1.7x",
+        "Float: 9.4M",
+        "Short: 29%",
+        "News: 10"
+      ],
+      "predictionDate": "2025-12-03",
+      "targetDate": "2025-12-03",
+      "checkDate": "2025-12-04",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": -7.3,
+      "volume_ratio": 1.7,
+      "float": 9.4,
+      "short_percent": 28.7,
+      "news_count": 10
+    },
+    {
+      "ticker": "MEGL",
+      "name": "Magic Empire Global Limited",
+      "predictedPrice": 1.25,
+      "actualPrice": 1.31,
+      "predictedMove": "+5% (Moderate)",
+      "actualMove": "+4.8%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 72,
+      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -3.5%",
+        "Volume: 2.1x",
+        "Float: 3.2M",
+        "News: 2"
+      ],
+      "predictionDate": "2025-12-03",
+      "targetDate": "2025-12-03",
+      "checkDate": "2025-12-04",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": -3.5,
+      "volume_ratio": 2.1,
+      "float": 3.2,
+      "short_percent": 3.0,
+      "news_count": 2
+    },
+    {
+      "ticker": "VG",
+      "name": "VG",
+      "predictedPrice": 6.63,
+      "actualPrice": 6.72,
+      "predictedMove": "+1%",
+      "actualMove": "+1.4%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 68,
+      "reasoning": "elevated volume, fresh news catalyst",
+      "keyFactors": [
+        "Gap: -3.6%",
+        "Volume: 2.1x",
+        "Float: 470.5M",
+        "News: 11"
+      ],
+      "predictionDate": "2025-12-03",
+      "targetDate": "2025-12-03",
+      "checkDate": "2025-12-04",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": -3.6,
+      "volume_ratio": 2.1,
+      "float": 470.5,
+      "short_percent": 0.0,
+      "news_count": 11
     }
   ],
-  "lastUpdated": "2025-12-03 01:01 AM",
-  "totalPredictions": 88,
-  "correctPredictions": 34,
-  "accuracy": 39.0,
-  "previousAccuracy": 41.0
+  "lastUpdated": "2025-12-04 01:01 AM",
+  "totalPredictions": 90,
+  "correctPredictions": 33,
+  "accuracy": 37.0,
+  "previousAccuracy": 39.0
 }
