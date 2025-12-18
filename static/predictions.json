@@ -1,26 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "EEX",
-      "name": "Emerald Holding, Inc.",
-      "price3DaysAgo": 3.54,
-      "priceToday": 4.95,
-      "predictedMove": "+14% (Strong)",
+      "ticker": "KFFB",
+      "name": "Kentucky First Federal Bancorp",
+      "price3DaysAgo": 4.39,
+      "priceToday": 4.59,
+      "predictedMove": "+8% (Moderate)",
       "confidence": 95,
-      "reasoning": "6.4x volume spike, Strong 39.8% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "3.7x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 39.8%",
-        "Volume: 6.4x",
-        "Float: 12.3M",
-        "News: 10"
+        "Gap: 4.6%",
+        "Volume: 3.7x",
+        "Float: 3.0M",
+        "News: 4"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
       "catalyst": "",
-      "gap_percent": 39.8,
-      "volume_ratio": 6.4,
-      "float": 12.3,
-      "short_percent": 2.8,
-      "news_count": 10,
+      "gap_percent": 4.6,
+      "volume_ratio": 3.7,
+      "float": 3.0,
+      "short_percent": 0.3,
+      "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -33,236 +33,31 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 100,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "ADGM",
-      "name": "Adagio Medical Holdings, Inc.",
-      "price3DaysAgo": 0.83,
-      "priceToday": 1.18,
-      "predictedMove": "+18% (Strong)",
-      "confidence": 95,
-      "reasoning": "3.1x volume spike, Strong 42.0% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 42.0%",
-        "Volume: 3.1x",
-        "Float: 5.9M",
-        "News: 1"
-      ],
-      "news": " | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": 42.0,
-      "volume_ratio": 3.1,
-      "float": 5.9,
-      "short_percent": 3.5,
-      "news_count": 1,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "DLTH",
-      "name": "Duluth Holdings Inc.",
-      "price3DaysAgo": 3.13,
-      "priceToday": 2.21,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 95,
-      "reasoning": "8.0x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -29.4%",
-        "Volume: 8.0x",
-        "Float: 9.5M",
-        "News: 13"
-      ],
-      "news": "Duluth Holdings Inc. (DLTH) Q3 2025 Earnings Call  | Duluth Holdings Inc. 2026 Q3 - Results - Earnings  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Duluth Holdings Inc. (DLTH) Q3 2025 Earnings Call Transcript",
-      "gap_percent": -29.4,
-      "volume_ratio": 8.0,
-      "float": 9.5,
-      "short_percent": 2.6,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (8.0x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (9.5M)",
-        "micro-cap (83M)"
-      ],
-      "social_score": 100,
+      "social_score": 40,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "RILYP",
-      "name": "B. Riley Financial, Inc.",
-      "price3DaysAgo": 3.29,
-      "priceToday": 5.6,
-      "predictedMove": "+20% (Major Move)",
+      "ticker": "PLCE",
+      "name": "The Children's Place, Inc.",
+      "price3DaysAgo": 7.35,
+      "priceToday": 4.64,
+      "predictedMove": "+23% (Major Move)",
       "confidence": 95,
-      "reasoning": "12.6x volume spike, Strong 70.2% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "6.6x volume spike, fresh news catalyst, low float, high short interest (26%), trending on social media",
       "keyFactors": [
-        "Gap: 70.2%",
-        "Volume: 12.6x",
-        "Float: 16.3M",
-        "News: 10"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": 70.2,
-      "volume_ratio": 12.6,
-      "float": 16.3,
-      "short_percent": 0,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "EDHL",
-      "name": "Everbright Digital Holding Limited",
-      "price3DaysAgo": 0.38,
-      "priceToday": 0.55,
-      "predictedMove": "+24% (Major Move)",
-      "confidence": 95,
-      "reasoning": "14.0x volume spike, Strong 43.2% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 43.2%",
-        "Volume: 14.0x",
-        "Float: 8.1M",
-        "Short: 8%",
-        "News: 2"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": 43.2,
-      "volume_ratio": 14.0,
-      "float": 8.1,
-      "short_percent": 7.9,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "RILY",
-      "name": "B. Riley Financial, Inc.",
-      "price3DaysAgo": 3.72,
-      "priceToday": 5.72,
-      "predictedMove": "+27% (Major Move)",
-      "confidence": 95,
-      "reasoning": "16.7x volume spike, Strong 53.8% gap, fresh news catalyst, low float, high short interest (25%), trending on social media",
-      "keyFactors": [
-        "Gap: 53.8%",
-        "Volume: 16.7x",
-        "Float: 16.3M",
-        "Short: 25%",
-        "News: 10"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": 53.8,
-      "volume_ratio": 16.7,
-      "float": 16.3,
-      "short_percent": 24.8,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 145,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "CGC",
-      "name": "Canopy Growth Corporation",
-      "price3DaysAgo": 1.66,
-      "priceToday": 1.83,
-      "predictedMove": "+4%",
-      "confidence": 95,
-      "reasoning": "Strong 10.2% gap, fresh news catalyst",
-      "keyFactors": [
-        "Gap: 10.2%",
-        "Volume: 1.7x",
-        "Float: 342.0M",
-        "Short: 10%",
+        "Gap: -36.9%",
+        "Volume: 6.6x",
+        "Float: 8.2M",
+        "Short: 26%",
         "News: 11"
       ],
-      "news": "I Think Canopy Growth Is Already Priced For Resche | ",
-      "catalyst": "I Think Canopy Growth Is Already Priced For Rescheduling",
-      "gap_percent": 10.2,
-      "volume_ratio": 1.7,
-      "float": 342.0,
-      "short_percent": 10.2,
+      "news": "The Children's Place: Disaster Quarter |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "The Children's Place: Disaster Quarter",
+      "gap_percent": -36.9,
+      "volume_ratio": 6.6,
+      "float": 8.2,
+      "short_percent": 26.2,
       "news_count": 11,
       "isPrediction": true,
       "learningWeights": {
@@ -277,76 +72,124 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "large gap (10.2%)"
+        "extreme volume (6.6x)",
+        "accelerating volume (3 days)",
+        "squeeze setup (float 8.2M + 26% short)",
+        "ultra-low float (8.2M)",
+        "high short interest (26%)",
+        "micro-cap (103M)"
+      ],
+      "social_score": 130,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "KYTX",
+      "name": "Kyverna Therapeutics, Inc.",
+      "price3DaysAgo": 10.24,
+      "priceToday": 6.91,
+      "predictedMove": "+11% (Strong)",
+      "confidence": 95.0,
+      "reasoning": "elevated volume, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -32.5%",
+        "Volume: 2.7x",
+        "Float: 20.0M",
+        "Short: 14%",
+        "News: 12"
+      ],
+      "news": "Kyverna Therapeutics, Inc. (KYTX) Discusses Positi | Kyverna Therapeutics: \"Strong Buy\" Rating As Posit | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Kyverna Therapeutics, Inc. (KYTX) Discusses Positive Topline Data From KYSA-8 Trial of Miv-cel in St",
+      "gap_percent": -32.5,
+      "volume_ratio": 2.7,
+      "float": 20.0,
+      "short_percent": 13.9,
+      "news_count": 12,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "squeeze setup (float 20.0M + 14% short)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "IRBT",
+      "name": "iRobot Corporation",
+      "price3DaysAgo": 0.76,
+      "priceToday": 0.76,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 94.5,
+      "reasoning": "fresh news catalyst, high short interest (44%)",
+      "keyFactors": [
+        "Gap: 0.3%",
+        "Volume: 1.6x",
+        "Float: 26.6M",
+        "Short: 44%",
+        "News: 11"
+      ],
+      "news": "AMC Robotics: A Low-Float Trade Posing As A Roboti | ",
+      "catalyst": "AMC Robotics: A Low-Float Trade Posing As A Robotics Investment",
+      "gap_percent": 0.3,
+      "volume_ratio": 1.6,
+      "float": 26.6,
+      "short_percent": 44.4,
+      "news_count": 11,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "squeeze setup (float 26.6M + 44% short)",
+        "high short interest (44%)",
+        "micro-cap (24M)",
+        "near 52-week low bounce"
       ],
       "social_score": 15,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "GITS",
-      "name": "Global Interactive Technologies, Inc.",
-      "price3DaysAgo": 1.1,
-      "priceToday": 0.77,
-      "predictedMove": "+19% (Strong)",
-      "confidence": 95,
-      "reasoning": "12.1x volume spike, fresh news catalyst, low float, trending on social media",
+      "ticker": "ACRV",
+      "name": "Acrivon Therapeutics, Inc.",
+      "price3DaysAgo": 2.42,
+      "priceToday": 2.31,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 90.0,
+      "reasoning": "fresh news catalyst, low float, high short interest (36%)",
       "keyFactors": [
-        "Gap: -30.2%",
-        "Volume: 12.1x",
-        "Float: 2.5M",
-        "News: 2"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": -30.2,
-      "volume_ratio": 12.1,
-      "float": 2.5,
-      "short_percent": 0.9,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (2 articles)",
-        "extreme volume (12.1x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (2.5M)"
-      ],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "DGLY",
-      "name": "Digital Ally, Inc.",
-      "price3DaysAgo": 1.07,
-      "priceToday": 0.98,
-      "predictedMove": "+8% (Moderate)",
-      "confidence": 92.5,
-      "reasoning": "elevated volume, fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: -8.5%",
-        "Volume: 2.6x",
-        "Float: 1.9M",
-        "Short: 10%",
-        "News: 2"
+        "Gap: -4.5%",
+        "Volume: 1.7x",
+        "Float: 16.9M",
+        "Short: 36%",
+        "News: 10"
       ],
       "news": " | ",
       "catalyst": "",
-      "gap_percent": -8.5,
-      "volume_ratio": 2.6,
-      "float": 1.9,
-      "short_percent": 10.1,
-      "news_count": 2,
+      "gap_percent": -4.5,
+      "volume_ratio": 1.7,
+      "float": 16.9,
+      "short_percent": 36.5,
+      "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -359,36 +202,170 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (2 articles)",
-        "squeeze setup (float 1.9M + 10% short)",
-        "ultra-low float (1.9M)",
+        "news (10 articles)",
+        "squeeze setup (float 16.9M + 36% short)",
+        "high short interest (36%)",
+        "micro-cap (73M)"
+      ],
+      "social_score": 15,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "YCBD",
+      "name": "cbdMD, Inc.",
+      "price3DaysAgo": 1.43,
+      "priceToday": 2.27,
+      "predictedMove": "+18% (Strong)",
+      "confidence": 89.0,
+      "reasoning": "Strong 58.7% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 58.7%",
+        "Volume: 1.5x",
+        "Float: 8.3M",
+        "Short: 8%",
+        "News: 3"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "",
+      "gap_percent": 58.7,
+      "volume_ratio": 1.5,
+      "float": 8.3,
+      "short_percent": 8.2,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (3 articles)",
+        "ultra-low float (8.3M)",
+        "large gap (58.7%)",
+        "3-day momentum (89.2% gain)",
+        "broke above $2",
+        "micro-cap (20M)"
+      ],
+      "social_score": 30,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred",
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "MENS",
+      "name": "Jyong Biotech Ltd.",
+      "price3DaysAgo": 15.4,
+      "priceToday": 2.92,
+      "predictedMove": "+18% (Strong)",
+      "confidence": 82.0,
+      "reasoning": "13.9x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -81.0%",
+        "Volume: 13.9x",
+        "Float: 28.6M",
+        "News: 3"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": -81.0,
+      "volume_ratio": 13.9,
+      "float": 28.6,
+      "short_percent": 0.4,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (3 articles)",
+        "extreme volume (13.9x)",
+        "accelerating volume (3 days)",
+        "micro-cap (222M)",
         "near 52-week low bounce"
+      ],
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "ZENV",
+      "name": "Zenvia Inc.",
+      "price3DaysAgo": 1.21,
+      "priceToday": 1.12,
+      "predictedMove": "+3%",
+      "confidence": 80.5,
+      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -7.4%",
+        "Volume: 2.8x",
+        "Float: 10.2M",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -7.4,
+      "volume_ratio": 2.8,
+      "float": 10.2,
+      "short_percent": 0.5,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "accelerating volume (3 days)",
+        "micro-cap (59M)"
       ],
       "social_score": 20,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "CVKD",
-      "name": "Cadrenal Therapeutics, Inc.",
-      "price3DaysAgo": 12.29,
-      "priceToday": 8.25,
-      "predictedMove": "+14% (Strong)",
-      "confidence": 87.0,
-      "reasoning": "elevated volume, fresh news catalyst, low float, trending on social media",
+      "ticker": "TRAW",
+      "name": "Traws Pharma, Inc.",
+      "price3DaysAgo": 2.2,
+      "priceToday": 1.4,
+      "predictedMove": "+19% (Strong)",
+      "confidence": 74.0,
+      "reasoning": "\u26a0\ufe0f Very high 35.4x volume, low float, trending on social media",
       "keyFactors": [
-        "Gap: -32.9%",
-        "Volume: 2.5x",
-        "Float: 1.5M",
-        "News: 5"
+        "Gap: -36.4%",
+        "Volume: 35.4x",
+        "Float: 5.8M",
+        "Short: 7%"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "",
-      "gap_percent": -32.9,
-      "volume_ratio": 2.5,
-      "float": 1.5,
-      "short_percent": 2.1,
-      "news_count": 5,
+      "news": "Gap: -36.4%, Vol: 35.4x | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": -36.4,
+      "volume_ratio": 35.4,
+      "float": 5.8,
+      "short_percent": 6.5,
+      "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -401,19 +378,64 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (5 articles)",
-        "accelerating volume (3 days)",
-        "ultra-low float (1.5M)",
-        "micro-cap (17M)",
-        "near 52-week low bounce"
+        "extreme volume (35.4x)",
+        "ultra-low float (5.8M)",
+        "micro-cap (11M)"
       ],
-      "social_score": 40,
+      "social_score": 115,
       "is_trending": true,
-      "red_flags": []
+      "red_flags": [
+        "\u26a0\ufe0f Very high volume - proceed with caution"
+      ]
+    },
+    {
+      "ticker": "LHAI",
+      "name": "Linkhome Holdings Inc.",
+      "price3DaysAgo": 12.8,
+      "priceToday": 9.29,
+      "predictedMove": "+17% (Strong)",
+      "confidence": 72.5,
+      "reasoning": "\u26a0\ufe0f EXTREME 51.5x volume (SUSPICIOUS), fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -27.4%",
+        "Volume: 51.5x",
+        "Float: 7.0M",
+        "News: 10"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": -27.4,
+      "volume_ratio": 51.5,
+      "float": 7.0,
+      "short_percent": 1.0,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (51.5x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (7.0M)",
+        "micro-cap (151M)"
+      ],
+      "social_score": 95,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
     }
   ],
-  "generatedTime": "2025-12-17 01:38 AM",
-  "targetDate": "2025-12-17",
+  "generatedTime": "2025-12-18 01:38 AM",
+  "targetDate": "2025-12-18",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -432,7 +454,7 @@
         "range": "High (10-20%)",
         "accuracy": 100.0
       },
-      "recent_trend": 15.0,
+      "recent_trend": 20.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
