@@ -1,26 +1,65 @@
 {
   "predictions": [
     {
-      "ticker": "PHGE",
-      "name": "BiomX Inc.",
-      "price3DaysAgo": 4.1,
-      "priceToday": 6.95,
+      "ticker": "PCLA",
+      "name": "PicoCELA Inc.",
+      "price3DaysAgo": 4.88,
+      "priceToday": 6.48,
+      "predictedMove": "+19% (Strong)",
+      "confidence": 95,
+      "reasoning": "11.2x volume spike, Strong 32.8% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 32.8%",
+        "Volume: 11.2x",
+        "Float: 0.5M",
+        "News: 1"
+      ],
+      "news": " | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": 32.8,
+      "volume_ratio": 11.2,
+      "float": 0.5,
+      "short_percent": 0.1,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "LNKS",
+      "name": "LNKS",
+      "price3DaysAgo": 0.48,
+      "priceToday": 0.77,
       "predictedMove": "+23% (Major Move)",
       "confidence": 95,
-      "reasoning": "8.5x volume spike, Strong 69.5% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "7.5x volume spike, Strong 60.4% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 69.5%",
-        "Volume: 8.5x",
-        "Float: 1.1M",
-        "News: 7"
+        "Gap: 60.4%",
+        "Volume: 7.5x",
+        "Float: 5.1M",
+        "News: 1"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "news": " | \ud83d\udd25 Trending based on high_activity",
       "catalyst": "",
-      "gap_percent": 69.5,
-      "volume_ratio": 8.5,
-      "float": 1.1,
-      "short_percent": 4.3,
-      "news_count": 7,
+      "gap_percent": 60.4,
+      "volume_ratio": 7.5,
+      "float": 5.1,
+      "short_percent": 0.7,
+      "news_count": 1,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -41,26 +80,106 @@
       ]
     },
     {
-      "ticker": "RR",
-      "name": "Richtech Robotics Inc.",
-      "price3DaysAgo": 3.81,
-      "priceToday": 5.51,
-      "predictedMove": "+14% (Strong)",
+      "ticker": "SLGB",
+      "name": "Smart Logistics Global Limited",
+      "price3DaysAgo": 2.01,
+      "priceToday": 2.87,
+      "predictedMove": "+19% (Strong)",
       "confidence": 95,
-      "reasoning": "3.7x volume spike, Strong 44.6% gap, fresh news catalyst, high short interest (20%), trending on social media",
+      "reasoning": "3.4x volume spike, Strong 42.8% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 44.6%",
-        "Volume: 3.7x",
-        "Float: 132.7M",
-        "Short: 20%",
+        "Gap: 42.8%",
+        "Volume: 3.4x",
+        "Float: 1.0M",
+        "Short: 5%",
+        "News: 5"
+      ],
+      "news": "BC-Most Active Stocks |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "BC-Most Active Stocks",
+      "gap_percent": 42.8,
+      "volume_ratio": 3.4,
+      "float": 1.0,
+      "short_percent": 5.1,
+      "news_count": 5,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "SEGG",
+      "name": "Lottery.com Inc.",
+      "price3DaysAgo": 1.35,
+      "priceToday": 1.91,
+      "predictedMove": "+23% (Major Move)",
+      "confidence": 95,
+      "reasoning": "3.8x volume spike, Strong 41.5% gap, fresh news catalyst, low float, high short interest (124%), trending on social media",
+      "keyFactors": [
+        "Gap: 41.5%",
+        "Volume: 3.8x",
+        "Float: 4.9M",
+        "Short: 124%",
+        "News: 2"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": 41.5,
+      "volume_ratio": 3.8,
+      "float": 4.9,
+      "short_percent": 124.5,
+      "news_count": 2,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 120,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "PDYN",
+      "name": "Palladyne AI Corp.",
+      "price3DaysAgo": 6.52,
+      "priceToday": 7.43,
+      "predictedMove": "+13% (Strong)",
+      "confidence": 95,
+      "reasoning": "\u26a0\ufe0f Very high 37.4x volume, Strong 14.0% gap, fresh news catalyst, high short interest (18%), trending on social media",
+      "keyFactors": [
+        "Gap: 14.0%",
+        "Volume: 37.4x",
+        "Float: 30.4M",
+        "Short: 18%",
         "News: 10"
       ],
       "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
       "catalyst": "",
-      "gap_percent": 44.6,
-      "volume_ratio": 3.7,
-      "float": 132.7,
-      "short_percent": 19.7,
+      "gap_percent": 14.0,
+      "volume_ratio": 37.4,
+      "float": 30.4,
+      "short_percent": 18.1,
       "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
@@ -74,32 +193,161 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 60,
+      "social_score": 70,
       "is_trending": true,
       "red_flags": [
-        "Large move may have already occurred"
+        "\u26a0\ufe0f Very high volume - proceed with caution"
       ]
     },
     {
-      "ticker": "ONEG",
-      "name": "OneConstruction Group Limited",
-      "price3DaysAgo": 3.27,
-      "priceToday": 4.7,
-      "predictedMove": "+18% (Strong)",
+      "ticker": "VENU",
+      "name": "VENU",
+      "price3DaysAgo": 8.59,
+      "priceToday": 5.14,
+      "predictedMove": "+22% (Major Move)",
       "confidence": 95,
-      "reasoning": "elevated volume, Strong 43.7% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "11.6x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 43.7%",
-        "Volume: 2.2x",
-        "Float: 7.0M",
+        "Gap: -40.2%",
+        "Volume: 11.6x",
+        "Float: 6.3M",
+        "News: 8"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": -40.2,
+      "volume_ratio": 11.6,
+      "float": 6.3,
+      "short_percent": 3.5,
+      "news_count": 8,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (8 articles)",
+        "extreme volume (11.6x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (6.3M)",
+        "micro-cap (222M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "AGPU",
+      "name": "Axe Compute Inc.",
+      "price3DaysAgo": 5.04,
+      "priceToday": 3.37,
+      "predictedMove": "+14% (Strong)",
+      "confidence": 85.5,
+      "reasoning": "3.9x volume spike, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -33.1%",
+        "Volume: 3.9x",
+        "Float: 1.8M"
+      ],
+      "news": "Gap: -33.1%, Vol: 3.9x | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": -33.1,
+      "volume_ratio": 3.9,
+      "float": 1.8,
+      "short_percent": 1.7,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.9x)",
+        "ultra-low float (1.8M)",
+        "micro-cap (11M)"
+      ],
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "SQFTP",
+      "name": "Presidio Property Trust, Inc.",
+      "price3DaysAgo": 13.2,
+      "priceToday": 5.25,
+      "predictedMove": "+24% (Major Move)",
+      "confidence": 84.5,
+      "reasoning": "17.9x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -60.2%",
+        "Volume: 17.9x",
+        "Float: 0.7M",
+        "News: 2"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": -60.2,
+      "volume_ratio": 17.9,
+      "float": 0.7,
+      "short_percent": 0,
+      "news_count": 2,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (2 articles)",
+        "extreme volume (17.9x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (0.7M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "FEAM",
+      "name": "5E Advanced Materials, Inc.",
+      "price3DaysAgo": 3.18,
+      "priceToday": 2.26,
+      "predictedMove": "+9% (Moderate)",
+      "confidence": 83.5,
+      "reasoning": "4.3x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -28.9%",
+        "Volume: 4.3x",
+        "Float: 10.9M",
         "News: 3"
       ],
-      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
       "catalyst": "",
-      "gap_percent": 43.7,
-      "volume_ratio": 2.2,
-      "float": 7.0,
-      "short_percent": 0.6,
+      "gap_percent": -28.9,
+      "volume_ratio": 4.3,
+      "float": 10.9,
+      "short_percent": 4.6,
       "news_count": 3,
       "isPrediction": true,
       "learningWeights": {
@@ -111,291 +359,39 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "FATBP",
-      "name": "FAT Brands Inc.",
-      "price3DaysAgo": 1.03,
-      "priceToday": 0.71,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 95,
-      "reasoning": "6.9x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -31.0%",
-        "Volume: 6.9x",
-        "Float: 6.0M",
-        "News: 10"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": -31.0,
-      "volume_ratio": 6.9,
-      "float": 6.0,
-      "short_percent": 0,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
       "tier": 2,
       "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (6.9x)",
+        "news (3 articles)",
+        "extreme volume (4.3x)",
         "accelerating volume (3 days)",
-        "ultra-low float (6.0M)"
-      ],
-      "social_score": 100,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "CRDF",
-      "name": "Cardiff Oncology, Inc.",
-      "price3DaysAgo": 2.94,
-      "priceToday": 2.0,
-      "predictedMove": "+23% (Major Move)",
-      "confidence": 95,
-      "reasoning": "22.1x volume spike, fresh news catalyst, high short interest (24%), trending on social media",
-      "keyFactors": [
-        "Gap: -32.0%",
-        "Volume: 22.1x",
-        "Float: 65.7M",
-        "Short: 24%",
-        "News: 10"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": -32.0,
-      "volume_ratio": 22.1,
-      "float": 65.7,
-      "short_percent": 23.8,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (22.1x)",
-        "accelerating volume (3 days)",
-        "high short interest (24%)",
-        "micro-cap (135M)",
+        "micro-cap (53M)",
         "near 52-week low bounce"
-      ],
-      "social_score": 120,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "DOGZ",
-      "name": "Dogness (International) Corporation",
-      "price3DaysAgo": 2.7,
-      "priceToday": 1.62,
-      "predictedMove": "+18% (Strong)",
-      "confidence": 94.5,
-      "reasoning": "3.4x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -40.0%",
-        "Volume: 3.4x",
-        "Float: 2.4M",
-        "News: 4"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "",
-      "gap_percent": -40.0,
-      "volume_ratio": 3.4,
-      "float": 2.4,
-      "short_percent": 2.8,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (4 articles)",
-        "extreme volume (3.4x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (2.4M)",
-        "micro-cap (24M)"
       ],
       "social_score": 90,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "AMTX",
-      "name": "Aemetis, Inc.",
-      "price3DaysAgo": 1.45,
-      "priceToday": 1.6,
-      "predictedMove": "+4%",
-      "confidence": 91.0,
-      "reasoning": "Strong 10.3% gap, fresh news catalyst",
-      "keyFactors": [
-        "Gap: 10.3%",
-        "Volume: 1.6x",
-        "Float: 60.9M",
-        "Short: 8%",
-        "News: 10"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": 10.3,
-      "volume_ratio": 1.6,
-      "float": 60.9,
-      "short_percent": 8.4,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "accelerating volume (3 days)",
-        "large gap (10.3%)",
-        "micro-cap (106M)"
-      ],
-      "social_score": 15,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "SATL",
-      "name": "Satellogic Inc.",
-      "price3DaysAgo": 4.58,
-      "priceToday": 5.5,
-      "predictedMove": "+6% (Moderate)",
-      "confidence": 90.5,
-      "reasoning": "Strong 20.1% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 20.1%",
-        "Volume: 1.4x",
-        "Float: 86.9M",
-        "Short: 12%",
-        "News: 10"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "",
-      "gap_percent": 20.1,
-      "volume_ratio": 1.4,
-      "float": 86.9,
-      "short_percent": 12.2,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "accelerating volume (3 days)",
-        "large gap (20.1%)",
-        "broke above $5"
-      ],
-      "social_score": 30,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "OXBR",
-      "name": "Oxbridge Re Holdings Limited",
-      "price3DaysAgo": 1.14,
-      "priceToday": 1.03,
+      "ticker": "RR",
+      "name": "Richtech Robotics Inc.",
+      "price3DaysAgo": 5.51,
+      "priceToday": 5.08,
       "predictedMove": "+7% (Moderate)",
-      "confidence": 80.0,
-      "reasoning": "fresh news catalyst, low float",
+      "confidence": 82.0,
+      "reasoning": "fresh news catalyst, high short interest (21%), trending on social media",
       "keyFactors": [
-        "Gap: -9.2%",
-        "Volume: 1.9x",
-        "Float: 6.2M",
-        "News: 6"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -9.2,
-      "volume_ratio": 1.9,
-      "float": 6.2,
-      "short_percent": 0.1,
-      "news_count": 6,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (6 articles)",
-        "ultra-low float (6.2M)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "SSII",
-      "name": "SS Innovations International, Inc.",
-      "price3DaysAgo": 5.1,
-      "priceToday": 4.62,
-      "predictedMove": "+3%",
-      "confidence": 78.5,
-      "reasoning": "elevated volume, fresh news catalyst",
-      "keyFactors": [
-        "Gap: -9.4%",
-        "Volume: 2.0x",
-        "Float: 32.9M",
+        "Gap: -7.8%",
+        "Volume: 1.4x",
+        "Float: 132.7M",
+        "Short: 21%",
         "News: 10"
       ],
-      "news": " | ",
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
       "catalyst": "",
-      "gap_percent": -9.4,
-      "volume_ratio": 2.0,
-      "float": 32.9,
-      "short_percent": 0.3,
+      "gap_percent": -7.8,
+      "volume_ratio": 1.4,
+      "float": 132.7,
+      "short_percent": 20.6,
       "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
@@ -410,15 +406,16 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "accelerating volume (3 days)"
+        "high short interest (21%)",
+        "3-day momentum (33.3% gain)"
       ],
-      "social_score": 20,
-      "is_trending": false,
+      "social_score": 40,
+      "is_trending": true,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-01-28 01:51 AM",
-  "targetDate": "2026-01-28",
+  "generatedTime": "2026-01-29 01:42 AM",
+  "targetDate": "2026-01-29",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -435,9 +432,9 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 100.0
+        "accuracy": 87.5
       },
-      "recent_trend": 15.0,
+      "recent_trend": 25.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
