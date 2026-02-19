@@ -1,26 +1,104 @@
 {
   "predictions": [
     {
-      "ticker": "LPCN",
-      "name": "Lipocine Inc.",
-      "price3DaysAgo": 8.66,
-      "priceToday": 9.45,
-      "predictedMove": "+9% (Moderate)",
+      "ticker": "TMDE",
+      "name": "TMD Energy Limited",
+      "price3DaysAgo": 0.55,
+      "priceToday": 0.76,
+      "predictedMove": "+18% (Strong)",
       "confidence": 95,
-      "reasoning": "3.0x volume spike, Solid 9.1% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "5.9x volume spike, Strong 38.2% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 9.1%",
-        "Volume: 3.0x",
-        "Float: 4.9M",
-        "News: 7"
+        "Gap: 38.2%",
+        "Volume: 5.9x",
+        "Float: 3.6M",
+        "News: 3"
+      ],
+      "news": "Get insights into the top gainers and losers of We |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Get insights into the top gainers and losers of Wednesday's after-hours session.",
+      "gap_percent": 38.2,
+      "volume_ratio": 5.9,
+      "float": 3.6,
+      "short_percent": 4.1,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "INDO",
+      "name": "Indonesia Energy Corporation Limited",
+      "price3DaysAgo": 4.01,
+      "priceToday": 4.67,
+      "predictedMove": "+11% (Strong)",
+      "confidence": 95,
+      "reasoning": "3.4x volume spike, Strong 16.5% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 16.5%",
+        "Volume: 3.4x",
+        "Float: 9.5M",
+        "Short: 9%",
+        "News: 5"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "",
+      "gap_percent": 16.5,
+      "volume_ratio": 3.4,
+      "float": 9.5,
+      "short_percent": 9.3,
+      "news_count": 5,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 60,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "USEG",
+      "name": "U.S. Energy Corp.",
+      "price3DaysAgo": 0.97,
+      "priceToday": 1.04,
+      "predictedMove": "+4%",
+      "confidence": 95,
+      "reasoning": "3.2x volume spike, Solid 7.2% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 7.2%",
+        "Volume: 3.2x",
+        "Float: 13.1M",
+        "Short: 8%",
+        "News: 6"
       ],
       "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
       "catalyst": "",
-      "gap_percent": 9.1,
-      "volume_ratio": 3.0,
-      "float": 4.9,
-      "short_percent": 2.4,
-      "news_count": 7,
+      "gap_percent": 7.2,
+      "volume_ratio": 3.2,
+      "float": 13.1,
+      "short_percent": 7.8,
+      "news_count": 6,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -38,27 +116,145 @@
       "red_flags": []
     },
     {
-      "ticker": "GBTG",
-      "name": "Global Business Travel Group, Inc.",
-      "price3DaysAgo": 5.04,
-      "priceToday": 5.49,
-      "predictedMove": "+3%",
-      "confidence": 81.5,
-      "reasoning": "Solid 8.9% gap, fresh news catalyst",
+      "ticker": "IBRX",
+      "name": "ImmunityBio, Inc.",
+      "price3DaysAgo": 6.02,
+      "priceToday": 8.54,
+      "predictedMove": "+18% (Strong)",
+      "confidence": 95,
+      "reasoning": "3.7x volume spike, Strong 41.9% gap, fresh news catalyst, high short interest (41%), trending on social media",
       "keyFactors": [
-        "Gap: 8.9%",
-        "Volume: 1.7x",
-        "Float: 198.1M",
-        "Short: 5%",
+        "Gap: 41.9%",
+        "Volume: 3.7x",
+        "Float: 336.2M",
+        "Short: 41%",
+        "News: 20"
+      ],
+      "news": "Here are the top movers in Wednesday's session. | Discover the most active stocks in Wednesday's ses | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Here are the top movers in Wednesday's session.",
+      "gap_percent": 41.9,
+      "volume_ratio": 3.7,
+      "float": 336.2,
+      "short_percent": 40.8,
+      "news_count": 20,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 95,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "AGIG",
+      "name": "AGIG",
+      "price3DaysAgo": 2.87,
+      "priceToday": 3.8,
+      "predictedMove": "+17% (Strong)",
+      "confidence": 95,
+      "reasoning": "7.2x volume spike, Strong 32.4% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 32.4%",
+        "Volume: 7.2x",
+        "Float: 5.2M",
+        "News: 1"
+      ],
+      "news": "Alliance Global Partners Initiates Coverage On Abu | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Alliance Global Partners Initiates Coverage On Abundia Global Impact with Buy Rating, Announces Pric",
+      "gap_percent": 32.4,
+      "volume_ratio": 7.2,
+      "float": 5.2,
+      "short_percent": 0,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "AUUD",
+      "name": "Auddia Inc.",
+      "price3DaysAgo": 0.83,
+      "priceToday": 1.14,
+      "predictedMove": "+25% (Major Move)",
+      "confidence": 95,
+      "reasoning": "\u26a0\ufe0f Very high 37.3x volume, Strong 36.5% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 36.5%",
+        "Volume: 37.3x",
+        "Float: 3.1M",
         "News: 11"
       ],
-      "news": "American Express Global Business Travel Announces  | ",
-      "catalyst": "American Express Global Business Travel Announces Additional $300M Buyback Plan",
-      "gap_percent": 8.9,
-      "volume_ratio": 1.7,
-      "float": 198.1,
-      "short_percent": 5.2,
+      "news": "Here are the top movers in Wednesday's session. | Discover the most active stocks in Wednesday's ses | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Here are the top movers in Wednesday's session.",
+      "gap_percent": 36.5,
+      "volume_ratio": 37.3,
+      "float": 3.1,
+      "short_percent": 4.2,
       "news_count": 11,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Very high volume - proceed with caution",
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "SMWB",
+      "name": "Similarweb Ltd.",
+      "price3DaysAgo": 3.9,
+      "priceToday": 2.55,
+      "predictedMove": "+14% (Strong)",
+      "confidence": 95,
+      "reasoning": "9.7x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -34.6%",
+        "Volume: 9.7x",
+        "Float: 51.1M",
+        "News: 20"
+      ],
+      "news": "William Blair Downgrades Similarweb (SMWB) | Here are the top movers in Wednesday's session. | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "William Blair Downgrades Similarweb (SMWB)",
+      "gap_percent": -34.6,
+      "volume_ratio": 9.7,
+      "float": 51.1,
+      "short_percent": 1.5,
+      "news_count": 20,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -72,16 +268,141 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "large gap (8.9%)",
+        "extreme volume (9.7x)",
+        "accelerating volume (3 days)",
+        "micro-cap (220M)",
         "near 52-week low bounce"
       ],
-      "social_score": 10,
-      "is_trending": false,
+      "social_score": 75,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "RSSS",
+      "name": "Research Solutions, Inc.",
+      "price3DaysAgo": 2.51,
+      "priceToday": 2.39,
+      "predictedMove": "+5% (Moderate)",
+      "confidence": 92.5,
+      "reasoning": "8.2x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -4.8%",
+        "Volume: 8.2x",
+        "Float: 25.5M",
+        "News: 10"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "",
+      "gap_percent": -4.8,
+      "volume_ratio": 8.2,
+      "float": 25.5,
+      "short_percent": 0.1,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (8.2x)",
+        "micro-cap (79M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 25,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "NAK",
+      "name": "Northern Dynasty Minerals Ltd.",
+      "price3DaysAgo": 2.03,
+      "priceToday": 1.23,
+      "predictedMove": "+13% (Strong)",
+      "confidence": 90.5,
+      "reasoning": "5.1x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -39.4%",
+        "Volume: 5.1x",
+        "Float: 542.6M",
+        "News: 16"
+      ],
+      "news": "Here are the top movers in Wednesday's session. | Discover the most active stocks in Wednesday's ses | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Here are the top movers in Wednesday's session.",
+      "gap_percent": -39.4,
+      "volume_ratio": 5.1,
+      "float": 542.6,
+      "short_percent": 3.7,
+      "news_count": 16,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (5.1x)",
+        "accelerating volume (3 days)"
+      ],
+      "social_score": 75,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "MMLTF",
+      "name": "MMG Limited",
+      "price3DaysAgo": 1.24,
+      "priceToday": 1.22,
+      "predictedMove": "+3%",
+      "confidence": 72.5,
+      "reasoning": "6.7x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -1.8%",
+        "Volume: 6.7x",
+        "Float: 3952.6M",
+        "News: 1"
+      ],
+      "news": " | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "",
+      "gap_percent": -1.8,
+      "volume_ratio": 6.7,
+      "float": 3952.6,
+      "short_percent": 0,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (1 articles)",
+        "extreme volume (6.7x)"
+      ],
+      "social_score": 25,
+      "is_trending": true,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-02-18 01:36 AM",
-  "targetDate": "2026-02-18",
+  "generatedTime": "2026-02-19 01:40 AM",
+  "targetDate": "2026-02-19",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -98,9 +419,9 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 92.85714285714286
+        "accuracy": 93.33333333333333
       },
-      "recent_trend": 5.0,
+      "recent_trend": 10.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
