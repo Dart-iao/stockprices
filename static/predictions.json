@@ -1,312 +1,29 @@
 {
   "predictions": [
     {
-      "ticker": "JLHL",
-      "name": "Julong Holding Limited",
-      "price3DaysAgo": 6.35,
-      "priceToday": 9.44,
-      "predictedMove": "+21% (Major Move)",
+      "ticker": "BIYA",
+      "name": "Baiya International Group Inc.",
+      "price3DaysAgo": 0.87,
+      "priceToday": 1.35,
+      "predictedMove": "+23% (Major Move)",
       "confidence": 95,
-      "reasoning": "4.3x volume spike, Strong 48.7% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "8.5x volume spike, Strong 55.2% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 48.7%",
-        "Volume: 4.3x",
-        "Float: 1.4M",
-        "News: 2"
-      ],
-      "news": "12 Industrials Stocks Moving In Monday's Intraday  |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "12 Industrials Stocks Moving In Monday's Intraday Session",
-      "gap_percent": 48.7,
-      "volume_ratio": 4.3,
-      "float": 1.4,
-      "short_percent": 1.2,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "BYND",
-      "name": "Beyond Meat, Inc.",
-      "price3DaysAgo": 0.82,
-      "priceToday": 1.16,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 95,
-      "reasoning": "elevated volume, Strong 40.9% gap, fresh news catalyst, high short interest (31%), trending on social media",
-      "keyFactors": [
-        "Gap: 40.9%",
-        "Volume: 2.2x",
-        "Float: 447.1M",
-        "Short: 31%",
+        "Gap: 55.2%",
+        "Volume: 8.5x",
+        "Float: 0.6M",
         "News: 12"
       ],
-      "news": "These stocks are the most active in today's sessio | 'Justice Department Is Criminally Investigating Be | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "These stocks are the most active in today's session",
-      "gap_percent": 40.9,
-      "volume_ratio": 2.2,
-      "float": 447.1,
-      "short_percent": 31.0,
+      "news": "Top movers in Tuesday's session | 12 Industrials Stocks Moving In Tuesday's After-Ma | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top movers in Tuesday's session",
+      "gap_percent": 55.2,
+      "volume_ratio": 8.5,
+      "float": 0.6,
+      "short_percent": 1.5,
       "news_count": 12,
       "isPrediction": true,
       "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "INV",
-      "name": "Innventure, Inc.",
-      "price3DaysAgo": 4.6,
-      "priceToday": 6.19,
-      "predictedMove": "+13% (Strong)",
-      "confidence": 95,
-      "reasoning": "6.8x volume spike, Strong 34.6% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 34.6%",
-        "Volume: 6.8x",
-        "Float: 58.9M",
-        "Short: 15%",
-        "News: 13"
-      ],
-      "news": "Top movers analysis one hour before the close of t | Nektar Therapeutics, Compass Pathways, Sila Realty | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-04-20: top gainers and losers i",
-      "gap_percent": 34.6,
-      "volume_ratio": 6.8,
-      "float": 58.9,
-      "short_percent": 14.5,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 75,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "FGI",
-      "name": "FGI Industries Ltd.",
-      "price3DaysAgo": 6.5,
-      "priceToday": 9.79,
-      "predictedMove": "+31% (Major Move)",
-      "confidence": 95,
-      "reasoning": "14.3x volume spike, Strong 50.6% gap, fresh news catalyst, low float, high short interest (41%), trending on social media",
-      "keyFactors": [
-        "Gap: 50.6%",
-        "Volume: 14.3x",
-        "Float: 0.5M",
-        "Short: 41%",
-        "News: 13"
-      ],
-      "news": "Top movers analysis one hour before the close of t | What's going on in today's session | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-04-20: top gainers and losers i",
-      "gap_percent": 50.6,
-      "volume_ratio": 14.3,
-      "float": 0.5,
-      "short_percent": 41.2,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 145,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
-      ]
-    },
-    {
-      "ticker": "PLUG",
-      "name": "Plug Power Inc.",
-      "price3DaysAgo": 2.78,
-      "priceToday": 3.22,
-      "predictedMove": "+10% (Moderate)",
-      "confidence": 95,
-      "reasoning": "Strong 15.8% gap, fresh news catalyst, high short interest (25%), trending on social media",
-      "keyFactors": [
-        "Gap: 15.8%",
-        "Volume: 1.5x",
-        "Float: 1330.4M",
-        "Short: 25%",
-        "News: 11"
-      ],
-      "news": "\"Despite A Slowdown In The U.S. Electric Vehicle M |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "\"Despite A Slowdown In The U.S. Electric Vehicle Market Affecting Joint Ventures Of Automakers And B",
-      "gap_percent": 15.8,
-      "volume_ratio": 1.5,
-      "float": 1330.4,
-      "short_percent": 24.5,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "accelerating volume (3 days)",
-        "high short interest (25%)",
-        "large gap (15.8%)"
-      ],
-      "social_score": 50,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "CMPS",
-      "name": "COMPASS Pathways plc",
-      "price3DaysAgo": 6.66,
-      "priceToday": 9.46,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 95,
-      "reasoning": "10.0x volume spike, Strong 42.0% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 42.0%",
-        "Volume: 10.0x",
-        "Float: 102.2M",
-        "Short: 7%",
-        "News: 20"
-      ],
-      "news": "Top movers analysis one hour before the close of t | Compass Pathways CEO on Trump's Order to Expand Ps | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-04-20: top gainers and losers i",
-      "gap_percent": 42.0,
-      "volume_ratio": 10.0,
-      "float": 102.2,
-      "short_percent": 7.0,
-      "news_count": 20,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 75,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "CMND",
-      "name": "Clearmind Medicine Inc.",
-      "price3DaysAgo": 0.72,
-      "priceToday": 1.14,
-      "predictedMove": "+28% (Major Move)",
-      "confidence": 95,
-      "reasoning": "23.2x volume spike, Strong 58.3% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 58.3%",
-        "Volume: 23.2x",
-        "Float: 2.0M",
-        "News: 20"
-      ],
-      "news": "Top movers analysis one hour before the close of t | These stocks are the most active in today's sessio | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-04-20: top gainers and losers i",
-      "gap_percent": 58.3,
-      "volume_ratio": 23.2,
-      "float": 2.0,
-      "short_percent": 2.0,
-      "news_count": 20,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
-      ]
-    },
-    {
-      "ticker": "GSUN",
-      "name": "Golden Sun Technology Group Limited",
-      "price3DaysAgo": 0.47,
-      "priceToday": 0.63,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 95,
-      "reasoning": "6.9x volume spike, Strong 33.2% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 33.2%",
-        "Volume: 6.9x",
-        "Float: 8.1M",
-        "News: 1"
-      ],
-      "news": "Top movers analysis one hour before the close of t | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-04-20: top gainers and losers i",
-      "gap_percent": 33.2,
-      "volume_ratio": 6.9,
-      "float": 8.1,
-      "short_percent": 3.4,
-      "news_count": 1,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
+        "gap_weight": 1.0,
         "volume_weight": 1.0,
         "news_weight": 0.9,
         "float_weight": 1.1,
@@ -319,33 +36,361 @@
       "social_score": 100,
       "is_trending": true,
       "red_flags": [
+        "Large move may have already occurred",
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "BATL",
+      "name": "Battalion Oil Corporation",
+      "price3DaysAgo": 3.38,
+      "priceToday": 4.69,
+      "predictedMove": "+19% (Strong)",
+      "confidence": 95,
+      "reasoning": "6.2x volume spike, Strong 38.8% gap, fresh news catalyst, low float, high short interest (37%), trending on social media",
+      "keyFactors": [
+        "Gap: 38.8%",
+        "Volume: 6.2x",
+        "Float: 14.1M",
+        "Short: 37%",
+        "News: 13"
+      ],
+      "news": "Tuesday's after hours session: top gainers and los | Why Battalion Oil (BATL) Stock Is Surging Today | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Tuesday's after hours session: top gainers and losers",
+      "gap_percent": 38.8,
+      "volume_ratio": 6.2,
+      "float": 14.1,
+      "short_percent": 36.5,
+      "news_count": 13,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 130,
+      "is_trending": true,
+      "red_flags": [
         "Large move may have already occurred"
       ]
     },
     {
-      "ticker": "PASG",
-      "name": "Passage Bio, Inc.",
-      "price3DaysAgo": 11.67,
-      "priceToday": 6.25,
-      "predictedMove": "+26% (Major Move)",
-      "confidence": 89.5,
-      "reasoning": "\u26a0\ufe0f Very high 38.4x volume, fresh news catalyst, low float, trending on social media",
+      "ticker": "SPRC",
+      "name": "SciSparc Ltd.",
+      "price3DaysAgo": 4.23,
+      "priceToday": 5.99,
+      "predictedMove": "+24% (Major Move)",
+      "confidence": 95,
+      "reasoning": "16.2x volume spike, Strong 41.6% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: -46.4%",
-        "Volume: 38.4x",
-        "Float: 2.9M",
+        "Gap: 41.6%",
+        "Volume: 16.2x",
+        "Float: 0.0M",
+        "Short: 6%",
         "News: 12"
       ],
-      "news": "Crude Oil Surges Over 6%; Investar Holding Shares  | 12 Health Care Stocks Moving In Monday's Intraday  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Crude Oil Surges Over 6%; Investar Holding Shares Gain Following Q1 Earnings",
-      "gap_percent": -46.4,
-      "volume_ratio": 38.4,
-      "float": 2.9,
-      "short_percent": 4.4,
+      "news": "Unusual volume stocks are being observed in Tuesda | Traders are paying attention to the gapping stocks | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Unusual volume stocks are being observed in Tuesday's session.",
+      "gap_percent": 41.6,
+      "volume_ratio": 16.2,
+      "float": 0.0,
+      "short_percent": 5.6,
       "news_count": 12,
       "isPrediction": true,
       "learningWeights": {
-        "gap_weight": 1.1,
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "RPGL",
+      "name": "Republic Power Group Limited",
+      "price3DaysAgo": 0.45,
+      "priceToday": 0.72,
+      "predictedMove": "+28% (Major Move)",
+      "confidence": 95,
+      "reasoning": "19.5x volume spike, Strong 59.2% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 59.2%",
+        "Volume: 19.5x",
+        "Float: 0.9M",
+        "News: 5"
+      ],
+      "news": "Top movers in Tuesday's session | Which stocks are most active on Tuesday? | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top movers in Tuesday's session",
+      "gap_percent": 59.2,
+      "volume_ratio": 19.5,
+      "float": 0.9,
+      "short_percent": 1.7,
+      "news_count": 5,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred",
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "CNEY",
+      "name": "CN Energy Group. Inc.",
+      "price3DaysAgo": 0.72,
+      "priceToday": 1.03,
+      "predictedMove": "+18% (Strong)",
+      "confidence": 95,
+      "reasoning": "elevated volume, Strong 42.3% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 42.3%",
+        "Volume: 2.3x",
+        "Float: 5.0M",
+        "News: 3"
+      ],
+      "news": "Stay updated with the stocks that are on the move  | Why Amazon Shares Are Trading Higher; Here Are 20  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Stay updated with the stocks that are on the move in today's pre-market session.",
+      "gap_percent": 42.3,
+      "volume_ratio": 2.3,
+      "float": 5.0,
+      "short_percent": 1.2,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "FFAI",
+      "name": "Faraday Future Intelligent Electric Inc.",
+      "price3DaysAgo": 0.29,
+      "priceToday": 0.53,
+      "predictedMove": "+28% (Major Move)",
+      "confidence": 95,
+      "reasoning": "23.8x volume spike, Strong 85.3% gap, fresh news catalyst, high short interest (20%), trending on social media",
+      "keyFactors": [
+        "Gap: 85.3%",
+        "Volume: 23.8x",
+        "Float: 242.0M",
+        "Short: 20%",
+        "News: 20"
+      ],
+      "news": "Top movers in Tuesday's session | Which stocks are most active on Tuesday? | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top movers in Tuesday's session",
+      "gap_percent": 85.3,
+      "volume_ratio": 23.8,
+      "float": 242.0,
+      "short_percent": 20.4,
+      "news_count": 20,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 120,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred",
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "BYND",
+      "name": "Beyond Meat, Inc.",
+      "price3DaysAgo": 1.16,
+      "priceToday": 1.04,
+      "predictedMove": "+9% (Moderate)",
+      "confidence": 95,
+      "reasoning": "3.1x volume spike, fresh news catalyst, high short interest (31%), trending on social media",
+      "keyFactors": [
+        "Gap: -9.9%",
+        "Volume: 3.1x",
+        "Float: 447.1M",
+        "Short: 31%",
+        "News: 19"
+      ],
+      "news": "Beyond Meat: Highly Risky Business With Near-Zero  | Beyond Meat Option Alert: May 15 $1.5 Calls Sweep  | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Beyond Meat: Highly Risky Business With Near-Zero Gross Margins",
+      "gap_percent": -9.9,
+      "volume_ratio": 3.1,
+      "float": 447.1,
+      "short_percent": 31.0,
+      "news_count": 19,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (3.1x)",
+        "accelerating volume (3 days)",
+        "high short interest (31%)",
+        "3-day momentum (27.0% gain)"
+      ],
+      "social_score": 55,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "LGCB",
+      "name": "Linkage Global Inc",
+      "price3DaysAgo": 1.15,
+      "priceToday": 0.79,
+      "predictedMove": "+13% (Strong)",
+      "confidence": 81.5,
+      "reasoning": "elevated volume, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -31.1%",
+        "Volume: 2.2x",
+        "Float: 1.9M",
+        "News: 1"
+      ],
+      "news": " | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "",
+      "gap_percent": -31.1,
+      "volume_ratio": 2.2,
+      "float": 1.9,
+      "short_percent": 0.1,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (1 articles)",
+        "ultra-low float (1.9M)",
+        "micro-cap (38M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "RMTI",
+      "name": "Rockwell Medical, Inc.",
+      "price3DaysAgo": 0.94,
+      "priceToday": 0.87,
+      "predictedMove": "+2%",
+      "confidence": 69.5,
+      "reasoning": "fresh news catalyst",
+      "keyFactors": [
+        "Gap: -7.4%",
+        "Volume: 1.9x",
+        "Float: 35.2M",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -7.4,
+      "volume_ratio": 1.9,
+      "float": 35.2,
+      "short_percent": 2.1,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "micro-cap (34M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "TZA",
+      "name": "Direxion Daily Small Cap Bear 3X Shares",
+      "price3DaysAgo": 5.0,
+      "priceToday": 5.14,
+      "predictedMove": "+1%",
+      "confidence": 49.5,
+      "reasoning": "fresh news catalyst",
+      "keyFactors": [
+        "Gap: 2.8%",
+        "Volume: 1.6x",
+        "Float: 1000.0M",
+        "News: 2"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": 2.8,
+      "volume_ratio": 1.6,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 2,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
         "volume_weight": 1.0,
         "news_weight": 0.9,
         "float_weight": 1.1,
@@ -356,67 +401,21 @@
       "tier": 2,
       "momentum_indicators": [
         "news (2 articles)",
-        "extreme volume (38.4x)",
-        "ultra-low float (2.9M)",
-        "micro-cap (20M)"
+        "near 52-week low bounce"
       ],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Very high volume - proceed with caution"
-      ]
-    },
-    {
-      "ticker": "ABVE",
-      "name": "Above Food Ingredients Inc.",
-      "price3DaysAgo": 1.0,
-      "priceToday": 0.71,
-      "predictedMove": "+9% (Moderate)",
-      "confidence": 85.0,
-      "reasoning": "3.2x volume spike, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: -29.0%",
-        "Volume: 3.2x",
-        "Float: 23.9M",
-        "News: 4"
-      ],
-      "news": "Above Food Provides Update On Status and Timing of |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Above Food Provides Update On Status and Timing of Form 20 F Filing",
-      "gap_percent": -29.0,
-      "volume_ratio": 3.2,
-      "float": 23.9,
-      "short_percent": 2.9,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (3 articles)",
-        "extreme volume (3.2x)",
-        "accelerating volume (3 days)",
-        "micro-cap (36M)"
-      ],
-      "social_score": 45,
-      "is_trending": true,
+      "social_score": 0,
+      "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-04-21 01:37 AM",
-  "targetDate": "2026-04-21",
+  "generatedTime": "2026-04-22 01:38 AM",
+  "targetDate": "2026-04-22",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
     "historicalPredictions": 90,
     "weights": {
-      "gap_weight": 1.1,
+      "gap_weight": 1.0,
       "volume_weight": 1.0,
       "news_weight": 0.9,
       "float_weight": 1.1,
@@ -427,7 +426,7 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 91.66666666666666
+        "accuracy": 90.9090909090909
       },
       "recent_trend": 10.0,
       "confidence_adjustment": -10,
