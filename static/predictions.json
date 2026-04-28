@@ -1,229 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "ROLR",
-      "name": "High Roller Technologies, Inc.",
-      "price3DaysAgo": 7.56,
-      "priceToday": 8.5,
-      "predictedMove": "+9% (Moderate)",
+      "ticker": "SEGG",
+      "name": "Sports Entertainment Gaming Global Corporation",
+      "price3DaysAgo": 0.65,
+      "priceToday": 0.93,
+      "predictedMove": "+21% (Major Move)",
       "confidence": 95,
-      "reasoning": "Strong 12.4% gap, fresh news catalyst, low float",
+      "reasoning": "9.5x volume spike, Strong 42.5% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 12.4%",
-        "Volume: 1.6x",
-        "Float: 4.6M",
-        "News: 13"
-      ],
-      "news": "How Predictive Market Stocks Like High Roller Tech | High Roller Technologies shares are trading lower.",
-      "catalyst": "How Predictive Market Stocks Like High Roller Technologies, Inc. (ROLR) are Positioning for the $1 T",
-      "gap_percent": 12.4,
-      "volume_ratio": 1.6,
-      "float": 4.6,
-      "short_percent": 5.0,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "ultra-low float (4.6M)",
-        "large gap (12.4%)",
-        "micro-cap (93M)"
-      ],
-      "social_score": 15,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "STI",
-      "name": "Solidion Technology, Inc.",
-      "price3DaysAgo": 5.95,
-      "priceToday": 4.02,
-      "predictedMove": "+16% (Strong)",
-      "confidence": 95,
-      "reasoning": "4.1x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -32.4%",
-        "Volume: 4.1x",
-        "Float: 2.5M",
-        "Short: 10%",
-        "News: 11"
-      ],
-      "news": "12 Industrials Stocks Moving In Wednesday's Intrad | Solidion Technology Granted Series Of Key Patents  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "12 Industrials Stocks Moving In Wednesday's Intraday Session",
-      "gap_percent": -32.4,
-      "volume_ratio": 4.1,
-      "float": 2.5,
-      "short_percent": 10.1,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (8 articles)",
-        "extreme volume (4.1x)",
-        "squeeze setup (float 2.5M + 10% short)",
-        "ultra-low float (2.5M)",
-        "micro-cap (31M)"
-      ],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "HCAI",
-      "name": "Huachen AI Parking Management Technology Holding Co., Ltd",
-      "price3DaysAgo": 6.79,
-      "priceToday": 9.74,
-      "predictedMove": "+27% (Major Move)",
-      "confidence": 95,
-      "reasoning": "\u26a0\ufe0f Very high 30.3x volume, Strong 43.4% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 43.4%",
-        "Volume: 30.3x",
-        "Float: 0.2M",
-        "News: 9"
-      ],
-      "news": "Top movers in Wednesday's session | 12 Industrials Stocks Moving In Wednesday's Intrad | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers in Wednesday's session",
-      "gap_percent": 43.4,
-      "volume_ratio": 30.3,
-      "float": 0.2,
-      "short_percent": 0.7,
-      "news_count": 9,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Very high volume - proceed with caution",
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "OGI",
-      "name": "Organigram Global Inc.",
-      "price3DaysAgo": 1.44,
-      "priceToday": 1.59,
-      "predictedMove": "+5% (Moderate)",
-      "confidence": 95,
-      "reasoning": "4.7x volume spike, Strong 10.4% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 10.4%",
-        "Volume: 4.7x",
-        "Float: 94.3M",
-        "News: 11"
-      ],
-      "news": "Shares of cannabis-related stocks are trading high |  | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Shares of cannabis-related stocks are trading higher following a report suggesting that the Trump ad",
-      "gap_percent": 10.4,
-      "volume_ratio": 4.7,
-      "float": 94.3,
-      "short_percent": 0,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 30,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "DSS",
-      "name": "DSS, Inc.",
-      "price3DaysAgo": 0.91,
-      "priceToday": 0.68,
-      "predictedMove": "+22% (Major Move)",
-      "confidence": 95,
-      "reasoning": "20.8x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -25.5%",
-        "Volume: 20.8x",
-        "Float: 3.8M",
-        "News: 5"
-      ],
-      "news": "12 Industrials Stocks Moving In Wednesday's Intrad |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "12 Industrials Stocks Moving In Wednesday's Intraday Session",
-      "gap_percent": -25.5,
-      "volume_ratio": 20.8,
-      "float": 3.8,
-      "short_percent": 1.8,
-      "news_count": 5,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (4 articles)",
-        "extreme volume (20.8x)",
-        "ultra-low float (3.8M)"
-      ],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "RETO",
-      "name": "ReTo Eco-Solutions, Inc.",
-      "price3DaysAgo": 1.39,
-      "priceToday": 0.9,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 95,
-      "reasoning": "5.7x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -35.3%",
-        "Volume: 5.7x",
-        "Float: 0.8M",
+        "Gap: 42.5%",
+        "Volume: 9.5x",
+        "Float: 4.3M",
+        "Short: 9%",
         "News: 4"
       ],
-      "news": "Top movers in Wednesday's session | These stocks are moving in today's session | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers in Wednesday's session",
-      "gap_percent": -35.3,
-      "volume_ratio": 5.7,
-      "float": 0.8,
-      "short_percent": 0.3,
+      "news": "These stocks are moving in today's session | SEGG Media to Launch Sports.com Predict Ahead of t | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "These stocks are moving in today's session",
+      "gap_percent": 42.5,
+      "volume_ratio": 9.5,
+      "float": 4.3,
+      "short_percent": 8.6,
       "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
@@ -235,36 +32,35 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (5.7x)",
-        "ultra-low float (0.8M)",
-        "micro-cap (11M)"
-      ],
+      "tier": 1,
+      "momentum_indicators": [],
       "social_score": 100,
       "is_trending": true,
-      "red_flags": []
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
     },
     {
-      "ticker": "MEI",
-      "name": "Methode Electronics, Inc.",
-      "price3DaysAgo": 7.11,
-      "priceToday": 7.74,
-      "predictedMove": "+4%",
-      "confidence": 93.0,
-      "reasoning": "elevated volume, Solid 8.9% gap, fresh news catalyst",
+      "ticker": "ONCO",
+      "name": "Onconetix, Inc.",
+      "price3DaysAgo": 0.59,
+      "priceToday": 0.74,
+      "predictedMove": "+26% (Major Move)",
+      "confidence": 95,
+      "reasoning": "\u26a0\ufe0f EXTREME 66.2x volume (SUSPICIOUS), Strong 26.2% gap, fresh news catalyst, low float, high short interest (33%), trending on social media",
       "keyFactors": [
-        "Gap: 8.9%",
-        "Volume: 2.5x",
-        "Float: 34.9M",
+        "Gap: 26.2%",
+        "Volume: 66.2x",
+        "Float: 0.7M",
+        "Short: 33%",
         "News: 10"
       ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": 8.9,
-      "volume_ratio": 2.5,
-      "float": 34.9,
-      "short_percent": 4.8,
+      "news": "These stocks are moving in today's session | Top stock movements in today's session. | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "These stocks are moving in today's session",
+      "gap_percent": 26.2,
+      "volume_ratio": 66.2,
+      "float": 0.7,
+      "short_percent": 33.1,
       "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
@@ -278,32 +74,34 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 20,
-      "is_trending": false,
-      "red_flags": []
+      "social_score": 125,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
     },
     {
-      "ticker": "NAT",
-      "name": "Nordic American Tankers Limited",
-      "price3DaysAgo": 5.82,
-      "priceToday": 5.51,
-      "predictedMove": "+3%",
-      "confidence": 88.5,
-      "reasoning": "3.1x volume spike, fresh news catalyst, trending on social media",
+      "ticker": "TEAD",
+      "name": "Teads Holding Co.",
+      "price3DaysAgo": 0.83,
+      "priceToday": 0.8,
+      "predictedMove": "+2%",
+      "confidence": 95,
+      "reasoning": "elevated volume, fresh news catalyst, high short interest (15%), trending on social media",
       "keyFactors": [
-        "Gap: -5.3%",
-        "Volume: 3.1x",
-        "Float: 200.6M",
-        "Short: 6%",
-        "News: 12"
+        "Gap: -3.4%",
+        "Volume: 2.1x",
+        "Float: 26.1M",
+        "Short: 15%",
+        "News: 10"
       ],
-      "news": "Evercore ISI Group Downgrades Nordic American Tank | Evercore ISI Group Downgrades Nordic American Tank | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Evercore ISI Group Downgrades Nordic American Tankers (NAT)",
-      "gap_percent": -5.3,
-      "volume_ratio": 3.1,
-      "float": 200.6,
-      "short_percent": 6.2,
-      "news_count": 12,
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "",
+      "gap_percent": -3.4,
+      "volume_ratio": 2.1,
+      "float": 26.1,
+      "short_percent": 15.2,
+      "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -317,33 +115,36 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "extreme volume (3.1x)"
+        "accelerating volume (3 days)",
+        "squeeze setup (float 26.1M + 15% short)",
+        "micro-cap (78M)"
       ],
       "social_score": 25,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "GNLN",
-      "name": "Greenlane Holdings, Inc.",
-      "price3DaysAgo": 3.93,
-      "priceToday": 5.53,
-      "predictedMove": "+24% (Major Move)",
-      "confidence": 87.5,
-      "reasoning": "\u26a0\ufe0f EXTREME 56.3x volume (SUSPICIOUS), Strong 40.7% gap, fresh news catalyst, low float, trending on social media",
+      "ticker": "POET",
+      "name": "POET Technologies Inc.",
+      "price3DaysAgo": 15.1,
+      "priceToday": 7.95,
+      "predictedMove": "+13% (Strong)",
+      "confidence": 83.0,
+      "reasoning": "elevated volume, fresh news catalyst, trending on social media",
       "keyFactors": [
-        "Gap: 40.7%",
-        "Volume: 56.3x",
-        "Float: 0.5M",
-        "News: 12"
+        "Gap: -47.4%",
+        "Volume: 2.9x",
+        "Float: 131.9M",
+        "Short: 8%",
+        "News: 20"
       ],
-      "news": "Stay updated with the stocks that are on the move  | Top movers in Wednesday's session | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Stay updated with the stocks that are on the move in today's after-hours session.",
-      "gap_percent": 40.7,
-      "volume_ratio": 56.3,
-      "float": 0.5,
-      "short_percent": 0.9,
-      "news_count": 12,
+      "news": "These stocks are moving in today's session | Monday's session: most active stocks | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "These stocks are moving in today's session",
+      "gap_percent": -47.4,
+      "volume_ratio": 2.9,
+      "float": 131.9,
+      "short_percent": 8.2,
+      "news_count": 20,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -354,35 +155,77 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 95,
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "accelerating volume (3 days)"
+      ],
+      "social_score": 40,
       "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump",
-        "Large move may have already occurred"
-      ]
+      "red_flags": []
     },
     {
-      "ticker": "MSOX",
-      "name": "AdvisorShares MSOS Daily Leveraged ETF",
-      "price3DaysAgo": 2.97,
-      "priceToday": 4.07,
-      "predictedMove": "+11% (Strong)",
-      "confidence": 86.5,
-      "reasoning": "4.1x volume spike, Strong 37.0% gap, fresh news catalyst, trending on social media",
+      "ticker": "OIO",
+      "name": "OIO Group",
+      "price3DaysAgo": 2.93,
+      "priceToday": 1.9,
+      "predictedMove": "+10% (Strong)",
+      "confidence": 80.5,
+      "reasoning": "3.9x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 37.0%",
-        "Volume: 4.1x",
-        "Float: 1000.0M",
+        "Gap: -35.2%",
+        "Volume: 3.9x",
+        "Float: 14.7M",
+        "News: 1"
+      ],
+      "news": "What's Going On With OIO Group Stock Monday? | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "What's Going On With OIO Group Stock Monday?",
+      "gap_percent": -35.2,
+      "volume_ratio": 3.9,
+      "float": 14.7,
+      "short_percent": 0.0,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.9x)",
+        "accelerating volume (3 days)",
+        "micro-cap (28M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "NTHI",
+      "name": "NeOnc Technologies Holdings, Inc.",
+      "price3DaysAgo": 4.78,
+      "priceToday": 4.61,
+      "predictedMove": "+5% (Moderate)",
+      "confidence": 76.0,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -3.6%",
+        "Volume: 1.6x",
+        "Float: 9.4M",
         "News: 4"
       ],
-      "news": "Shares of cannabis-related stocks are trading high |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Shares of cannabis-related stocks are trading higher following a report suggesting that the Trump ad",
-      "gap_percent": 37.0,
-      "volume_ratio": 4.1,
-      "float": 1000.0,
-      "short_percent": 0,
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -3.6,
+      "volume_ratio": 1.6,
+      "float": 9.4,
+      "short_percent": 2.4,
       "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
@@ -394,17 +237,147 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 45,
+      "tier": 2,
+      "momentum_indicators": [
+        "news (4 articles)",
+        "ultra-low float (9.4M)",
+        "micro-cap (116M)"
+      ],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "TJGC",
+      "name": "TJGC Group Limited",
+      "price3DaysAgo": 1.63,
+      "priceToday": 0.98,
+      "predictedMove": "+14% (Strong)",
+      "confidence": 76.0,
+      "reasoning": "fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -39.9%",
+        "Volume: 1.7x",
+        "Float: 9.6M",
+        "News: 3"
+      ],
+      "news": "These stocks are moving in today's session | 12 Communication Services Stocks Moving In Monday' | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "These stocks are moving in today's session",
+      "gap_percent": -39.9,
+      "volume_ratio": 1.7,
+      "float": 9.6,
+      "short_percent": 0.7,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "accelerating volume (3 days)",
+        "ultra-low float (9.6M)",
+        "micro-cap (30M)"
+      ],
+      "social_score": 30,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "CMPX",
+      "name": "Compass Therapeutics, Inc.",
+      "price3DaysAgo": 5.03,
+      "priceToday": 1.79,
+      "predictedMove": "+19% (Strong)",
+      "confidence": 64.0,
+      "reasoning": "\u26a0\ufe0f EXTREME 58.7x volume (SUSPICIOUS), fresh news catalyst, high short interest (23%), trending on social media",
+      "keyFactors": [
+        "Gap: -64.4%",
+        "Volume: 58.7x",
+        "Float: 118.9M",
+        "Short: 23%",
+        "News: 20"
+      ],
+      "news": "These stocks are moving in today's session | Monday's session: most active stocks | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "These stocks are moving in today's session",
+      "gap_percent": -64.4,
+      "volume_ratio": 58.7,
+      "float": 118.9,
+      "short_percent": 22.7,
+      "news_count": 20,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (58.7x)",
+        "accelerating volume (3 days)",
+        "high short interest (23%)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 100,
       "is_trending": true,
       "red_flags": [
-        "Large move may have already occurred"
+        "\u26a0\ufe0f Extreme gap - possible data error or halt",
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
       ]
+    },
+    {
+      "ticker": "NVD",
+      "name": "Graniteshares 2x Short NVDA Daily ETF",
+      "price3DaysAgo": 5.23,
+      "priceToday": 4.81,
+      "predictedMove": "+2%",
+      "confidence": 53.5,
+      "reasoning": "fresh news catalyst",
+      "keyFactors": [
+        "Gap: -8.0%",
+        "Volume: 1.2x",
+        "Float: 1000.0M",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -8.0,
+      "volume_ratio": 1.2,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
     }
   ],
-  "generatedTime": "2026-04-23 01:37 AM",
-  "targetDate": "2026-04-23",
+  "generatedTime": "2026-04-28 01:37 AM",
+  "targetDate": "2026-04-28",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -421,9 +394,9 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 91.66666666666666
+        "accuracy": 84.61538461538461
       },
-      "recent_trend": 5.0,
+      "recent_trend": 10.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
