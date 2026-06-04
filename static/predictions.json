@@ -1,26 +1,223 @@
 {
   "predictions": [
     {
-      "ticker": "JZ",
-      "name": "Jianzhi Education Technology Group Company Limited",
-      "price3DaysAgo": 3.1,
-      "priceToday": 0.7,
-      "predictedMove": "+14% (Strong)",
-      "confidence": 80.5,
-      "reasoning": "5.4x volume spike, fresh news catalyst, trending on social media",
+      "ticker": "PFHO",
+      "name": "Pacific Health Care Organization, Inc.",
+      "price3DaysAgo": 1.01,
+      "priceToday": 1.12,
+      "predictedMove": "+15% (Strong)",
+      "confidence": 95,
+      "reasoning": "15.5x volume spike, Strong 10.9% gap, low float, trending on social media",
       "keyFactors": [
-        "Gap: -77.4%",
-        "Volume: 5.4x",
-        "Float: 467.0M",
-        "News: 11"
+        "Gap: 10.9%",
+        "Volume: 15.5x",
+        "Float: 2.8M"
       ],
-      "news": "What's going on in today's after hours session | 12 Consumer Discretionary Stocks Moving In Tuesday | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "What's going on in today's after hours session",
-      "gap_percent": -77.4,
-      "volume_ratio": 5.4,
-      "float": 467.0,
-      "short_percent": 0.1,
-      "news_count": 11,
+      "news": "Gap: 10.9%, Vol: 15.5x | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": 10.9,
+      "volume_ratio": 15.5,
+      "float": 2.8,
+      "short_percent": 0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "BBXIA",
+      "name": "BBX Capital, Inc.",
+      "price3DaysAgo": 3.02,
+      "priceToday": 3.84,
+      "predictedMove": "+16% (Strong)",
+      "confidence": 95,
+      "reasoning": "6.6x volume spike, Strong 27.2% gap, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 27.2%",
+        "Volume: 6.6x",
+        "Float: 5.0M"
+      ],
+      "news": "Gap: 27.2%, Vol: 6.6x | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": 27.2,
+      "volume_ratio": 6.6,
+      "float": 5.0,
+      "short_percent": 0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "CTW",
+      "name": "CTW",
+      "price3DaysAgo": 2.38,
+      "priceToday": 2.3,
+      "predictedMove": "+7% (Moderate)",
+      "confidence": 95.0,
+      "reasoning": "3.6x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -3.4%",
+        "Volume: 3.6x",
+        "Float: 2.4M",
+        "News: 2"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "",
+      "gap_percent": -3.4,
+      "volume_ratio": 3.6,
+      "float": 2.4,
+      "short_percent": 1.7,
+      "news_count": 2,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (2 articles)",
+        "extreme volume (3.6x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (2.4M)",
+        "micro-cap (144M)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "LSF",
+      "name": "Laird Superfood, Inc.",
+      "price3DaysAgo": 3.36,
+      "priceToday": 3.19,
+      "predictedMove": "+5% (Moderate)",
+      "confidence": 75.5,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -5.1%",
+        "Volume: 1.3x",
+        "Float: 8.3M",
+        "News: 10"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -5.1,
+      "volume_ratio": 1.3,
+      "float": 8.3,
+      "short_percent": 1.1,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "ultra-low float (8.3M)",
+        "micro-cap (35M)"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "SEED",
+      "name": "Origin Agritech Limited",
+      "price3DaysAgo": 1.13,
+      "priceToday": 1.09,
+      "predictedMove": "+5%",
+      "confidence": 71.0,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -3.5%",
+        "Volume: 1.5x",
+        "Float: 6.9M",
+        "News: 4"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -3.5,
+      "volume_ratio": 1.5,
+      "float": 6.9,
+      "short_percent": 0.5,
+      "news_count": 4,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (4 articles)",
+        "ultra-low float (6.9M)",
+        "micro-cap (13M)"
+      ],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "IPDN",
+      "name": "Professional Diversity Network, Inc.",
+      "price3DaysAgo": 0.7,
+      "priceToday": 0.68,
+      "predictedMove": "+4%",
+      "confidence": 66.5,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -3.3%",
+        "Volume: 1.3x",
+        "Float: 8.5M",
+        "News: 1"
+      ],
+      "news": "",
+      "catalyst": "",
+      "gap_percent": -3.3,
+      "volume_ratio": 1.3,
+      "float": 8.5,
+      "short_percent": 1.5,
+      "news_count": 1,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -34,149 +231,15 @@
       "tier": 2,
       "momentum_indicators": [
         "news (1 articles)",
-        "extreme volume (5.4x)",
-        "accelerating volume (3 days)",
-        "micro-cap (33M)"
+        "ultra-low float (8.5M)"
       ],
-      "social_score": 75,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
-      ]
-    },
-    {
-      "ticker": "ACXP",
-      "name": "Acurx Pharmaceuticals, Inc.",
-      "price3DaysAgo": 1.93,
-      "priceToday": 1.8,
-      "predictedMove": "+6% (Moderate)",
-      "confidence": 80.0,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: -6.7%",
-        "Volume: 1.7x",
-        "Float: 4.1M",
-        "News: 10"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -6.7,
-      "volume_ratio": 1.7,
-      "float": 4.1,
-      "short_percent": 3.4,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "accelerating volume (3 days)",
-        "ultra-low float (4.1M)"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "FULC",
-      "name": "Fulcrum Therapeutics, Inc.",
-      "price3DaysAgo": 6.42,
-      "priceToday": 3.14,
-      "predictedMove": "+19% (Strong)",
-      "confidence": 77.5,
-      "reasoning": "\u26a0\ufe0f Very high 31.6x volume, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: -51.1%",
-        "Volume: 31.6x",
-        "Float: 48.0M",
-        "Short: 12%",
-        "News: 20"
-      ],
-      "news": "Keep an eye on the top gainers and losers in Tuesd | These stocks are moving in today's session | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Keep an eye on the top gainers and losers in Tuesday's session.",
-      "gap_percent": -51.1,
-      "volume_ratio": 31.6,
-      "float": 48.0,
-      "short_percent": 11.8,
-      "news_count": 20,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (31.6x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 48.0M + 12% short)",
-        "micro-cap (209M)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "\u26a0\ufe0f Very high volume - proceed with caution"
-      ]
-    },
-    {
-      "ticker": "BITO",
-      "name": "ProShares Bitcoin ETF",
-      "price3DaysAgo": 9.74,
-      "priceToday": 9.17,
-      "predictedMove": "+2%",
-      "confidence": 58.0,
-      "reasoning": "fresh news catalyst",
-      "keyFactors": [
-        "Gap: -5.9%",
-        "Volume: 1.8x",
-        "Float: 1000.0M",
-        "News: 10"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -5.9,
-      "volume_ratio": 1.8,
-      "float": 1000.0,
-      "short_percent": 0,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "accelerating volume (3 days)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 10,
+      "social_score": 0,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-06-03 01:38 AM",
-  "targetDate": "2026-06-03",
+  "generatedTime": "2026-06-04 01:36 AM",
+  "targetDate": "2026-06-04",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
