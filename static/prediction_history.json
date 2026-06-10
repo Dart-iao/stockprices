@@ -1,34 +1,6 @@
 {
   "history": [
     {
-      "ticker": "GCTK",
-      "name": "GlucoTrack, Inc.",
-      "predictedPrice": 0.85,
-      "actualPrice": 0.9,
-      "predictedMove": "+24% (Major Move)",
-      "actualMove": "+5.5%",
-      "wasCorrect": false,
-      "status": "PARTIAL",
-      "confidence": 95,
-      "reasoning": "\u26a0\ufe0f EXTREME 79.3x volume (SUSPICIOUS), Strong 16.9% gap, fresh news catalyst, low float, high short interest (35%), trending on social media",
-      "keyFactors": [
-        "Gap: 16.9%",
-        "Volume: 79.3x",
-        "Float: 1.8M",
-        "Short: 35%",
-        "News: 18"
-      ],
-      "predictionDate": "2026-05-07",
-      "targetDate": "2026-05-07",
-      "checkDate": "2026-05-08",
-      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
-      "gap_percent": 16.9,
-      "volume_ratio": 79.3,
-      "float": 1.8,
-      "short_percent": 34.7,
-      "news_count": 18
-    },
-    {
       "ticker": "BMBL",
       "name": "Bumble Inc.",
       "predictedPrice": 3.43,
@@ -2470,9 +2442,37 @@
       "float": 8.5,
       "short_percent": 1.5,
       "news_count": 1
+    },
+    {
+      "ticker": "OCG",
+      "name": "Oriental Culture Holding LTD",
+      "predictedPrice": 1.8,
+      "actualPrice": 2.79,
+      "predictedMove": "+16% (Strong)",
+      "actualMove": "+55.0%",
+      "wasCorrect": false,
+      "status": "PARTIAL",
+      "confidence": 95,
+      "reasoning": "26.5x volume spike, Solid 5.9% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 5.9%",
+        "Volume: 26.5x",
+        "Float: 0.0M",
+        "Short: 9%",
+        "News: 7"
+      ],
+      "predictionDate": "2026-06-09",
+      "targetDate": "2026-06-09",
+      "checkDate": "2026-06-10",
+      "priceType": "Pre-Market High (4:00-9:59 AM EST)",
+      "gap_percent": 5.9,
+      "volume_ratio": 26.5,
+      "float": 0.0,
+      "short_percent": 9.1,
+      "news_count": 7
     }
   ],
-  "lastUpdated": "2026-06-05 01:00 AM",
+  "lastUpdated": "2026-06-10 01:00 AM",
   "totalPredictions": 90,
   "correctPredictions": 9,
   "accuracy": 10.0,
