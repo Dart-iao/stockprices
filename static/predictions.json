@@ -1,201 +1,151 @@
 {
   "predictions": [
     {
-      "ticker": "CDT",
-      "name": "CDT Equity Inc.",
-      "price3DaysAgo": 1.02,
-      "priceToday": 1.5,
-      "predictedMove": "+19% (Strong)",
+      "ticker": "CIIT",
+      "name": "Tianci International, Inc.",
+      "price3DaysAgo": 0.49,
+      "priceToday": 0.89,
+      "predictedMove": "+21% (Major Move)",
       "confidence": 95,
-      "reasoning": "Strong 47.1% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "4.5x volume spike, Strong 81.2% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 47.1%",
-        "Volume: 1.8x",
-        "Float: 2.3M",
-        "News: 7"
+        "Gap: 81.2%",
+        "Volume: 4.5x",
+        "Float: 1.3M",
+        "News: 11"
       ],
-      "news": "Which stocks are moving on Monday? | 12 Health Care Stocks Moving In Monday's Intraday  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Which stocks are moving on Monday?",
-      "gap_percent": 47.1,
-      "volume_ratio": 1.8,
-      "float": 2.3,
+      "news": "These stocks are moving in today's session | Tuesday's session: most active stocks | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "These stocks are moving in today's session",
+      "gap_percent": 81.2,
+      "volume_ratio": 4.5,
+      "float": 1.3,
       "short_percent": 2.1,
-      "news_count": 7,
+      "news_count": 11,
       "isPrediction": true,
       "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
         "news_weight": 0.9,
         "float_weight": 1.1,
         "short_weight": 1.1,
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (2 articles)",
-        "ultra-low float (2.3M)",
-        "large gap (47.1%)",
-        "3-day momentum (116.5% gain)"
-      ],
-      "social_score": 30,
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 90,
       "is_trending": true,
       "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt",
         "Large move may have already occurred"
       ]
     },
     {
-      "ticker": "AIXI",
-      "name": "Xiao-I Corporation",
-      "price3DaysAgo": 6.26,
-      "priceToday": 3.06,
+      "ticker": "RDGT",
+      "name": "Ridgetech, Inc.",
+      "price3DaysAgo": 1.37,
+      "priceToday": 1.73,
       "predictedMove": "+22% (Major Move)",
       "confidence": 95,
-      "reasoning": "6.3x volume spike, fresh news catalyst, low float, trending on social media",
+      "reasoning": "\u26a0\ufe0f EXTREME 90.4x volume (SUSPICIOUS), Strong 26.3% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: -51.1%",
-        "Volume: 6.3x",
-        "Float: 0.9M",
-        "News: 13"
-      ],
-      "news": "Top movers analysis one hour before the close of t | Which stocks are moving on Monday? | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-06-22: top gainers and losers i",
-      "gap_percent": -51.1,
-      "volume_ratio": 6.3,
-      "float": 0.9,
-      "short_percent": 0,
-      "news_count": 13,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (3 articles)",
-        "extreme volume (6.3x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (0.9M)"
-      ],
-      "social_score": 100,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
-      ]
-    },
-    {
-      "ticker": "TNON",
-      "name": "Tenon Medical, Inc.",
-      "price3DaysAgo": 0.35,
-      "priceToday": 0.62,
-      "predictedMove": "+21% (Major Move)",
-      "confidence": 83.5,
-      "reasoning": "\u26a0\ufe0f Very high 31.6x volume, Strong 77.6% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 77.6%",
-        "Volume: 31.6x",
-        "Float: 10.3M",
-        "News: 19"
-      ],
-      "news": "Top movers analysis one hour before the close of t | These stocks are the most active in today's sessio | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-06-22: top gainers and losers i",
-      "gap_percent": 77.6,
-      "volume_ratio": 31.6,
-      "float": 10.3,
-      "short_percent": 1.4,
-      "news_count": 19,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Very high volume - proceed with caution",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "GETY",
-      "name": "Getty Images Holdings, Inc.",
-      "price3DaysAgo": 0.61,
-      "priceToday": 1.15,
-      "predictedMove": "+18% (Strong)",
-      "confidence": 73.5,
-      "reasoning": "\u26a0\ufe0f EXTREME 69.5x volume (SUSPICIOUS), Strong 90.1% gap, fresh news catalyst, high short interest (18%), trending on social media",
-      "keyFactors": [
-        "Gap: 90.1%",
-        "Volume: 69.5x",
-        "Float: 197.4M",
-        "Short: 18%",
-        "News: 20"
-      ],
-      "news": "Top movers analysis one hour before the close of t | These stocks are the most active in today's sessio | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top movers analysis one hour before the close of the markets on 2026-06-22: top gainers and losers i",
-      "gap_percent": 90.1,
-      "volume_ratio": 69.5,
-      "float": 197.4,
-      "short_percent": 17.9,
-      "news_count": 20,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 85,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "CATO",
-      "name": "The Cato Corporation",
-      "price3DaysAgo": 3.3,
-      "priceToday": 3.2,
-      "predictedMove": "+1%",
-      "confidence": 64.5,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: -3.0%",
-        "Volume: 1.4x",
-        "Float: 13.8M",
+        "Gap: 26.3%",
+        "Volume: 90.4x",
+        "Float: 0.0M",
         "News: 10"
       ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -3.0,
-      "volume_ratio": 1.4,
-      "float": 13.8,
-      "short_percent": 3.0,
+      "news": "Tuesday's session: most active stocks | Which stocks are experiencing notable movement on  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Tuesday's session: most active stocks",
+      "gap_percent": 26.3,
+      "volume_ratio": 90.4,
+      "float": 0.0,
+      "short_percent": 1.8,
       "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 95,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
+    },
+    {
+      "ticker": "HYDTF",
+      "name": "Hydreight Technologies Inc.",
+      "price3DaysAgo": 3.15,
+      "priceToday": 3.04,
+      "predictedMove": "+2%",
+      "confidence": 86.0,
+      "reasoning": "3.0x volume spike, fresh news catalyst",
+      "keyFactors": [
+        "Gap: -3.5%",
+        "Volume: 3.0x",
+        "Float: 27.3M",
+        "News: 9"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -3.5,
+      "volume_ratio": 3.0,
+      "float": 27.3,
+      "short_percent": 0,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (9 articles)",
+        "extreme volume (3.0x)",
+        "accelerating volume (3 days)",
+        "micro-cap (169M)"
+      ],
+      "social_score": 15,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "SOXS",
+      "name": "Direxion Daily Semiconductor Bear 3X Shares",
+      "price3DaysAgo": 3.26,
+      "priceToday": 4.04,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 81.0,
+      "reasoning": "Strong 23.9% gap, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 23.9%",
+        "Volume: 1.4x",
+        "Float: 1000.0M",
+        "News: 10"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "",
+      "gap_percent": 23.9,
+      "volume_ratio": 1.4,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
         "news_weight": 0.9,
         "float_weight": 1.1,
         "short_weight": 1.1,
@@ -205,22 +155,104 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "micro-cap (64M)"
+        "large gap (23.9%)"
       ],
-      "social_score": 0,
+      "social_score": 30,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "ILLR",
+      "name": "Triller Group Inc.",
+      "price3DaysAgo": 1.48,
+      "priceToday": 0.73,
+      "predictedMove": "+13% (Strong)",
+      "confidence": 76.5,
+      "reasoning": "4.3x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -50.5%",
+        "Volume: 4.3x",
+        "Float: 11.0M",
+        "News: 4"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": -50.5,
+      "volume_ratio": 4.3,
+      "float": 11.0,
+      "short_percent": 1.2,
+      "news_count": 4,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (4.3x)",
+        "micro-cap (13M)"
+      ],
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "GRO",
+      "name": "Brazil Potash Corp.",
+      "price3DaysAgo": 2.25,
+      "priceToday": 2.13,
+      "predictedMove": "+2%",
+      "confidence": 70.0,
+      "reasoning": "fresh news catalyst",
+      "keyFactors": [
+        "Gap: -5.3%",
+        "Volume: 1.6x",
+        "Float: 44.4M",
+        "News: 9"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -5.3,
+      "volume_ratio": 1.6,
+      "float": 44.4,
+      "short_percent": 0.8,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (9 articles)",
+        "micro-cap (131M)"
+      ],
+      "social_score": 10,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-06-23 01:35 AM",
-  "targetDate": "2026-06-23",
+  "generatedTime": "2026-06-24 01:35 AM",
+  "targetDate": "2026-06-24",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
     "historicalPredictions": 90,
     "weights": {
-      "gap_weight": 1.0,
-      "volume_weight": 1.0,
+      "gap_weight": 1.1,
+      "volume_weight": 1.1,
       "news_weight": 0.9,
       "float_weight": 1.1,
       "short_weight": 1.1,
@@ -232,7 +264,7 @@
         "range": "High (10-20%)",
         "accuracy": 100.0
       },
-      "recent_trend": 10.0,
+      "recent_trend": 20.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
