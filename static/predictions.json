@@ -1,29 +1,270 @@
 {
   "predictions": [
     {
-      "ticker": "CNSP",
-      "name": "CNS Pharmaceuticals, Inc.",
-      "price3DaysAgo": 4.15,
-      "priceToday": 4.78,
-      "predictedMove": "+10% (Moderate)",
+      "ticker": "CANF",
+      "name": "Can-Fite BioPharma Ltd.",
+      "price3DaysAgo": 2.97,
+      "priceToday": 4.63,
+      "predictedMove": "+23% (Major Move)",
       "confidence": 95,
-      "reasoning": "Strong 15.2% gap, fresh news catalyst, low float",
+      "reasoning": "8.9x volume spike, Strong 55.9% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 15.2%",
-        "Volume: 1.4x",
-        "Float: 1.5M",
+        "Gap: 55.9%",
+        "Volume: 8.9x",
+        "Float: 2.1M",
+        "News: 15"
+      ],
+      "news": "Which stocks are moving on Wednesday? | On Wednesday, there are stocks with unusual volume | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Which stocks are moving on Wednesday?",
+      "gap_percent": 55.9,
+      "volume_ratio": 8.9,
+      "float": 2.1,
+      "short_percent": 2.2,
+      "news_count": 15,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt",
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "HPAI",
+      "name": "Helport AI Limited",
+      "price3DaysAgo": 0.59,
+      "priceToday": 0.7,
+      "predictedMove": "+12% (Strong)",
+      "confidence": 95,
+      "reasoning": "3.4x volume spike, Strong 19.7% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 19.7%",
+        "Volume: 3.4x",
+        "Float: 7.6M",
+        "News: 4"
+      ],
+      "news": "Market Roundup |  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Market Roundup",
+      "gap_percent": 19.7,
+      "volume_ratio": 3.4,
+      "float": 7.6,
+      "short_percent": 1.7,
+      "news_count": 4,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 60,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "SOC",
+      "name": "Sable Offshore Corp.",
+      "price3DaysAgo": 3.08,
+      "priceToday": 4.4,
+      "predictedMove": "+18% (Strong)",
+      "confidence": 95,
+      "reasoning": "3.2x volume spike, Strong 42.9% gap, fresh news catalyst, high short interest (23%), trending on social media",
+      "keyFactors": [
+        "Gap: 42.9%",
+        "Volume: 3.2x",
+        "Float: 100.5M",
+        "Short: 23%",
+        "News: 20"
+      ],
+      "news": "Which stocks are moving on Wednesday? | Keep an eye on the top gainers and losers in Wedne | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Which stocks are moving on Wednesday?",
+      "gap_percent": 42.9,
+      "volume_ratio": 3.2,
+      "float": 100.5,
+      "short_percent": 23.1,
+      "news_count": 20,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 95,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "SSTK",
+      "name": "Shutterstock, Inc.",
+      "price3DaysAgo": 13.95,
+      "priceToday": 9.9,
+      "predictedMove": "+12% (Strong)",
+      "confidence": 95,
+      "reasoning": "7.7x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -29.0%",
+        "Volume: 7.7x",
+        "Float: 25.2M",
+        "Short: 5%",
+        "News: 20"
+      ],
+      "news": "Which stocks are moving on Wednesday? | Keep an eye on the top gainers and losers in Wedne | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Which stocks are moving on Wednesday?",
+      "gap_percent": -29.0,
+      "volume_ratio": 7.7,
+      "float": 25.2,
+      "short_percent": 5.1,
+      "news_count": 20,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (7.7x)",
+        "accelerating volume (3 days)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 75,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "CENN",
+      "name": "Cenntro Inc.",
+      "price3DaysAgo": 3.56,
+      "priceToday": 3.76,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 84.0,
+      "reasoning": "Solid 5.6% gap, low float",
+      "keyFactors": [
+        "Gap: 5.6%",
+        "Volume: 1.6x",
+        "Float: 1.1M"
+      ],
+      "news": "Gap: 5.6%, Vol: 1.6x",
+      "catalyst": "Technical setup",
+      "gap_percent": 5.6,
+      "volume_ratio": 1.6,
+      "float": 1.1,
+      "short_percent": 2.8,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "accelerating volume (3 days)",
+        "ultra-low float (1.1M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "BCCLF",
+      "name": "Becle, S.A.B. de C.V.",
+      "price3DaysAgo": 0.81,
+      "priceToday": 0.81,
+      "predictedMove": "+3%",
+      "confidence": 81.0,
+      "reasoning": "7.6x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 0.0%",
+        "Volume: 7.6x",
+        "Float: 478.5M",
+        "News: 4"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "",
+      "gap_percent": 0.0,
+      "volume_ratio": 7.6,
+      "float": 478.5,
+      "short_percent": 0,
+      "news_count": 4,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (4 articles)",
+        "extreme volume (7.6x)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 25,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "DWTX",
+      "name": "Dogwood Therapeutics, Inc.",
+      "price3DaysAgo": 1.61,
+      "priceToday": 1.5,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 76.5,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -6.8%",
+        "Volume: 1.6x",
+        "Float: 5.3M",
         "News: 3"
       ],
       "news": " | ",
       "catalyst": "",
-      "gap_percent": 15.2,
-      "volume_ratio": 1.4,
-      "float": 1.5,
-      "short_percent": 2.7,
+      "gap_percent": -6.8,
+      "volume_ratio": 1.6,
+      "float": 5.3,
+      "short_percent": 0.2,
       "news_count": 3,
       "isPrediction": true,
       "learningWeights": {
-        "gap_weight": 1.0,
+        "gap_weight": 1.1,
         "volume_weight": 1.1,
         "news_weight": 0.9,
         "float_weight": 1.1,
@@ -34,393 +275,22 @@
       "tier": 2,
       "momentum_indicators": [
         "news (3 articles)",
-        "ultra-low float (1.5M)",
-        "large gap (15.2%)",
-        "3-day momentum (20.1% gain)"
-      ],
-      "social_score": 20,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "UNCY",
-      "name": "Unicycive Therapeutics, Inc.",
-      "price3DaysAgo": 7.7,
-      "priceToday": 4.69,
-      "predictedMove": "+14% (Strong)",
-      "confidence": 95,
-      "reasoning": "6.3x volume spike, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: -39.1%",
-        "Volume: 6.3x",
-        "Float: 22.9M",
-        "Short: 12%",
-        "News: 20"
-      ],
-      "news": "Here are the top movers in Tuesday's session. | 12 Health Care Stocks Moving In Tuesday's After-Ma | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Here are the top movers in Tuesday's session.",
-      "gap_percent": -39.1,
-      "volume_ratio": 6.3,
-      "float": 22.9,
-      "short_percent": 12.1,
-      "news_count": 20,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (6.3x)",
-        "squeeze setup (float 22.9M + 12% short)",
-        "micro-cap (128M)"
-      ],
-      "social_score": 75,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "EQ",
-      "name": "Equillium, Inc.",
-      "price3DaysAgo": 3.08,
-      "priceToday": 3.2,
-      "predictedMove": "+6% (Moderate)",
-      "confidence": 95,
-      "reasoning": "11.3x volume spike, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 3.9%",
-        "Volume: 11.3x",
-        "Float: 33.6M",
-        "Short: 9%",
-        "News: 7"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "",
-      "gap_percent": 3.9,
-      "volume_ratio": 11.3,
-      "float": 33.6,
-      "short_percent": 8.6,
-      "news_count": 7,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (7 articles)",
-        "extreme volume (11.3x)",
-        "accelerating volume (3 days)",
-        "micro-cap (202M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "CUPR",
-      "name": "Cuprina Holdings (Cayman) Limited",
-      "price3DaysAgo": 4.46,
-      "priceToday": 6.59,
-      "predictedMove": "+25% (Major Move)",
-      "confidence": 95,
-      "reasoning": "3.9x volume spike, Strong 47.8% gap, fresh news catalyst, low float, high short interest (24%), trending on social media",
-      "keyFactors": [
-        "Gap: 47.8%",
-        "Volume: 3.9x",
-        "Float: 0.9M",
-        "Short: 24%",
-        "News: 12"
-      ],
-      "news": "Here are the top movers in Tuesday's session. | 12 Health Care Stocks Moving In Tuesday's After-Ma | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Here are the top movers in Tuesday's session.",
-      "gap_percent": 47.8,
-      "volume_ratio": 3.9,
-      "float": 0.9,
-      "short_percent": 24.2,
-      "news_count": 12,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 120,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "PYXS",
-      "name": "Pyxis Oncology, Inc.",
-      "price3DaysAgo": 2.86,
-      "priceToday": 3.01,
-      "predictedMove": "+3%",
-      "confidence": 95,
-      "reasoning": "elevated volume, Solid 5.2% gap, fresh news catalyst",
-      "keyFactors": [
-        "Gap: 5.2%",
-        "Volume: 3.0x",
-        "Float: 40.4M",
-        "News: 11"
-      ],
-      "news": "Pyxis Oncology Commences ~$50M Offering Of 19.6M C | ",
-      "catalyst": "Pyxis Oncology Commences ~$50M Offering Of 19.6M Common Shares At $2.551/Share",
-      "gap_percent": 5.2,
-      "volume_ratio": 3.0,
-      "float": 40.4,
-      "short_percent": 4.3,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 20,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "SOC",
-      "name": "Sable Offshore Corp.",
-      "price3DaysAgo": 6.97,
-      "priceToday": 3.08,
-      "predictedMove": "+28% (Major Move)",
-      "confidence": 95,
-      "reasoning": "21.1x volume spike, fresh news catalyst, high short interest (23%), trending on social media",
-      "keyFactors": [
-        "Gap: -55.8%",
-        "Volume: 21.1x",
-        "Float: 100.5M",
-        "Short: 23%",
-        "News: 16"
-      ],
-      "news": "Sable Offshore: Uncertainty Makes This A Binary Pl | Here are the top movers in Tuesday's session. | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Sable Offshore: Uncertainty Makes This A Binary Play (Downgrade)",
-      "gap_percent": -55.8,
-      "volume_ratio": 21.1,
-      "float": 100.5,
-      "short_percent": 23.1,
-      "news_count": 16,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (21.1x)",
-        "high short interest (23%)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 120,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
-      ]
-    },
-    {
-      "ticker": "SLBT",
-      "name": "SL Science Holding Limited",
-      "price3DaysAgo": 3.4,
-      "priceToday": 4.79,
-      "predictedMove": "+14% (Strong)",
-      "confidence": 91.5,
-      "reasoning": "5.9x volume spike, Strong 40.9% gap, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 40.9%",
-        "Volume: 5.9x",
-        "Float: 560.8M",
-        "News: 2"
-      ],
-      "news": "12 Health Care Stocks Moving In Tuesday's After-Ma |  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "12 Health Care Stocks Moving In Tuesday's After-Market Session",
-      "gap_percent": 40.9,
-      "volume_ratio": 5.9,
-      "float": 560.8,
-      "short_percent": 0,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 75,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "CREG",
-      "name": "Smart Powerr Corp.",
-      "price3DaysAgo": 2.17,
-      "priceToday": 2.06,
-      "predictedMove": "+5%",
-      "confidence": 66.5,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: -5.1%",
-        "Volume: 1.4x",
-        "Float: 2.2M",
-        "News: 2"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -5.1,
-      "volume_ratio": 1.4,
-      "float": 2.2,
-      "short_percent": 2.8,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (2 articles)",
-        "ultra-low float (2.2M)"
+        "ultra-low float (5.3M)",
+        "micro-cap (50M)"
       ],
       "social_score": 10,
       "is_trending": false,
       "red_flags": []
-    },
-    {
-      "ticker": "CRCG",
-      "name": "Leverage Shares 2X Long CRCL Daily ETF",
-      "price3DaysAgo": 13.24,
-      "priceToday": 8.62,
-      "predictedMove": "+8% (Moderate)",
-      "confidence": 66.5,
-      "reasoning": "4.0x volume spike, trending on social media",
-      "keyFactors": [
-        "Gap: -34.9%",
-        "Volume: 4.0x",
-        "Float: 1000.0M"
-      ],
-      "news": "Gap: -34.9%, Vol: 4.0x | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Technical setup",
-      "gap_percent": -34.9,
-      "volume_ratio": 4.0,
-      "float": 1000.0,
-      "short_percent": 0,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (4.0x)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 45,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "TC",
-      "name": "Token Cat Limited",
-      "price3DaysAgo": 8.01,
-      "priceToday": 1.85,
-      "predictedMove": "+16% (Strong)",
-      "confidence": 66.0,
-      "reasoning": "\u26a0\ufe0f Very high 38.3x volume, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: -76.9%",
-        "Volume: 38.3x",
-        "Float: 26.4M",
-        "News: 12"
-      ],
-      "news": "12 Communication Services Stocks Moving In Tuesday | 12 Communication Services Stocks Moving In Monday' | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "12 Communication Services Stocks Moving In Tuesday's After-Market Session",
-      "gap_percent": -76.9,
-      "volume_ratio": 38.3,
-      "float": 26.4,
-      "short_percent": 0.0,
-      "news_count": 12,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (38.3x)",
-        "micro-cap (49M)"
-      ],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "\u26a0\ufe0f Very high volume - proceed with caution"
-      ]
     }
   ],
-  "generatedTime": "2026-07-01 01:37 AM",
-  "targetDate": "2026-07-01",
+  "generatedTime": "2026-07-02 01:36 AM",
+  "targetDate": "2026-07-02",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
     "historicalPredictions": 90,
     "weights": {
-      "gap_weight": 1.0,
+      "gap_weight": 1.1,
       "volume_weight": 1.1,
       "news_weight": 0.9,
       "float_weight": 1.1,
@@ -431,9 +301,9 @@
     "insights": {
       "best_gap_range": {
         "range": "High (10-20%)",
-        "accuracy": 92.3076923076923
+        "accuracy": 91.66666666666666
       },
-      "recent_trend": 10.0,
+      "recent_trend": 5.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
