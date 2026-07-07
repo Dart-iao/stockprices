@@ -1,144 +1,65 @@
 {
   "predictions": [
     {
-      "ticker": "CANF",
-      "name": "Can-Fite BioPharma Ltd.",
-      "price3DaysAgo": 2.97,
-      "priceToday": 4.63,
-      "predictedMove": "+23% (Major Move)",
+      "ticker": "SEER",
+      "name": "Seer, Inc.",
+      "price3DaysAgo": 1.62,
+      "priceToday": 2.19,
+      "predictedMove": "+17% (Strong)",
       "confidence": 95,
-      "reasoning": "8.9x volume spike, Strong 55.9% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "15.1x volume spike, Strong 35.2% gap, fresh news catalyst, trending on social media",
       "keyFactors": [
-        "Gap: 55.9%",
-        "Volume: 8.9x",
-        "Float: 2.1M",
+        "Gap: 35.2%",
+        "Volume: 15.1x",
+        "Float: 40.1M",
+        "News: 20"
+      ],
+      "news": "Which stocks are experiencing notable movement on  | Unusual volume stocks are being observed in Monday | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Which stocks are experiencing notable movement on Monday?",
+      "gap_percent": 35.2,
+      "volume_ratio": 15.1,
+      "float": 40.1,
+      "short_percent": 0.4,
+      "news_count": 20,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "ALAR",
+      "name": "Alarum Technologies Ltd.",
+      "price3DaysAgo": 6.35,
+      "priceToday": 3.08,
+      "predictedMove": "+28% (Major Move)",
+      "confidence": 95,
+      "reasoning": "19.3x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -51.5%",
+        "Volume: 19.3x",
+        "Float: 6.9M",
         "News: 15"
       ],
-      "news": "Which stocks are moving on Wednesday? | On Wednesday, there are stocks with unusual volume | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Which stocks are moving on Wednesday?",
-      "gap_percent": 55.9,
-      "volume_ratio": 8.9,
-      "float": 2.1,
-      "short_percent": 2.2,
+      "news": "11 Information Technology Stocks Moving In Monday' | Gold Moves Higher; ISM Services PMI Eases In June | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "11 Information Technology Stocks Moving In Monday's Intraday Session",
+      "gap_percent": -51.5,
+      "volume_ratio": 19.3,
+      "float": 6.9,
+      "short_percent": 0.6,
       "news_count": 15,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 100,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "HPAI",
-      "name": "Helport AI Limited",
-      "price3DaysAgo": 0.59,
-      "priceToday": 0.7,
-      "predictedMove": "+12% (Strong)",
-      "confidence": 95,
-      "reasoning": "3.4x volume spike, Strong 19.7% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 19.7%",
-        "Volume: 3.4x",
-        "Float: 7.6M",
-        "News: 4"
-      ],
-      "news": "Market Roundup |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Market Roundup",
-      "gap_percent": 19.7,
-      "volume_ratio": 3.4,
-      "float": 7.6,
-      "short_percent": 1.7,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 60,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "SOC",
-      "name": "Sable Offshore Corp.",
-      "price3DaysAgo": 3.08,
-      "priceToday": 4.4,
-      "predictedMove": "+18% (Strong)",
-      "confidence": 95,
-      "reasoning": "3.2x volume spike, Strong 42.9% gap, fresh news catalyst, high short interest (23%), trending on social media",
-      "keyFactors": [
-        "Gap: 42.9%",
-        "Volume: 3.2x",
-        "Float: 100.5M",
-        "Short: 23%",
-        "News: 20"
-      ],
-      "news": "Which stocks are moving on Wednesday? | Keep an eye on the top gainers and losers in Wedne | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Which stocks are moving on Wednesday?",
-      "gap_percent": 42.9,
-      "volume_ratio": 3.2,
-      "float": 100.5,
-      "short_percent": 23.1,
-      "news_count": 20,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 95,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "SSTK",
-      "name": "Shutterstock, Inc.",
-      "price3DaysAgo": 13.95,
-      "priceToday": 9.9,
-      "predictedMove": "+12% (Strong)",
-      "confidence": 95,
-      "reasoning": "7.7x volume spike, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: -29.0%",
-        "Volume: 7.7x",
-        "Float: 25.2M",
-        "Short: 5%",
-        "News: 20"
-      ],
-      "news": "Which stocks are moving on Wednesday? | Keep an eye on the top gainers and losers in Wedne | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Which stocks are moving on Wednesday?",
-      "gap_percent": -29.0,
-      "volume_ratio": 7.7,
-      "float": 25.2,
-      "short_percent": 5.1,
-      "news_count": 20,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -152,116 +73,40 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "extreme volume (7.7x)",
+        "extreme volume (19.3x)",
         "accelerating volume (3 days)",
+        "ultra-low float (6.9M)",
+        "micro-cap (23M)",
         "near 52-week low bounce"
       ],
-      "social_score": 75,
+      "social_score": 115,
       "is_trending": true,
-      "red_flags": []
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
     },
     {
-      "ticker": "CENN",
-      "name": "Cenntro Inc.",
-      "price3DaysAgo": 3.56,
-      "priceToday": 3.76,
-      "predictedMove": "+6% (Moderate)",
-      "confidence": 84.0,
-      "reasoning": "Solid 5.6% gap, low float",
+      "ticker": "MVO",
+      "name": "MV Oil Trust",
+      "price3DaysAgo": 1.68,
+      "priceToday": 0.8,
+      "predictedMove": "+26% (Major Move)",
+      "confidence": 95,
+      "reasoning": "13.9x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 5.6%",
-        "Volume: 1.6x",
-        "Float: 1.1M"
+        "Gap: -52.6%",
+        "Volume: 13.9x",
+        "Float: 7.6M",
+        "Short: 12%",
+        "News: 7"
       ],
-      "news": "Gap: 5.6%, Vol: 1.6x",
-      "catalyst": "Technical setup",
-      "gap_percent": 5.6,
-      "volume_ratio": 1.6,
-      "float": 1.1,
-      "short_percent": 2.8,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "accelerating volume (3 days)",
-        "ultra-low float (1.1M)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "BCCLF",
-      "name": "Becle, S.A.B. de C.V.",
-      "price3DaysAgo": 0.81,
-      "priceToday": 0.81,
-      "predictedMove": "+3%",
-      "confidence": 81.0,
-      "reasoning": "7.6x volume spike, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: 0.0%",
-        "Volume: 7.6x",
-        "Float: 478.5M",
-        "News: 4"
-      ],
-      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "",
-      "gap_percent": 0.0,
-      "volume_ratio": 7.6,
-      "float": 478.5,
-      "short_percent": 0,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.1,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (4 articles)",
-        "extreme volume (7.6x)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 25,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "DWTX",
-      "name": "Dogwood Therapeutics, Inc.",
-      "price3DaysAgo": 1.61,
-      "priceToday": 1.5,
-      "predictedMove": "+6% (Moderate)",
-      "confidence": 76.5,
-      "reasoning": "fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: -6.8%",
-        "Volume: 1.6x",
-        "Float: 5.3M",
-        "News: 3"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -6.8,
-      "volume_ratio": 1.6,
-      "float": 5.3,
-      "short_percent": 0.2,
-      "news_count": 3,
+      "news": "Which stocks are experiencing notable movement on  | Keep an eye on the top gainers and losers in Monda | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Which stocks are experiencing notable movement on Monday?",
+      "gap_percent": -52.6,
+      "volume_ratio": 13.9,
+      "float": 7.6,
+      "short_percent": 12.3,
+      "news_count": 7,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
@@ -275,16 +120,303 @@
       "tier": 2,
       "momentum_indicators": [
         "news (3 articles)",
-        "ultra-low float (5.3M)",
-        "micro-cap (50M)"
+        "extreme volume (13.9x)",
+        "squeeze setup (float 7.6M + 12% short)",
+        "ultra-low float (7.6M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "JLHL",
+      "name": "Julong Holding Limited",
+      "price3DaysAgo": 7.33,
+      "priceToday": 3.69,
+      "predictedMove": "+28% (Major Move)",
+      "confidence": 95,
+      "reasoning": "24.8x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -49.7%",
+        "Volume: 24.8x",
+        "Float: 1.4M",
+        "News: 8"
+      ],
+      "news": "12 Industrials Stocks Moving In Monday's After-Mar | 12 Industrials Stocks Moving In Monday's Intraday  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "12 Industrials Stocks Moving In Monday's After-Market Session",
+      "gap_percent": -49.7,
+      "volume_ratio": 24.8,
+      "float": 1.4,
+      "short_percent": 1.7,
+      "news_count": 8,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (5 articles)",
+        "extreme volume (24.8x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (1.4M)",
+        "micro-cap (79M)"
+      ],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "YAMHF",
+      "name": "Yamaha Motor Co., Ltd.",
+      "price3DaysAgo": 7.25,
+      "priceToday": 7.8,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 95,
+      "reasoning": "8.0x volume spike, Solid 7.6% gap, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: 7.6%",
+        "Volume: 8.0x",
+        "Float: 879.1M",
+        "News: 10"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "",
+      "gap_percent": 7.6,
+      "volume_ratio": 8.0,
+      "float": 879.1,
+      "short_percent": 0,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 35,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "UMEW",
+      "name": "UMeWorld Inc.",
+      "price3DaysAgo": 0.85,
+      "priceToday": 0.9,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 95,
+      "reasoning": "9.1x volume spike, Solid 5.9% gap, trending on social media",
+      "keyFactors": [
+        "Gap: 5.9%",
+        "Volume: 9.1x",
+        "Float: 29.3M"
+      ],
+      "news": "Gap: 5.9%, Vol: 9.1x | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": 5.9,
+      "volume_ratio": 9.1,
+      "float": 29.3,
+      "short_percent": 0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 35,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "CLVT",
+      "name": "Clarivate Plc",
+      "price3DaysAgo": 2.59,
+      "priceToday": 2.44,
+      "predictedMove": "+3%",
+      "confidence": 94.5,
+      "reasoning": "3.4x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -5.8%",
+        "Volume: 3.4x",
+        "Float: 468.1M",
+        "Short: 15%",
+        "News: 14"
+      ],
+      "news": "Clarivate Plc (CLVT) Clarivate Plc - M&A Call - Sl | Clarivate Plc (CLVT) M&A Call Transcript | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Clarivate Plc (CLVT) Clarivate Plc - M&A Call - Slideshow",
+      "gap_percent": -5.8,
+      "volume_ratio": 3.4,
+      "float": 468.1,
+      "short_percent": 14.9,
+      "news_count": 14,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "extreme volume (3.4x)",
+        "accelerating volume (3 days)"
+      ],
+      "social_score": 25,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "INLF",
+      "name": "INLIF Limited",
+      "price3DaysAgo": 4.32,
+      "priceToday": 6.38,
+      "predictedMove": "+18% (Strong)",
+      "confidence": 89.5,
+      "reasoning": "Strong 47.7% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 47.7%",
+        "Volume: 2.0x",
+        "Float: 0.0M",
+        "News: 2"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "",
+      "gap_percent": 47.7,
+      "volume_ratio": 2.0,
+      "float": 0.0,
+      "short_percent": 0,
+      "news_count": 2,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 30,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "PLUR",
+      "name": "Pluri Inc.",
+      "price3DaysAgo": 2.11,
+      "priceToday": 2.18,
+      "predictedMove": "+13% (Strong)",
+      "confidence": 83.5,
+      "reasoning": "\u26a0\ufe0f EXTREME 98.4x volume (SUSPICIOUS), fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 3.3%",
+        "Volume: 98.4x",
+        "Float: 4.6M",
+        "News: 8"
+      ],
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": 3.3,
+      "volume_ratio": 98.4,
+      "float": 4.6,
+      "short_percent": 0.8,
+      "news_count": 8,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (8 articles)",
+        "extreme volume (98.4x)",
+        "ultra-low float (4.6M)",
+        "micro-cap (24M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 65,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
+    },
+    {
+      "ticker": "MNDO",
+      "name": "MIND C.T.I. Ltd",
+      "price3DaysAgo": 1.08,
+      "priceToday": 1.12,
+      "predictedMove": "+2%",
+      "confidence": 82.0,
+      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: 3.7%",
+        "Volume: 2.8x",
+        "Float: 15.8M",
+        "News: 5"
+      ],
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": 3.7,
+      "volume_ratio": 2.8,
+      "float": 15.8,
+      "short_percent": 0.1,
+      "news_count": 5,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (5 articles)",
+        "accelerating volume (3 days)",
+        "micro-cap (23M)"
       ],
       "social_score": 10,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-07-02 01:36 AM",
-  "targetDate": "2026-07-02",
+  "generatedTime": "2026-07-07 01:39 AM",
+  "targetDate": "2026-07-07",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -303,7 +435,7 @@
         "range": "High (10-20%)",
         "accuracy": 91.66666666666666
       },
-      "recent_trend": 5.0,
+      "recent_trend": 0.0,
       "confidence_adjustment": -10,
       "weights_updated": true
     }
