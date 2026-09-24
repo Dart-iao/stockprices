@@ -1,27 +1,105 @@
 {
   "predictions": [
     {
-      "ticker": "TOPS",
-      "name": "Top Ships Inc.",
-      "price3DaysAgo": 0.72,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
+      "ticker": "BFRG",
+      "name": "Bullfrog AI Holdings, Inc.",
+      "price3DaysAgo": 0.6,
+      "priceToday": 0.95,
+      "predictedMove": "+20% (Strong)",
       "confidence": 95,
-      "reasoning": "6.2x volume spike, fresh news catalyst, low float, trending on social media",
+      "reasoning": "11.1x volume spike, Strong 58.3% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: nan%",
-        "Volume: 6.2x",
-        "Float: 4.2M",
-        "Short: 12%",
-        "News: 12"
+        "Gap: 58.3%",
+        "Volume: 11.1x",
+        "Float: 16.1M",
+        "News: 10"
       ],
-      "news": "Which stocks are experiencing notable movement on  | Which stocks are most active on Tuesday? | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Which stocks are experiencing notable movement on Tuesday?",
-      "gap_percent": NaN,
-      "volume_ratio": 6.2,
-      "float": 4.2,
-      "short_percent": 12.1,
-      "news_count": 12,
+      "news": "Let's take a look at the stocks that are in motion | Discover the most active stocks in Wednesday's ses | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
+      "gap_percent": 58.3,
+      "volume_ratio": 11.1,
+      "float": 16.1,
+      "short_percent": 0.6,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt",
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "IPDN",
+      "name": "Professional Diversity Network, Inc.",
+      "price3DaysAgo": 3.9,
+      "priceToday": 5.42,
+      "predictedMove": "+19% (Strong)",
+      "confidence": 95,
+      "reasoning": "6.9x volume spike, Strong 39.0% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 39.0%",
+        "Volume: 6.9x",
+        "Float: 0.4M",
+        "News: 9"
+      ],
+      "news": "Let's take a look at the stocks that are in motion | Wednesday's session: top gainers and losers | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
+      "gap_percent": 39.0,
+      "volume_ratio": 6.9,
+      "float": 0.4,
+      "short_percent": 2.3,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 100,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred"
+      ]
+    },
+    {
+      "ticker": "RPGL",
+      "name": "Republic Power Group Limited",
+      "price3DaysAgo": 1.45,
+      "priceToday": 1.0,
+      "predictedMove": "+23% (Major Move)",
+      "confidence": 95,
+      "reasoning": "25.0x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -30.5%",
+        "Volume: 25.0x",
+        "Float: 0.0M",
+        "News: 4"
+      ],
+      "news": "Let's take a look at the stocks that are in motion | Wednesday's session: top gainers and losers | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
+      "gap_percent": -30.5,
+      "volume_ratio": 25.0,
+      "float": 0.0,
+      "short_percent": 0.2,
+      "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -35,204 +113,35 @@
       "tier": 2,
       "momentum_indicators": [
         "news (2 articles)",
-        "extreme volume (6.2x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 4.2M + 12% short)",
-        "ultra-low float (4.2M)"
+        "extreme volume (25.0x)",
+        "ultra-low float (0.0M)",
+        "micro-cap (16M)"
       ],
-      "social_score": 50,
+      "social_score": 115,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "RCT",
-      "name": "RedCloud Holdings plc",
-      "price3DaysAgo": 0.2,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "5.4x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 5.4x",
-        "Float: 9.5M",
-        "News: 5"
-      ],
-      "news": "Why Vicor Shares Are Trading Higher By Over 11%; H |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Why Vicor Shares Are Trading Higher By Over 11%; Here Are 20 Stocks Moving Premarket",
-      "gap_percent": NaN,
-      "volume_ratio": 5.4,
-      "float": 9.5,
-      "short_percent": 0.6,
-      "news_count": 5,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (4 articles)",
-        "extreme volume (5.4x)",
-        "ultra-low float (9.5M)",
-        "micro-cap (14M)"
-      ],
-      "social_score": 50,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "CMPX",
-      "name": "Compass Therapeutics, Inc.",
-      "price3DaysAgo": 1.82,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "6.7x volume spike, fresh news catalyst, high short interest (27%), trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 6.7x",
-        "Float: 132.4M",
-        "Short: 27%",
-        "News: 19"
-      ],
-      "news": "CMPX Plunge Wipes Out $104M After FDA Demands Fres | Sector Update: Healthcare Stocks Rise Late Afterno | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "CMPX Plunge Wipes Out $104M After FDA Demands Fresh Trial For Cancer Drug \u2014 Wedbush Sees Another 19%",
-      "gap_percent": NaN,
-      "volume_ratio": 6.7,
-      "float": 132.4,
-      "short_percent": 27.1,
-      "news_count": 19,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (6.7x)",
-        "high short interest (27%)",
-        "micro-cap (223M)"
-      ],
-      "social_score": 25,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "ZEO",
-      "name": "Zeo Energy Corp.",
-      "price3DaysAgo": 0.31,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "10.0x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 10.0x",
-        "Float: 14.1M",
-        "News: 19"
-      ],
-      "news": "Which stocks are experiencing notable movement on  | Which stocks are most active on Tuesday? | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Which stocks are experiencing notable movement on Tuesday?",
-      "gap_percent": NaN,
-      "volume_ratio": 10.0,
-      "float": 14.1,
-      "short_percent": 0.9,
-      "news_count": 19,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (9 articles)",
-        "extreme volume (10.0x)",
-        "accelerating volume (3 days)",
-        "micro-cap (45M)"
-      ],
-      "social_score": 85,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "GENVR",
-      "name": "Gen Digital Inc.",
-      "price3DaysAgo": 4.09,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 91.0,
-      "reasoning": "10.7x volume spike, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 10.7x",
-        "Float: 453.4M",
-        "News: 11"
-      ],
-      "news": "GEN vs. TT: Which Stock Is the Better Value Option |  | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "GEN vs. TT: Which Stock Is the Better Value Option?",
-      "gap_percent": NaN,
-      "volume_ratio": 10.7,
-      "float": 453.4,
-      "short_percent": 0,
-      "news_count": 11,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "extreme volume (10.7x)",
-        "accelerating volume (3 days)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "HUBC",
-      "name": "HUB Cyber Security Ltd.",
-      "price3DaysAgo": 6.0,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 89.0,
+      "ticker": "ACET",
+      "name": "Adicet Bio, Inc.",
+      "price3DaysAgo": 8.93,
+      "priceToday": 8.49,
+      "predictedMove": "+7% (Moderate)",
+      "confidence": 89.5,
       "reasoning": "elevated volume, fresh news catalyst, low float",
       "keyFactors": [
-        "Gap: nan%",
-        "Volume: 2.0x",
-        "Float: 1.4M",
-        "News: 11"
+        "Gap: -4.9%",
+        "Volume: 2.7x",
+        "Float: 7.4M",
+        "News: 10"
       ],
-      "news": "Which stocks are experiencing notable movement on  | What's going on in today's session",
-      "catalyst": "Which stocks are experiencing notable movement on Tuesday?",
-      "gap_percent": NaN,
-      "volume_ratio": 2.0,
-      "float": 1.4,
-      "short_percent": 0.7,
-      "news_count": 11,
+      "news": " | ",
+      "catalyst": "",
+      "gap_percent": -4.9,
+      "volume_ratio": 2.7,
+      "float": 7.4,
+      "short_percent": 2.7,
+      "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -245,33 +154,77 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "news (4 articles)",
-        "ultra-low float (1.4M)"
+        "news (10 articles)",
+        "ultra-low float (7.4M)",
+        "micro-cap (79M)"
       ],
       "social_score": 10,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "ENGN",
-      "name": "enGene Therapeutics Inc.",
-      "price3DaysAgo": 1.96,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 73.5,
-      "reasoning": "elevated volume, fresh news catalyst",
+      "ticker": "JAGX",
+      "name": "Jaguar Health, Inc.",
+      "price3DaysAgo": 34.46,
+      "priceToday": 8.91,
+      "predictedMove": "+17% (Strong)",
+      "confidence": 84.0,
+      "reasoning": "fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: nan%",
-        "Volume: 2.1x",
-        "Float: 32.8M",
+        "Gap: -74.1%",
+        "Volume: 1.6x",
+        "Float: 0.3M",
+        "News: 20"
+      ],
+      "news": "Let's take a look at the stocks that are in motion | Wednesday's session: top gainers and losers | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
+      "gap_percent": -74.1,
+      "volume_ratio": 1.6,
+      "float": 0.3,
+      "short_percent": 4.7,
+      "news_count": 20,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (10 articles)",
+        "ultra-low float (0.3M)",
+        "3-day momentum (233.7% gain)"
+      ],
+      "social_score": 30,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "TEFOF",
+      "name": "Telef\u00f3nica, S.A.",
+      "price3DaysAgo": 4.16,
+      "priceToday": 3.85,
+      "predictedMove": "+2%",
+      "confidence": 63.0,
+      "reasoning": "fresh news catalyst",
+      "keyFactors": [
+        "Gap: -7.5%",
+        "Volume: 1.7x",
+        "Float: 3925.3M",
         "News: 10"
       ],
       "news": " | ",
       "catalyst": "",
-      "gap_percent": NaN,
-      "volume_ratio": 2.1,
-      "float": 32.8,
-      "short_percent": 2.2,
+      "gap_percent": -7.5,
+      "volume_ratio": 1.7,
+      "float": 3925.3,
+      "short_percent": 0,
       "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
@@ -287,54 +240,15 @@
       "momentum_indicators": [
         "news (10 articles)",
         "accelerating volume (3 days)",
-        "micro-cap (137M)"
+        "near 52-week low bounce"
       ],
       "social_score": 10,
       "is_trending": false,
       "red_flags": []
-    },
-    {
-      "ticker": "XNDX",
-      "name": "Tradr 2X Long XNDU Daily ETF",
-      "price3DaysAgo": 4.11,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 73.0,
-      "reasoning": "15.6x volume spike, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 15.6x",
-        "Float: 1000.0M"
-      ],
-      "news": "Gap: nan%, Vol: 15.6x | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Technical setup",
-      "gap_percent": NaN,
-      "volume_ratio": 15.6,
-      "float": 1000.0,
-      "short_percent": 0,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (15.6x)",
-        "accelerating volume (3 days)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
     }
   ],
-  "generatedTime": "2026-09-23 01:35 AM",
-  "targetDate": "2026-09-23",
+  "generatedTime": "2026-09-24 01:35 AM",
+  "targetDate": "2026-09-24",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -354,7 +268,7 @@
         "accuracy": 100.0
       },
       "recent_trend": 5.0,
-      "confidence_adjustment": -10,
+      "confidence_adjustment": -5,
       "weights_updated": true
     }
   },
