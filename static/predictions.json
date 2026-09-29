@@ -1,26 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "BFRG",
-      "name": "Bullfrog AI Holdings, Inc.",
-      "price3DaysAgo": 0.6,
-      "priceToday": 0.95,
-      "predictedMove": "+20% (Strong)",
+      "ticker": "ELAB",
+      "name": "PMGC Holdings Inc.",
+      "price3DaysAgo": 4.57,
+      "priceToday": 4.78,
+      "predictedMove": "+12% (Strong)",
       "confidence": 95,
-      "reasoning": "11.1x volume spike, Strong 58.3% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "12.0x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 58.3%",
-        "Volume: 11.1x",
-        "Float: 16.1M",
-        "News: 10"
+        "Gap: 4.6%",
+        "Volume: 12.0x",
+        "Float: 0.8M",
+        "News: 4"
       ],
-      "news": "Let's take a look at the stocks that are in motion | Discover the most active stocks in Wednesday's ses | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
-      "gap_percent": 58.3,
-      "volume_ratio": 11.1,
-      "float": 16.1,
-      "short_percent": 0.6,
-      "news_count": 10,
+      "news": " |  | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": 4.6,
+      "volume_ratio": 12.0,
+      "float": 0.8,
+      "short_percent": 4.2,
+      "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -33,33 +33,68 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 115,
+      "social_score": 85,
       "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Extreme gap - possible data error or halt",
-        "Large move may have already occurred"
-      ]
+      "red_flags": []
     },
     {
-      "ticker": "IPDN",
-      "name": "Professional Diversity Network, Inc.",
-      "price3DaysAgo": 3.9,
-      "priceToday": 5.42,
-      "predictedMove": "+19% (Strong)",
+      "ticker": "GYGY",
+      "name": "Game Your Game, Inc.",
+      "price3DaysAgo": 0.74,
+      "priceToday": 0.87,
+      "predictedMove": "+14% (Strong)",
       "confidence": 95,
-      "reasoning": "6.9x volume spike, Strong 39.0% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "9.6x volume spike, Strong 17.6% gap, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 39.0%",
-        "Volume: 6.9x",
+        "Gap: 17.6%",
+        "Volume: 9.6x",
         "Float: 0.4M",
+        "News: 7"
+      ],
+      "news": "12 Consumer Discretionary Stocks Moving In Monday' | Why Is Game Your Game Stock Gaining Monday? | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "12 Consumer Discretionary Stocks Moving In Monday's Pre-Market Session",
+      "gap_percent": 17.6,
+      "volume_ratio": 9.6,
+      "float": 0.4,
+      "short_percent": 0,
+      "news_count": 7,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 90,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "TGL",
+      "name": "Treasure Global Inc.",
+      "price3DaysAgo": 2.13,
+      "priceToday": 1.49,
+      "predictedMove": "+15% (Strong)",
+      "confidence": 95,
+      "reasoning": "3.6x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -30.0%",
+        "Volume: 3.6x",
+        "Float: 1.7M",
+        "Short: 6%",
         "News: 9"
       ],
-      "news": "Let's take a look at the stocks that are in motion | Wednesday's session: top gainers and losers | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
-      "gap_percent": 39.0,
-      "volume_ratio": 6.9,
-      "float": 0.4,
-      "short_percent": 2.3,
+      "news": "Top stock movements in today's session. | Let's take a look at the stocks that are in motion | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top stock movements in today's session.",
+      "gap_percent": -30.0,
+      "volume_ratio": 3.6,
+      "float": 1.7,
+      "short_percent": 5.6,
       "news_count": 9,
       "isPrediction": true,
       "learningWeights": {
@@ -71,35 +106,76 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 100,
+      "tier": 2,
+      "momentum_indicators": [
+        "news (6 articles)",
+        "extreme volume (3.6x)",
+        "ultra-low float (1.7M)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 90,
       "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
+      "red_flags": []
     },
     {
-      "ticker": "RPGL",
-      "name": "Republic Power Group Limited",
-      "price3DaysAgo": 1.45,
-      "priceToday": 1.0,
-      "predictedMove": "+23% (Major Move)",
+      "ticker": "AMC",
+      "name": "AMC Entertainment Holdings, Inc.",
+      "price3DaysAgo": 2.94,
+      "priceToday": 3.29,
+      "predictedMove": "+5%",
       "confidence": 95,
-      "reasoning": "25.0x volume spike, fresh news catalyst, low float, trending on social media",
+      "reasoning": "3.1x volume spike, Strong 11.9% gap, fresh news catalyst, trending on social media",
       "keyFactors": [
-        "Gap: -30.5%",
-        "Volume: 25.0x",
-        "Float: 0.0M",
-        "News: 4"
+        "Gap: 11.9%",
+        "Volume: 3.1x",
+        "Float: 835.3M",
+        "News: 12"
       ],
-      "news": "Let's take a look at the stocks that are in motion | Wednesday's session: top gainers and losers | \ud83d\udd25 Trending based on high_activity",
+      "news": "Check out the stocks that are attracting the most  | AMC Entertainment (AMC) Plans $3.97 Billion Refina | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Check out the stocks that are attracting the most attention and driving market activity.",
+      "gap_percent": 11.9,
+      "volume_ratio": 3.1,
+      "float": 835.3,
+      "short_percent": 4.9,
+      "news_count": 12,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 30,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "NCI",
+      "name": "Neo-Concept International Group Holdings Limited",
+      "price3DaysAgo": 14.65,
+      "priceToday": 2.38,
+      "predictedMove": "+22% (Major Move)",
+      "confidence": 94.5,
+      "reasoning": "6.0x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -83.8%",
+        "Volume: 6.0x",
+        "Float: 0.5M",
+        "Short: 8%",
+        "News: 3"
+      ],
+      "news": "Let's take a look at the stocks that are in motion |  | \ud83d\udd25 Trending based on high_activity",
       "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
-      "gap_percent": -30.5,
-      "volume_ratio": 25.0,
-      "float": 0.0,
-      "short_percent": 0.2,
-      "news_count": 4,
+      "gap_percent": -83.8,
+      "volume_ratio": 6.0,
+      "float": 0.5,
+      "short_percent": 8.0,
+      "news_count": 3,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -113,119 +189,37 @@
       "tier": 2,
       "momentum_indicators": [
         "news (2 articles)",
-        "extreme volume (25.0x)",
-        "ultra-low float (0.0M)",
-        "micro-cap (16M)"
+        "extreme volume (6.0x)",
+        "ultra-low float (0.5M)"
       ],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "ACET",
-      "name": "Adicet Bio, Inc.",
-      "price3DaysAgo": 8.93,
-      "priceToday": 8.49,
-      "predictedMove": "+7% (Moderate)",
-      "confidence": 89.5,
-      "reasoning": "elevated volume, fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: -4.9%",
-        "Volume: 2.7x",
-        "Float: 7.4M",
-        "News: 10"
-      ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -4.9,
-      "volume_ratio": 2.7,
-      "float": 7.4,
-      "short_percent": 2.7,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "ultra-low float (7.4M)",
-        "micro-cap (79M)"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "JAGX",
-      "name": "Jaguar Health, Inc.",
-      "price3DaysAgo": 34.46,
-      "priceToday": 8.91,
-      "predictedMove": "+17% (Strong)",
-      "confidence": 84.0,
-      "reasoning": "fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -74.1%",
-        "Volume: 1.6x",
-        "Float: 0.3M",
-        "News: 20"
-      ],
-      "news": "Let's take a look at the stocks that are in motion | Wednesday's session: top gainers and losers | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Let's take a look at the stocks that are in motion in today's session.",
-      "gap_percent": -74.1,
-      "volume_ratio": 1.6,
-      "float": 0.3,
-      "short_percent": 4.7,
-      "news_count": 20,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 0.9,
-        "volume_weight": 0.9,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.1,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "news (10 articles)",
-        "ultra-low float (0.3M)",
-        "3-day momentum (233.7% gain)"
-      ],
-      "social_score": 30,
+      "social_score": 100,
       "is_trending": true,
       "red_flags": [
         "\u26a0\ufe0f Extreme gap - possible data error or halt"
       ]
     },
     {
-      "ticker": "TEFOF",
-      "name": "Telef\u00f3nica, S.A.",
-      "price3DaysAgo": 4.16,
-      "priceToday": 3.85,
-      "predictedMove": "+2%",
-      "confidence": 63.0,
-      "reasoning": "fresh news catalyst",
+      "ticker": "PLUG",
+      "name": "Plug Power Inc.",
+      "price3DaysAgo": 1.98,
+      "priceToday": 1.86,
+      "predictedMove": "+7% (Moderate)",
+      "confidence": 89.5,
+      "reasoning": "fresh news catalyst, high short interest (23%), trending on social media",
       "keyFactors": [
-        "Gap: -7.5%",
-        "Volume: 1.7x",
-        "Float: 3925.3M",
-        "News: 10"
+        "Gap: -6.1%",
+        "Volume: 1.5x",
+        "Float: 1333.7M",
+        "Short: 23%",
+        "News: 12"
       ],
-      "news": " | ",
-      "catalyst": "",
-      "gap_percent": -7.5,
-      "volume_ratio": 1.7,
-      "float": 3925.3,
-      "short_percent": 0,
-      "news_count": 10,
+      "news": "Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug P | What's Going On With Plug Power Stock Monday? | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug Power Drops 6%, FuelCell Eases",
+      "gap_percent": -6.1,
+      "volume_ratio": 1.5,
+      "float": 1333.7,
+      "short_percent": 23.2,
+      "news_count": 12,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 0.9,
@@ -239,16 +233,183 @@
       "tier": 2,
       "momentum_indicators": [
         "news (10 articles)",
-        "accelerating volume (3 days)",
+        "high short interest (23%)",
         "near 52-week low bounce"
       ],
-      "social_score": 10,
-      "is_trending": false,
+      "social_score": 40,
+      "is_trending": true,
       "red_flags": []
+    },
+    {
+      "ticker": "ITG",
+      "name": "ITG, Inc.",
+      "price3DaysAgo": 10.48,
+      "priceToday": 7.07,
+      "predictedMove": "+10% (Strong)",
+      "confidence": 88.0,
+      "reasoning": "4.1x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -32.5%",
+        "Volume: 4.1x",
+        "Float: 22.4M",
+        "News: 6"
+      ],
+      "news": "Top stock movements in today's session. |  | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Top stock movements in today's session.",
+      "gap_percent": -32.5,
+      "volume_ratio": 4.1,
+      "float": 22.4,
+      "short_percent": 2.5,
+      "news_count": 6,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (5 articles)",
+        "extreme volume (4.1x)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 45,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "CLRO",
+      "name": "ClearOne, Inc.",
+      "price3DaysAgo": 3.45,
+      "priceToday": 5.1,
+      "predictedMove": "+25% (Major Move)",
+      "confidence": 85.5,
+      "reasoning": "\u26a0\ufe0f EXTREME 95.3x volume (SUSPICIOUS), Strong 47.8% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 47.8%",
+        "Volume: 95.3x",
+        "Float: 0.9M",
+        "News: 9"
+      ],
+      "news": "Top stock movements in today's session. | Let's take a look at the stocks that are in motion | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top stock movements in today's session.",
+      "gap_percent": 47.8,
+      "volume_ratio": 95.3,
+      "float": 0.9,
+      "short_percent": 2.9,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 95,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred",
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
+    },
+    {
+      "ticker": "LFCR",
+      "name": "Lifecore Biomedical, Inc.",
+      "price3DaysAgo": 4.2,
+      "priceToday": 6.52,
+      "predictedMove": "+20% (Strong)",
+      "confidence": 80.0,
+      "reasoning": "\u26a0\ufe0f Very high 34.6x volume, Strong 55.2% gap, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: 55.2%",
+        "Volume: 34.6x",
+        "Float: 19.3M",
+        "Short: 9%",
+        "News: 15"
+      ],
+      "news": "Top stock movements in today's session. | Let's take a look at the stocks that are in motion | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top stock movements in today's session.",
+      "gap_percent": 55.2,
+      "volume_ratio": 34.6,
+      "float": 19.3,
+      "short_percent": 8.7,
+      "news_count": 15,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 1,
+      "momentum_indicators": [],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "Large move may have already occurred",
+        "\u26a0\ufe0f Very high volume - proceed with caution",
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
+    },
+    {
+      "ticker": "XHLD",
+      "name": "TEN Holdings, Inc.",
+      "price3DaysAgo": 12.95,
+      "priceToday": 0.98,
+      "predictedMove": "+16% (Strong)",
+      "confidence": 79.0,
+      "reasoning": "10.5x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: -92.4%",
+        "Volume: 10.5x",
+        "Float: 10.3M",
+        "Short: 8%",
+        "News: 1"
+      ],
+      "news": " | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "",
+      "gap_percent": -92.4,
+      "volume_ratio": 10.5,
+      "float": 10.3,
+      "short_percent": 8.2,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 0.9,
+        "volume_weight": 0.9,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.1,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "news (1 articles)",
+        "extreme volume (10.5x)",
+        "micro-cap (12M)"
+      ],
+      "social_score": 115,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt"
+      ]
     }
   ],
-  "generatedTime": "2026-09-24 01:35 AM",
-  "targetDate": "2026-09-24",
+  "generatedTime": "2026-09-29 01:35 AM",
+  "targetDate": "2026-09-29",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -267,8 +428,8 @@
         "range": "High (10-20%)",
         "accuracy": 100.0
       },
-      "recent_trend": 5.0,
-      "confidence_adjustment": -5,
+      "recent_trend": 10.0,
+      "confidence_adjustment": -10,
       "weights_updated": true
     }
   },
