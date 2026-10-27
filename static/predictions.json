@@ -1,25 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "AHT",
-      "name": "Ashford Hospitality Trust, Inc.",
-      "price3DaysAgo": 1.79,
-      "priceToday": 2.47,
-      "predictedMove": "+25% (Major Move)",
+      "ticker": "CLRO",
+      "name": "ClearOne, Inc.",
+      "price3DaysAgo": 3.25,
+      "priceToday": 4.97,
+      "predictedMove": "+28% (Major Move)",
       "confidence": 95,
-      "reasoning": "24.2x volume spike, Strong 38.0% gap, fresh news catalyst, low float, trending on social media",
+      "reasoning": "8.9x volume spike, Strong 52.9% gap, fresh news catalyst, low float, high short interest (38%), trending on social media",
       "keyFactors": [
-        "Gap: 38.0%",
-        "Volume: 24.2x",
-        "Float: 5.9M",
+        "Gap: 52.9%",
+        "Volume: 8.9x",
+        "Float: 0.9M",
+        "Short: 38%",
         "News: 4"
       ],
-      "news": "Ashford Hospitality Trust, Inc. Announces Share Pu | Why Super Micro Computer Shares Are Trading Higher | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Ashford Hospitality Trust, Inc. Announces Share Purchase Agreement, $17 million Advisory Fee Waiver,",
-      "gap_percent": 38.0,
-      "volume_ratio": 24.2,
-      "float": 5.9,
-      "short_percent": 4.2,
+      "news": "US Session Top Movers: CLRO and XXII Lead Stock Ga | US Session Top Percentage Movers: Gainers and Lose | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "US Session Top Movers: CLRO and XXII Lead Stock Gainers and Losers",
+      "gap_percent": 52.9,
+      "volume_ratio": 8.9,
+      "float": 0.9,
+      "short_percent": 37.6,
       "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
@@ -33,237 +34,33 @@
       },
       "tier": 1,
       "momentum_indicators": [],
-      "social_score": 115,
+      "social_score": 130,
       "is_trending": true,
       "red_flags": [
+        "\u26a0\ufe0f Extreme gap - possible data error or halt",
         "Large move may have already occurred"
       ]
     },
     {
-      "ticker": "SDEV",
-      "name": "SDEV",
-      "price3DaysAgo": 0.83,
-      "priceToday": 1.1,
-      "predictedMove": "+14% (Strong)",
+      "ticker": "CPIX",
+      "name": "Cumberland Pharmaceuticals Inc.",
+      "price3DaysAgo": 8.49,
+      "priceToday": 4.35,
+      "predictedMove": "+21% (Major Move)",
       "confidence": 95,
-      "reasoning": "10.7x volume spike, Strong 32.5% gap, fresh news catalyst, trending on social media",
+      "reasoning": "5.9x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
-        "Gap: 32.5%",
-        "Volume: 10.7x",
-        "Float: 49.3M",
-        "Short: 12%",
-        "News: 2"
-      ],
-      "news": "Reported Earlier, U.S. OCC Finalizes Information C | 12 Health Care Stocks Moving In Wednesday's Pre-Ma | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Reported Earlier, U.S. OCC Finalizes Information Collection To Include Weekly And Quarterly Reportin",
-      "gap_percent": 32.5,
-      "volume_ratio": 10.7,
-      "float": 49.3,
-      "short_percent": 11.8,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.0,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred"
-      ]
-    },
-    {
-      "ticker": "AMOD",
-      "name": "Alpha Modus Holdings, Inc.",
-      "price3DaysAgo": 1.29,
-      "priceToday": 1.03,
-      "predictedMove": "+19% (Strong)",
-      "confidence": 95,
-      "reasoning": "17.7x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -20.2%",
-        "Volume: 17.7x",
-        "Float: 1.1M",
-        "News: 2"
-      ],
-      "news": "Alpha Modus Announces $7.25 Million Registered Dir | Alpha Modus Holdings Announces Its AMOD Tech Firm  | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Alpha Modus Announces $7.25 Million Registered Direct Offering of Common Stock",
-      "gap_percent": -20.2,
-      "volume_ratio": 17.7,
-      "float": 1.1,
-      "short_percent": 0.1,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.0,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (17.7x)",
-        "ultra-low float (1.1M)",
-        "micro-cap (58M)"
-      ],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "AVEX",
-      "name": "AEVEX Corp.",
-      "price3DaysAgo": 14.34,
-      "priceToday": 9.68,
-      "predictedMove": "+12% (Strong)",
-      "confidence": 95,
-      "reasoning": "4.8x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: -32.5%",
-        "Volume: 4.8x",
-        "Float: 19.9M",
-        "Short: 8%",
-        "News: 5"
-      ],
-      "news": "AVEX Stock Crashes To Fresh 52-Week Lows After Nav | Aevex\u2019s Drone-Launching Boats Sunk by Navy, Report | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "AVEX Stock Crashes To Fresh 52-Week Lows After Navy Reportedly Halts Drone Boat Orders \u2014 Company Say",
-      "gap_percent": -32.5,
-      "volume_ratio": 4.8,
-      "float": 19.9,
-      "short_percent": 8.2,
-      "news_count": 5,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.0,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (4.8x)",
-        "near 52-week low bounce"
-      ],
-      "social_score": 90,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "SPHL",
-      "name": "Springview Holdings Ltd",
-      "price3DaysAgo": 2.43,
-      "priceToday": 3.54,
-      "predictedMove": "+27% (Major Move)",
-      "confidence": 94.0,
-      "reasoning": "\u26a0\ufe0f Very high 47.2x volume, Strong 45.7% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 45.7%",
-        "Volume: 47.2x",
-        "Float: 1.2M",
-        "News: 4"
-      ],
-      "news": "Dow Gains Over 100 Points; AT&T Earnings Top Views | 12 Consumer Discretionary Stocks Moving In Wednesd | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Dow Gains Over 100 Points; AT&T Earnings Top Views",
-      "gap_percent": 45.7,
-      "volume_ratio": 47.2,
-      "float": 1.2,
-      "short_percent": 0.7,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.0,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
-      "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred",
-        "\u26a0\ufe0f Very high volume - proceed with caution"
-      ]
-    },
-    {
-      "ticker": "SLE",
-      "name": "Super League Enterprise, Inc.",
-      "price3DaysAgo": 5.45,
-      "priceToday": 5.97,
-      "predictedMove": "+7% (Moderate)",
-      "confidence": 84.5,
-      "reasoning": "Solid 9.5% gap, fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: 9.5%",
-        "Volume: 1.3x",
-        "Float: 1.3M",
-        "News: 2"
-      ],
-      "news": "Super League Holders Approve Metaplanet\u2019s 2100 Bit | Asia\u2019s Bitcoin Play Hits Wall Street: Metaplanet S",
-      "catalyst": "Super League Holders Approve Metaplanet\u2019s 2100 Bitcoin Deal, Clearing Way for U.S. BTC Treasury",
-      "gap_percent": 9.5,
-      "volume_ratio": 1.3,
-      "float": 1.3,
-      "short_percent": 1.7,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.0,
-        "short_weight": 0.9,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "ultra-low float (1.3M)",
-        "large gap (9.5%)",
-        "3-day momentum (24.4% gain)",
-        "micro-cap (18M)"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "XHLD",
-      "name": "TEN Holdings, Inc.",
-      "price3DaysAgo": 0.6,
-      "priceToday": 0.91,
-      "predictedMove": "+20% (Strong)",
-      "confidence": 78.5,
-      "reasoning": "\u26a0\ufe0f Very high 41.7x volume, Strong 52.4% gap, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: 52.4%",
-        "Volume: 41.7x",
-        "Float: 10.3M",
-        "Short: 12%",
+        "Gap: -48.8%",
+        "Volume: 5.9x",
+        "Float: 8.7M",
         "News: 1"
       ],
-      "news": "TEN Holdings Inc. Announces Participation in the S | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "TEN Holdings Inc. Announces Participation in the Skyline Signature Series Webinar",
-      "gap_percent": 52.4,
-      "volume_ratio": 41.7,
-      "float": 10.3,
-      "short_percent": 11.9,
+      "news": "Cumberland Pharmaceuticals Inc. (CPIX) Discusses D | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Cumberland Pharmaceuticals Inc. (CPIX) Discusses Duchenne Cardiomyopathy NDA Submission and Product ",
+      "gap_percent": -48.8,
+      "volume_ratio": 5.9,
+      "float": 8.7,
+      "short_percent": 4.0,
       "news_count": 1,
       "isPrediction": true,
       "learningWeights": {
@@ -275,37 +72,161 @@
         "sentiment_weight": 1.0,
         "social_weight": 1.0
       },
-      "tier": 1,
-      "momentum_indicators": [],
-      "social_score": 115,
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (5.9x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (8.7M)",
+        "micro-cap (65M)"
+      ],
+      "social_score": 100,
       "is_trending": true,
-      "red_flags": [
-        "Large move may have already occurred",
-        "\u26a0\ufe0f Very high volume - proceed with caution",
-        "\u26a0\ufe0f Extreme gap - possible data error or halt"
-      ]
+      "red_flags": []
     },
     {
-      "ticker": "VATE",
-      "name": "INNOVATE Corp.",
-      "price3DaysAgo": 5.92,
-      "priceToday": 5.68,
-      "predictedMove": "+5% (Moderate)",
-      "confidence": 74.5,
-      "reasoning": "low float",
+      "ticker": "AGBK",
+      "name": "Agi Inc.",
+      "price3DaysAgo": 7.58,
+      "priceToday": 4.73,
+      "predictedMove": "+14% (Strong)",
+      "confidence": 94.0,
+      "reasoning": "6.2x volume spike, fresh news catalyst, trending on social media",
       "keyFactors": [
-        "Gap: -4.1%",
-        "Volume: 1.5x",
-        "Float: 3.4M",
-        "Short: 9%"
+        "Gap: -37.6%",
+        "Volume: 6.2x",
+        "Float: 21.7M",
+        "News: 4"
       ],
-      "news": "Gap: -4.1%, Vol: 1.5x",
-      "catalyst": "Technical setup",
-      "gap_percent": -4.1,
-      "volume_ratio": 1.5,
+      "news": "US Session Top Movers: CLRO and XXII Lead Stock Ga | US Session Top Percentage Movers: Gainers and Lose | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "US Session Top Movers: CLRO and XXII Lead Stock Gainers and Losers",
+      "gap_percent": -37.6,
+      "volume_ratio": 6.2,
+      "float": 21.7,
+      "short_percent": 3.9,
+      "news_count": 4,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.0,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (6.2x)",
+        "accelerating volume (3 days)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 75,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "BBD",
+      "name": "Banco Bradesco S.A.",
+      "price3DaysAgo": 4.07,
+      "priceToday": 2.93,
+      "predictedMove": "+9% (Moderate)",
+      "confidence": 88.0,
+      "reasoning": "4.1x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -28.0%",
+        "Volume: 4.1x",
+        "Float: 7475.8M",
+        "News: 9"
+      ],
+      "news": "Bradesco: 3 Key Takeaways for Long-Term Investors | Most Active Stocks on Oct. 26: RCT, NU and BBD Top | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Bradesco: 3 Key Takeaways for Long-Term Investors",
+      "gap_percent": -28.0,
+      "volume_ratio": 4.1,
+      "float": 7475.8,
+      "short_percent": 0.3,
+      "news_count": 9,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.0,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (4.1x)",
+        "accelerating volume (3 days)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 45,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "ITUB",
+      "name": "Ita\u00fa Unibanco Holding S.A.",
+      "price3DaysAgo": 9.67,
+      "priceToday": 7.7,
+      "predictedMove": "+7% (Moderate)",
+      "confidence": 88.0,
+      "reasoning": "3.8x volume spike, fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -20.4%",
+        "Volume: 3.8x",
+        "Float: 5850.1M",
+        "News: 10"
+      ],
+      "news": "Most Active Stocks on Oct. 26: RCT, NU and BBD Top | Ita\u00fa Unibanco Holding S.A. to Acquire NeoSpace for | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Most Active Stocks on Oct. 26: RCT, NU and BBD Top Volume",
+      "gap_percent": -20.4,
+      "volume_ratio": 3.8,
+      "float": 5850.1,
+      "short_percent": 0.4,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.0,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.8x)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 45,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "XLO",
+      "name": "Xilio Therapeutics, Inc.",
+      "price3DaysAgo": 7.57,
+      "priceToday": 7.31,
+      "predictedMove": "+5% (Moderate)",
+      "confidence": 79.0,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: -3.4%",
+        "Volume: 1.6x",
+        "Float: 3.4M",
+        "Short: 7%",
+        "News: 2"
+      ],
+      "news": "Xilio Therapeutics Announces First Patient Dosed i | Xilio Therapeutics Doses First Participant In Its ",
+      "catalyst": "Xilio Therapeutics Announces First Patient Dosed in Phase 1/2 Clinical Trial of XTX501 in Patients w",
+      "gap_percent": -3.4,
+      "volume_ratio": 1.6,
       "float": 3.4,
-      "short_percent": 9.4,
-      "news_count": 0,
+      "short_percent": 7.0,
+      "news_count": 2,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -320,31 +241,32 @@
       "momentum_indicators": [
         "accelerating volume (3 days)",
         "ultra-low float (3.4M)",
-        "micro-cap (77M)"
+        "micro-cap (48M)",
+        "near 52-week low bounce"
       ],
       "social_score": 0,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "TSLG",
-      "name": "Leverage Shares 2X Long TSLA Daily ETF",
-      "price3DaysAgo": 4.94,
-      "priceToday": 5.27,
-      "predictedMove": "+2%",
-      "confidence": 60.0,
-      "reasoning": "Solid 6.7% gap",
+      "ticker": "KUST",
+      "name": "Kustom Entertainment, Inc.",
+      "price3DaysAgo": 3.4,
+      "priceToday": 3.01,
+      "predictedMove": "+6% (Moderate)",
+      "confidence": 70.0,
+      "reasoning": "low float",
       "keyFactors": [
-        "Gap: 6.7%",
-        "Volume: 1.2x",
-        "Float: 1000.0M"
+        "Gap: -11.5%",
+        "Volume: 1.3x",
+        "Float: 0.6M"
       ],
-      "news": "Gap: 6.7%, Vol: 1.2x",
+      "news": "Gap: -11.5%, Vol: 1.3x",
       "catalyst": "Technical setup",
-      "gap_percent": 6.7,
-      "volume_ratio": 1.2,
-      "float": 1000.0,
-      "short_percent": 0,
+      "gap_percent": -11.5,
+      "volume_ratio": 1.3,
+      "float": 0.6,
+      "short_percent": 3.4,
       "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
@@ -358,16 +280,59 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "large gap (6.7%)",
-        "broke above $5"
+        "ultra-low float (0.6M)",
+        "near 52-week low bounce"
       ],
-      "social_score": 10,
+      "social_score": 15,
       "is_trending": false,
       "red_flags": []
+    },
+    {
+      "ticker": "BRAI",
+      "name": "Braiin Limited",
+      "price3DaysAgo": 3.55,
+      "priceToday": 2.12,
+      "predictedMove": "+13% (Strong)",
+      "confidence": 59.0,
+      "reasoning": "\u26a0\ufe0f EXTREME 60.3x volume (SUSPICIOUS), fresh news catalyst, trending on social media",
+      "keyFactors": [
+        "Gap: -40.3%",
+        "Volume: 60.3x",
+        "Float: 40.0M",
+        "News: 3"
+      ],
+      "news": "After-Hours Movers: SNTI, BRAI, CLS Rise; SPRC, DV | Braiin Targets USD 56.9 Billion CX Software Market | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "After-Hours Movers: SNTI, BRAI, CLS Rise; SPRC, DVLT Fall",
+      "gap_percent": -40.3,
+      "volume_ratio": 60.3,
+      "float": 40.0,
+      "short_percent": 0.6,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 0.9,
+        "float_weight": 1.0,
+        "short_weight": 0.9,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (60.3x)",
+        "accelerating volume (3 days)",
+        "near 52-week low bounce"
+      ],
+      "social_score": 70,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
     }
   ],
-  "generatedTime": "2026-10-22 01:35 AM",
-  "targetDate": "2026-10-22",
+  "generatedTime": "2026-10-27 01:35 AM",
+  "targetDate": "2026-10-27",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
