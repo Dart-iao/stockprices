@@ -1,31 +1,31 @@
 {
   "predictions": [
     {
-      "ticker": "JAGX",
-      "name": "Jaguar Health, Inc.",
-      "price3DaysAgo": 0.88,
+      "ticker": "CRIS",
+      "name": "Curis, Inc.",
+      "price3DaysAgo": 0.71,
       "priceToday": NaN,
       "predictedMove": "+nan%",
       "confidence": 95,
-      "reasoning": "4.3x volume spike, fresh news catalyst, low float, trending on social media",
+      "reasoning": "10.9x volume spike, fresh news catalyst, low float, high short interest (18%), trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 4.3x",
-        "Float: 0.3M",
-        "Short: 7%",
+        "Volume: 10.9x",
+        "Float: 2.0M",
+        "Short: 18%",
         "News: 10"
       ],
-      "news": "US Top Movers: Small-Cap Gainers and Losers in Tod | US Top Movers: Gainers and Losers for Nov. 3, 2026 | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "US Top Movers: Small-Cap Gainers and Losers in Today's Session",
+      "news": "Today's US Session Top Gainers and Losers: TNONW a | Most Active US Stocks in Today's Session | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Today's US Session Top Gainers and Losers: TNONW and CENN Lead",
       "gap_percent": NaN,
-      "volume_ratio": 4.3,
-      "float": 0.3,
-      "short_percent": 7.2,
+      "volume_ratio": 10.9,
+      "float": 2.0,
+      "short_percent": 18.3,
       "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
-        "volume_weight": 1.0,
+        "volume_weight": 1.1,
         "news_weight": 0.9,
         "float_weight": 1.1,
         "short_weight": 1.0,
@@ -34,163 +34,41 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (4.3x)",
+        "extreme volume (10.9x)",
         "accelerating volume (3 days)",
-        "ultra-low float (0.3M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "SGRX",
-      "name": "Sangrix Inc.",
-      "price3DaysAgo": 0.74,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "3.2x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 3.2x",
-        "Float: 0.7M",
-        "News: 2"
-      ],
-      "news": "BC-Most Active Stocks | Why Inovio Pharmaceuticals Shares Are Trading High | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "BC-Most Active Stocks",
-      "gap_percent": NaN,
-      "volume_ratio": 3.2,
-      "float": 0.7,
-      "short_percent": 2.8,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (3.2x)",
-        "ultra-low float (0.7M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "CHSN",
-      "name": "Chanson International Holding",
-      "price3DaysAgo": 0.99,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "4.5x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 4.5x",
-        "Float: 2.1M",
-        "News: 1"
-      ],
-      "news": "Nasdaq Unusual-Volume Movers for Nov. 3, 2026 | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Nasdaq Unusual-Volume Movers for Nov. 3, 2026",
-      "gap_percent": NaN,
-      "volume_ratio": 4.5,
-      "float": 2.1,
-      "short_percent": 3.1,
-      "news_count": 1,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (4.5x)",
-        "ultra-low float (2.1M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "price3DaysAgo": 1.69,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "\u26a0\ufe0f Very high 41.0x volume, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 41.0x",
-        "Float: 0.3M",
-        "Short: 6%",
-        "News: 10"
-      ],
-      "news": "After-Hours Stock Movers: Nov. 3 Gainers and Loser | US Top Movers: Small-Cap Gainers and Losers in Tod | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "After-Hours Stock Movers: Nov. 3 Gainers and Losers",
-      "gap_percent": NaN,
-      "volume_ratio": 41.0,
-      "float": 0.3,
-      "short_percent": 6.1,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (41.0x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (0.3M)"
+        "squeeze setup (float 2.0M + 18% short)",
+        "ultra-low float (2.0M)"
       ],
       "social_score": 85,
       "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f Very high volume - proceed with caution"
-      ]
+      "red_flags": []
     },
     {
-      "ticker": "RZAI",
-      "name": "Roze AI Inc.",
-      "price3DaysAgo": 5.76,
+      "ticker": "DKI",
+      "name": "Darkiris Inc.",
+      "price3DaysAgo": 1.5,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 85.0,
-      "reasoning": "3.5x volume spike, fresh news catalyst",
+      "confidence": 95,
+      "reasoning": "11.5x volume spike, fresh news catalyst, low float, high short interest (68%), trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 3.5x",
-        "Float: 36.7M",
-        "News: 3"
+        "Volume: 11.5x",
+        "Float: 0.0M",
+        "Short: 68%",
+        "News: 6"
       ],
-      "news": "Roze AI and BKB Energy Sign MOA to Evaluate AI Fir | Roze AI's Korean Operating Subsidiary Inks MoU Wit",
-      "catalyst": "Roze AI and BKB Energy Sign MOA to Evaluate AI Fire Forecasting System for AI Data Centers",
+      "news": "Today's US Session Top Gainers and Losers: TNONW a | Top U.S. Stock Movers: Nov. 4, 2026 Gainers and Lo | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Today's US Session Top Gainers and Losers: TNONW and CENN Lead",
       "gap_percent": NaN,
-      "volume_ratio": 3.5,
-      "float": 36.7,
-      "short_percent": 0,
-      "news_count": 3,
+      "volume_ratio": 11.5,
+      "float": 0.0,
+      "short_percent": 68.5,
+      "news_count": 6,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
-        "volume_weight": 1.0,
+        "volume_weight": 1.1,
         "news_weight": 0.9,
         "float_weight": 1.1,
         "short_weight": 1.0,
@@ -199,39 +77,163 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (3.5x)",
+        "extreme volume (11.5x)",
         "accelerating volume (3 days)",
-        "micro-cap (215M)"
+        "squeeze setup (float 0.0M + 68% short)",
+        "ultra-low float (0.0M)",
+        "high short interest (68%)"
       ],
-      "social_score": 15,
+      "social_score": 85,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "ATPC",
+      "name": "Agape ATP Corporation",
+      "price3DaysAgo": 1.3,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 95,
+      "reasoning": "6.6x volume spike, low float, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 6.6x",
+        "Float: 0.4M"
+      ],
+      "news": "Gap: nan%, Vol: 6.6x | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": NaN,
+      "volume_ratio": 6.6,
+      "float": 0.4,
+      "short_percent": 0.7,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (6.6x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (0.4M)"
+      ],
+      "social_score": 50,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "HPAI",
+      "name": "Helport AI Limited",
+      "price3DaysAgo": 0.24,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 95,
+      "reasoning": "19.0x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 19.0x",
+        "Float: 8.0M",
+        "News: 7"
+      ],
+      "news": "Most Active US Stocks in Today's Session | Unusual Volume Movers: US Stocks on Nov. 4, 2026 | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Most Active US Stocks in Today's Session",
+      "gap_percent": NaN,
+      "volume_ratio": 19.0,
+      "float": 8.0,
+      "short_percent": 0.1,
+      "news_count": 7,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (19.0x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (8.0M)",
+        "micro-cap (12M)"
+      ],
+      "social_score": 85,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "PLUG",
+      "name": "Plug Power Inc.",
+      "price3DaysAgo": 1.41,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 89.0,
+      "reasoning": "elevated volume, fresh news catalyst, high short interest (24%)",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 2.4x",
+        "Float: 1333.6M",
+        "Short: 24%",
+        "News: 10"
+      ],
+      "news": "SiTime (SITM) Q3 Earnings and Revenues Surpass Est | Most Active US Stocks in Today's Session",
+      "catalyst": "SiTime (SITM) Q3 Earnings and Revenues Surpass Estimates",
+      "gap_percent": NaN,
+      "volume_ratio": 2.4,
+      "float": 1333.6,
+      "short_percent": 23.5,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "accelerating volume (3 days)",
+        "high short interest (24%)"
+      ],
+      "social_score": 10,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "IFBD",
-      "name": "Infobird Co., Ltd",
-      "price3DaysAgo": 1.03,
+      "ticker": "ANNA",
+      "name": "AleAnna, Inc.",
+      "price3DaysAgo": 2.34,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 76.5,
-      "reasoning": "fresh news catalyst, low float",
+      "confidence": 87.5,
+      "reasoning": "4.7x volume spike, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 1.9x",
-        "Float: 8.2M",
-        "News: 1"
+        "Volume: 4.7x",
+        "Float: 10.4M"
       ],
-      "news": "12 Information Technology Stocks Moving In Monday'",
-      "catalyst": "12 Information Technology Stocks Moving In Monday's After-Market Session",
+      "news": "Gap: nan%, Vol: 4.7x | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Technical setup",
       "gap_percent": NaN,
-      "volume_ratio": 1.9,
-      "float": 8.2,
-      "short_percent": 1.0,
-      "news_count": 1,
+      "volume_ratio": 4.7,
+      "float": 10.4,
+      "short_percent": 5.0,
+      "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
-        "volume_weight": 1.0,
+        "volume_weight": 1.1,
         "news_weight": 0.9,
         "float_weight": 1.1,
         "short_weight": 1.0,
@@ -240,37 +242,159 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "ultra-low float (8.2M)",
-        "micro-cap (12M)"
+        "extreme volume (4.7x)",
+        "micro-cap (85M)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "CIFR",
+      "name": "Cipher Digital Inc.",
+      "price3DaysAgo": 8.12,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 83.5,
+      "reasoning": "fresh news catalyst, high short interest (27%)",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 1.9x",
+        "Float: 325.3M",
+        "Short: 27%",
+        "News: 10"
+      ],
+      "news": "Most Active US Stocks in Today's Session | Amdocs Posts Downbeat Q4 Earnings, Joins Skyworks ",
+      "catalyst": "Most Active US Stocks in Today's Session",
+      "gap_percent": NaN,
+      "volume_ratio": 1.9,
+      "float": 325.3,
+      "short_percent": 26.8,
+      "news_count": 10,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "accelerating volume (3 days)",
+        "high short interest (27%)"
       ],
       "social_score": 0,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "AEHG",
-      "name": "AEHG",
-      "price3DaysAgo": 2.06,
+      "ticker": "ECOR",
+      "name": "electroCore, Inc.",
+      "price3DaysAgo": 7.23,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 65.0,
-      "reasoning": "3.1x volume spike",
+      "confidence": 78.0,
+      "reasoning": "elevated volume, low float",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 3.1x",
-        "Float: 1000.0M"
+        "Volume: 3.0x",
+        "Float: 6.0M"
       ],
-      "news": "Gap: nan%, Vol: 3.1x",
+      "news": "Gap: nan%, Vol: 3.0x",
       "catalyst": "Technical setup",
       "gap_percent": NaN,
-      "volume_ratio": 3.1,
+      "volume_ratio": 3.0,
+      "float": 6.0,
+      "short_percent": 4.0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "accelerating volume (3 days)",
+        "ultra-low float (6.0M)",
+        "micro-cap (76M)"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "SKYQ",
+      "name": "SKYQ",
+      "price3DaysAgo": 2.13,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 77.5,
+      "reasoning": "low float",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 1.7x",
+        "Float: 8.2M",
+        "Short: 8%"
+      ],
+      "news": "Gap: nan%, Vol: 1.7x",
+      "catalyst": "Technical setup",
+      "gap_percent": NaN,
+      "volume_ratio": 1.7,
+      "float": 8.2,
+      "short_percent": 7.6,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.1,
+        "volume_weight": 1.1,
+        "news_weight": 0.9,
+        "float_weight": 1.1,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "accelerating volume (3 days)",
+        "ultra-low float (8.2M)",
+        "micro-cap (16M)"
+      ],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "DJTU",
+      "name": "T-Rex 2X Long DJT Daily Target ETF",
+      "price3DaysAgo": 4.53,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 77.0,
+      "reasoning": "6.0x volume spike, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 6.0x",
+        "Float: 1000.0M"
+      ],
+      "news": "Gap: nan%, Vol: 6.0x | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": NaN,
+      "volume_ratio": 6.0,
       "float": 1000.0,
       "short_percent": 0,
       "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.1,
-        "volume_weight": 1.0,
+        "volume_weight": 1.1,
         "news_weight": 0.9,
         "float_weight": 1.1,
         "short_weight": 1.0,
@@ -279,111 +403,23 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (3.1x)",
+        "extreme volume (6.0x)",
         "accelerating volume (3 days)"
       ],
-      "social_score": 15,
-      "is_trending": false,
+      "social_score": 25,
+      "is_trending": true,
       "red_flags": []
-    },
-    {
-      "ticker": "MERC",
-      "name": "Mercer International Inc.",
-      "price3DaysAgo": 0.13,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 64.0,
-      "reasoning": "\u26a0\ufe0f EXTREME 53.4x volume (SUSPICIOUS), fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 53.4x",
-        "Float: 48.3M",
-        "Short: 13%",
-        "News: 9"
-      ],
-      "news": "US Top Movers: Small-Cap Gainers and Losers in Tod | Most Active US Stocks: MERC and HUBC Top Volume; P | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "US Top Movers: Small-Cap Gainers and Losers in Today's Session",
-      "gap_percent": NaN,
-      "volume_ratio": 53.4,
-      "float": 48.3,
-      "short_percent": 13.4,
-      "news_count": 9,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (53.4x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 48.3M + 13% short)",
-        "micro-cap (14M)"
-      ],
-      "social_score": 20,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
-      ]
-    },
-    {
-      "ticker": "KTTA",
-      "name": "Pasithea Therapeutics Corp.",
-      "price3DaysAgo": 0.37,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 55.5,
-      "reasoning": "\u26a0\ufe0f EXTREME 67.0x volume (SUSPICIOUS), fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 67.0x",
-        "Float: 19.7M",
-        "News: 2"
-      ],
-      "news": "US Top Movers: Small-Cap Gainers and Losers in Tod | Pasithea Therapeutics Says FDA Clears IND Applicat | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "US Top Movers: Small-Cap Gainers and Losers in Today's Session",
-      "gap_percent": NaN,
-      "volume_ratio": 67.0,
-      "float": 19.7,
-      "short_percent": 0.5,
-      "news_count": 2,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.1,
-        "volume_weight": 1.0,
-        "news_weight": 0.9,
-        "float_weight": 1.1,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (67.0x)",
-        "accelerating volume (3 days)",
-        "micro-cap (18M)"
-      ],
-      "social_score": 65,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
-      ]
     }
   ],
-  "generatedTime": "2026-11-04 01:35 AM",
-  "targetDate": "2026-11-04",
+  "generatedTime": "2026-11-05 01:36 AM",
+  "targetDate": "2026-11-05",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
     "historicalPredictions": 90,
     "weights": {
       "gap_weight": 1.1,
-      "volume_weight": 1.0,
+      "volume_weight": 1.1,
       "news_weight": 0.9,
       "float_weight": 1.1,
       "short_weight": 1.0,
@@ -395,7 +431,7 @@
         "range": "High (10-20%)",
         "accuracy": 100.0
       },
-      "recent_trend": 10.0,
+      "recent_trend": 0.0,
       "confidence_adjustment": -5,
       "weights_updated": true
     }
