@@ -1,70 +1,26 @@
 {
   "predictions": [
     {
-      "ticker": "CLRO",
-      "name": "ClearOne, Inc.",
-      "price3DaysAgo": 4.72,
+      "ticker": "CAPR",
+      "name": "Capricor Therapeutics, Inc.",
+      "price3DaysAgo": 7.59,
       "priceToday": NaN,
       "predictedMove": "+nan%",
       "confidence": 95,
-      "reasoning": "5.0x volume spike, fresh news catalyst, low float, high short interest (38%), trending on social media",
+      "reasoning": "4.1x volume spike, fresh news catalyst, high short interest (36%)",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 5.0x",
-        "Float: 0.9M",
-        "Short: 38%",
-        "News: 3"
-      ],
-      "news": "Today's Small-Cap Market Movers: Top Gainers and L | Top US Stock Gainers and Losers in Today's Session | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Today's Small-Cap Market Movers: Top Gainers and Losers",
-      "gap_percent": NaN,
-      "volume_ratio": 5.0,
-      "float": 0.9,
-      "short_percent": 38.0,
-      "news_count": 3,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (5.0x)",
-        "squeeze setup (float 0.9M + 38% short)",
-        "ultra-low float (0.9M)",
-        "high short interest (38%)",
-        "micro-cap (18M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "CUE",
-      "name": "Cue Biopharma, Inc.",
-      "price3DaysAgo": 2.83,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "10.7x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 10.7x",
-        "Float: 7.3M",
-        "Short: 12%",
+        "Volume: 4.1x",
+        "Float: 49.6M",
+        "Short: 36%",
         "News: 10"
       ],
-      "news": "Today's Small-Cap Market Movers: Top Gainers and L | Top US Stock Gainers and Losers in Today's Session | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Today's Small-Cap Market Movers: Top Gainers and Losers",
+      "news": "Top US Stock Gainers and Losers for November 23, 2 | Top Gainers and Losers in the US Session on Nov. 2",
+      "catalyst": "Top US Stock Gainers and Losers for November 23, 2026 Session",
       "gap_percent": NaN,
-      "volume_ratio": 10.7,
-      "float": 7.3,
-      "short_percent": 11.7,
+      "volume_ratio": 4.1,
+      "float": 49.6,
+      "short_percent": 35.6,
       "news_count": 10,
       "isPrediction": true,
       "learningWeights": {
@@ -78,200 +34,36 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (10.7x)",
+        "extreme volume (4.1x)",
         "accelerating volume (3 days)",
-        "squeeze setup (float 7.3M + 12% short)",
-        "ultra-low float (7.3M)",
-        "micro-cap (40M)"
+        "squeeze setup (float 49.6M + 36% short)",
+        "high short interest (36%)",
+        "micro-cap (112M)"
       ],
-      "social_score": 85,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "STEM",
-      "name": "Stem, Inc.",
-      "price3DaysAgo": 1.2,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95.0,
-      "reasoning": "elevated volume, fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 2.1x",
-        "Float: 9.4M",
-        "Short: 11%",
-        "News: 10"
-      ],
-      "news": "US Session Top Movers: Gainers and Decliners | Small-Cap Stock Movers: Today's Top Gainers and Lo",
-      "catalyst": "US Session Top Movers: Gainers and Decliners",
-      "gap_percent": NaN,
-      "volume_ratio": 2.1,
-      "float": 9.4,
-      "short_percent": 11.4,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "squeeze setup (float 9.4M + 11% short)",
-        "ultra-low float (9.4M)"
-      ],
-      "social_score": 10,
+      "social_score": 15,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "AKAN",
-      "name": "Akanda Corp.",
-      "price3DaysAgo": 2.05,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95.0,
-      "reasoning": "elevated volume, fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 2.0x",
-        "Float: 0.7M",
-        "Short: 8%",
-        "News: 10"
-      ],
-      "news": "Today's Small-Cap Market Movers: Top Gainers and L | Most Active Stocks on Nov. 18, 2026: NVIDIA and Ch",
-      "catalyst": "Today's Small-Cap Market Movers: Top Gainers and Losers",
-      "gap_percent": NaN,
-      "volume_ratio": 2.0,
-      "float": 0.7,
-      "short_percent": 8.1,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "ultra-low float (0.7M)",
-        "micro-cap (11M)"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "VWAV",
-      "name": "VisionWave Holdings, Inc.",
-      "price3DaysAgo": 0.5,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95.0,
-      "reasoning": "elevated volume, fresh news catalyst, low float",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 2.9x",
-        "Float: 0.0M",
-        "Short: 8%",
-        "News: 10"
-      ],
-      "news": "After-Hours Stock Movers: Nov. 18 Gainers and Lose | Today's Small-Cap Market Movers: Top Gainers and L",
-      "catalyst": "After-Hours Stock Movers: Nov. 18 Gainers and Losers",
-      "gap_percent": NaN,
-      "volume_ratio": 2.9,
-      "float": 0.0,
-      "short_percent": 7.7,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "accelerating volume (3 days)",
-        "ultra-low float (0.0M)"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "JMIA",
-      "name": "Jumia Technologies AG",
-      "price3DaysAgo": 4.63,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "9.2x volume spike, fresh news catalyst, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 9.2x",
-        "Float: 93.5M",
-        "News: 10"
-      ],
-      "news": "Jumia Technologies AG Reports Third Quarter 2026 R | Today's Small-Cap Market Movers: Top Gainers and L | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Jumia Technologies AG Reports Third Quarter 2026 Results",
-      "gap_percent": NaN,
-      "volume_ratio": 9.2,
-      "float": 93.5,
-      "short_percent": 3.9,
-      "news_count": 10,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (9.2x)",
-        "accelerating volume (3 days)"
-      ],
-      "social_score": 25,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "SKYA",
-      "name": "SkyAI, Inc.",
-      "price3DaysAgo": 2.17,
+      "ticker": "PDC",
+      "name": "Perpetuals.com Ltd",
+      "price3DaysAgo": 1.3,
       "priceToday": NaN,
       "predictedMove": "+nan%",
       "confidence": 90.0,
-      "reasoning": "17.9x volume spike, fresh news catalyst, trending on social media",
+      "reasoning": "3.5x volume spike, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 17.9x",
-        "Float: 43.1M",
-        "News: 2"
+        "Volume: 3.5x",
+        "Float: 5.3M"
       ],
-      "news": "Today's Small-Cap Market Movers: Top Gainers and L | Top US Stock Gainers and Losers in Today's Session | \ud83d\udd25 Trending based on moderate_activity",
-      "catalyst": "Today's Small-Cap Market Movers: Top Gainers and Losers",
+      "news": "Gap: nan%, Vol: 3.5x | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Technical setup",
       "gap_percent": NaN,
-      "volume_ratio": 17.9,
-      "float": 43.1,
-      "short_percent": 3.4,
-      "news_count": 2,
+      "volume_ratio": 3.5,
+      "float": 5.3,
+      "short_percent": 0.8,
+      "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -284,35 +76,117 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (17.9x)",
-        "accelerating volume (3 days)",
-        "micro-cap (210M)"
+        "extreme volume (3.5x)",
+        "ultra-low float (5.3M)"
       ],
       "social_score": 40,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "NRXP",
-      "name": "NRx Pharmaceuticals, Inc.",
-      "price3DaysAgo": 2.45,
+      "ticker": "AEON",
+      "name": "AEON Biopharma, Inc.",
+      "price3DaysAgo": 0.12,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 85.0,
-      "reasoning": "elevated volume, fresh news catalyst, high short interest (25%)",
+      "confidence": 90.0,
+      "reasoning": "3.4x volume spike, fresh news catalyst, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 2.1x",
-        "Float: 38.3M",
-        "Short: 25%",
+        "Volume: 3.4x",
+        "Float: 13.1M",
+        "Short: 6%",
+        "News: 1"
+      ],
+      "news": "Top US Stock Gainers and Losers for November 23, 2 | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Top US Stock Gainers and Losers for November 23, 2026 Session",
+      "gap_percent": NaN,
+      "volume_ratio": 3.4,
+      "float": 13.1,
+      "short_percent": 5.8,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.4x)",
+        "accelerating volume (3 days)",
+        "micro-cap (17M)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "XLO",
+      "name": "Xilio Therapeutics, Inc.",
+      "price3DaysAgo": 7.56,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 75.0,
+      "reasoning": "elevated volume, low float",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 2.6x",
+        "Float: 2.8M",
+        "Short: 6%"
+      ],
+      "news": "Gap: nan%, Vol: 2.6x",
+      "catalyst": "Technical setup",
+      "gap_percent": NaN,
+      "volume_ratio": 2.6,
+      "float": 2.8,
+      "short_percent": 6.5,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "accelerating volume (3 days)",
+        "ultra-low float (2.8M)",
+        "micro-cap (58M)"
+      ],
+      "social_score": 10,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "BNAI",
+      "name": "Brand Engagement Network, Inc.",
+      "price3DaysAgo": 3.36,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 75.0,
+      "reasoning": "\u26a0\ufe0f EXTREME 53.0x volume (SUSPICIOUS), fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 53.0x",
+        "Float: 4.8M",
+        "Short: 13%",
         "News: 4"
       ],
-      "news": "NRx Pharmaceuticals, Inc. (NRXP) Q3 2026 Earnings  | What NRx Pharmaceuticals (NRXP) Said on Its Q3 Ear",
-      "catalyst": "NRx Pharmaceuticals, Inc. (NRXP) Q3 2026 Earnings Call Transcript",
+      "news": "Top US Stock Gainers and Losers for November 23, 2 | Top Gainers and Losers in the US Session on Nov. 2 | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Top US Stock Gainers and Losers for November 23, 2026 Session",
       "gap_percent": NaN,
-      "volume_ratio": 2.1,
-      "float": 38.3,
-      "short_percent": 25.0,
+      "volume_ratio": 53.0,
+      "float": 4.8,
+      "short_percent": 13.2,
       "news_count": 4,
       "isPrediction": true,
       "learningWeights": {
@@ -326,37 +200,202 @@
       },
       "tier": 2,
       "momentum_indicators": [
+        "extreme volume (53.0x)",
         "accelerating volume (3 days)",
-        "squeeze setup (float 38.3M + 25% short)",
-        "high short interest (25%)",
-        "micro-cap (124M)"
+        "squeeze setup (float 4.8M + 13% short)",
+        "ultra-low float (4.8M)",
+        "micro-cap (56M)"
       ],
-      "social_score": 10,
+      "social_score": 65,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
+    },
+    {
+      "ticker": "NVDQ",
+      "name": "T-Rex 2X Inverse NVIDIA Daily Target ETF",
+      "price3DaysAgo": 23.25,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 70.0,
+      "reasoning": "6.4x volume spike, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 6.4x",
+        "Float: 1000.0M"
+      ],
+      "news": "Gap: nan%, Vol: 6.4x | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": NaN,
+      "volume_ratio": 6.4,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (6.4x)",
+        "accelerating volume (3 days)"
+      ],
+      "social_score": 25,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "WETO",
+      "name": "Wetour Robotics Limited",
+      "price3DaysAgo": 0.16,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 70.0,
+      "reasoning": "\u26a0\ufe0f EXTREME 88.8x volume (SUSPICIOUS), fresh news catalyst, low float, high short interest (26%), trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 88.8x",
+        "Float: 14.7M",
+        "Short: 26%",
+        "News: 4"
+      ],
+      "news": "Most-Active US Stocks on Nov. 23, 2026 | BC-Most Active Stocks | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Most-Active US Stocks on Nov. 23, 2026",
+      "gap_percent": NaN,
+      "volume_ratio": 88.8,
+      "float": 14.7,
+      "short_percent": 26.4,
+      "news_count": 4,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (88.8x)",
+        "accelerating volume (3 days)",
+        "squeeze setup (float 14.7M + 26% short)",
+        "high short interest (26%)"
+      ],
+      "social_score": 65,
+      "is_trending": true,
+      "red_flags": [
+        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
+      ]
+    },
+    {
+      "ticker": "NVD",
+      "name": "Graniteshares 2x Short NVDA Daily ETF",
+      "price3DaysAgo": 10.45,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 70.0,
+      "reasoning": "3.6x volume spike, fresh news catalyst",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 3.6x",
+        "Float: 1000.0M",
+        "News: 5"
+      ],
+      "news": "Tech stocks surge as Nvidia rally adds $2 trillion | Nvidia rally puts spotlight on Huang's influence a",
+      "catalyst": "Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100",
+      "gap_percent": NaN,
+      "volume_ratio": 3.6,
+      "float": 1000.0,
+      "short_percent": 0,
+      "news_count": 5,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.6x)",
+        "accelerating volume (3 days)"
+      ],
+      "social_score": 15,
       "is_trending": false,
       "red_flags": []
     },
     {
-      "ticker": "VERU",
-      "name": "Veru Inc.",
-      "price3DaysAgo": 2.14,
+      "ticker": "EDSA",
+      "name": "EDSA",
+      "price3DaysAgo": 2.0,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 70.0,
-      "reasoning": "elevated volume, fresh news catalyst, low float",
+      "confidence": 60.0,
+      "reasoning": "low float",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 2.7x",
-        "Float: 15.5M",
-        "Short: 10%",
-        "News: 2"
+        "Volume: 1.4x",
+        "Float: 5.0M"
       ],
-      "news": "Veru Presents New Results at ObesityWeek 2026: GLP | Veru Presents New Results At ObesityWeek; Adding E",
-      "catalyst": "Veru Presents New Results at ObesityWeek 2026: GLP-1 Weight Loss in Older Adults Associated with Phy",
+      "news": "Gap: nan%, Vol: 1.4x",
+      "catalyst": "Technical setup",
       "gap_percent": NaN,
-      "volume_ratio": 2.7,
-      "float": 15.5,
-      "short_percent": 9.7,
-      "news_count": 2,
+      "volume_ratio": 1.4,
+      "float": 5.0,
+      "short_percent": 1.2,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "ultra-low float (5.0M)",
+        "micro-cap (32M)"
+      ],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "ALLO",
+      "name": "Allogene Therapeutics, Inc.",
+      "price3DaysAgo": 0.63,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 50.0,
+      "reasoning": "high short interest (16%)",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 1.3x",
+        "Float: 258.3M",
+        "Short: 16%"
+      ],
+      "news": "Gap: nan%, Vol: 1.3x",
+      "catalyst": "Technical setup",
+      "gap_percent": NaN,
+      "volume_ratio": 1.3,
+      "float": 258.3,
+      "short_percent": 16.4,
+      "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -370,15 +409,15 @@
       "tier": 2,
       "momentum_indicators": [
         "accelerating volume (3 days)",
-        "micro-cap (39M)"
+        "micro-cap (230M)"
       ],
-      "social_score": 10,
+      "social_score": 0,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-11-19 01:36 AM",
-  "targetDate": "2026-11-19",
+  "generatedTime": "2026-11-24 01:39 AM",
+  "targetDate": "2026-11-24",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
@@ -393,10 +432,6 @@
       "social_weight": 1.0
     },
     "insights": {
-      "best_gap_range": {
-        "range": "High (10-20%)",
-        "accuracy": 100.0
-      },
       "recent_trend": 0.0,
       "confidence_adjustment": -10
     }
