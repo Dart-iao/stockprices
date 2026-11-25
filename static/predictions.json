@@ -1,27 +1,25 @@
 {
   "predictions": [
     {
-      "ticker": "CAPR",
-      "name": "Capricor Therapeutics, Inc.",
-      "price3DaysAgo": 7.59,
+      "ticker": "EUDA",
+      "name": "EUDA Health Holdings Limited",
+      "price3DaysAgo": 16.07,
       "priceToday": NaN,
       "predictedMove": "+nan%",
       "confidence": 95,
-      "reasoning": "4.1x volume spike, fresh news catalyst, high short interest (36%)",
+      "reasoning": "9.0x volume spike, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 4.1x",
-        "Float: 49.6M",
-        "Short: 36%",
-        "News: 10"
+        "Volume: 9.0x",
+        "Float: 1.8M"
       ],
-      "news": "Top US Stock Gainers and Losers for November 23, 2 | Top Gainers and Losers in the US Session on Nov. 2",
-      "catalyst": "Top US Stock Gainers and Losers for November 23, 2026 Session",
+      "news": "Gap: nan%, Vol: 9.0x | \ud83d\udd25 Trending based on moderate_activity",
+      "catalyst": "Technical setup",
       "gap_percent": NaN,
-      "volume_ratio": 4.1,
-      "float": 49.6,
-      "short_percent": 35.6,
-      "news_count": 10,
+      "volume_ratio": 9.0,
+      "float": 1.8,
+      "short_percent": 0.3,
+      "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -34,36 +32,77 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (4.1x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 49.6M + 36% short)",
-        "high short interest (36%)",
-        "micro-cap (112M)"
+        "extreme volume (9.0x)",
+        "ultra-low float (1.8M)",
+        "micro-cap (27M)"
       ],
-      "social_score": 15,
-      "is_trending": false,
+      "social_score": 50,
+      "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "PDC",
-      "name": "Perpetuals.com Ltd",
-      "price3DaysAgo": 1.3,
+      "ticker": "APUS",
+      "name": "Apimeds Pharmaceuticals US, Inc.",
+      "price3DaysAgo": 1.5,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 95,
+      "reasoning": "19.9x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 19.9x",
+        "Float: 1.8M",
+        "News: 8"
+      ],
+      "news": "US Top Movers for Nov. 24, 2026: Gainers and Loser | Unusual Volume Market Movers in Today's US Session | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "US Top Movers for Nov. 24, 2026: Gainers and Losers",
+      "gap_percent": NaN,
+      "volume_ratio": 19.9,
+      "float": 1.8,
+      "short_percent": 2.8,
+      "news_count": 8,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (19.9x)",
+        "accelerating volume (3 days)",
+        "ultra-low float (1.8M)"
+      ],
+      "social_score": 85,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "AKAN",
+      "name": "Akanda Corp.",
+      "price3DaysAgo": 2.58,
       "priceToday": NaN,
       "predictedMove": "+nan%",
       "confidence": 90.0,
-      "reasoning": "3.5x volume spike, low float, trending on social media",
+      "reasoning": "fresh news catalyst, low float",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 3.5x",
-        "Float: 5.3M"
+        "Volume: 1.8x",
+        "Float: 0.7M",
+        "Short: 8%",
+        "News: 9"
       ],
-      "news": "Gap: nan%, Vol: 3.5x | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Technical setup",
+      "news": "US Top Movers for Nov. 24, 2026: Gainers and Loser | Top US Session Stock Movers: Gainers and Losers",
+      "catalyst": "US Top Movers for Nov. 24, 2026: Gainers and Losers",
       "gap_percent": NaN,
-      "volume_ratio": 3.5,
-      "float": 5.3,
-      "short_percent": 0.8,
-      "news_count": 0,
+      "volume_ratio": 1.8,
+      "float": 0.7,
+      "short_percent": 8.1,
+      "news_count": 9,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -76,348 +115,16 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (3.5x)",
-        "ultra-low float (5.3M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "AEON",
-      "name": "AEON Biopharma, Inc.",
-      "price3DaysAgo": 0.12,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 90.0,
-      "reasoning": "3.4x volume spike, fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 3.4x",
-        "Float: 13.1M",
-        "Short: 6%",
-        "News: 1"
-      ],
-      "news": "Top US Stock Gainers and Losers for November 23, 2 | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Top US Stock Gainers and Losers for November 23, 2026 Session",
-      "gap_percent": NaN,
-      "volume_ratio": 3.4,
-      "float": 13.1,
-      "short_percent": 5.8,
-      "news_count": 1,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (3.4x)",
-        "accelerating volume (3 days)",
-        "micro-cap (17M)"
-      ],
-      "social_score": 40,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "XLO",
-      "name": "Xilio Therapeutics, Inc.",
-      "price3DaysAgo": 7.56,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 75.0,
-      "reasoning": "elevated volume, low float",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 2.6x",
-        "Float: 2.8M",
-        "Short: 6%"
-      ],
-      "news": "Gap: nan%, Vol: 2.6x",
-      "catalyst": "Technical setup",
-      "gap_percent": NaN,
-      "volume_ratio": 2.6,
-      "float": 2.8,
-      "short_percent": 6.5,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "accelerating volume (3 days)",
-        "ultra-low float (2.8M)",
-        "micro-cap (58M)"
-      ],
-      "social_score": 10,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "BNAI",
-      "name": "Brand Engagement Network, Inc.",
-      "price3DaysAgo": 3.36,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 75.0,
-      "reasoning": "\u26a0\ufe0f EXTREME 53.0x volume (SUSPICIOUS), fresh news catalyst, low float, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 53.0x",
-        "Float: 4.8M",
-        "Short: 13%",
-        "News: 4"
-      ],
-      "news": "Top US Stock Gainers and Losers for November 23, 2 | Top Gainers and Losers in the US Session on Nov. 2 | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Top US Stock Gainers and Losers for November 23, 2026 Session",
-      "gap_percent": NaN,
-      "volume_ratio": 53.0,
-      "float": 4.8,
-      "short_percent": 13.2,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (53.0x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 4.8M + 13% short)",
-        "ultra-low float (4.8M)",
-        "micro-cap (56M)"
-      ],
-      "social_score": 65,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
-      ]
-    },
-    {
-      "ticker": "NVDQ",
-      "name": "T-Rex 2X Inverse NVIDIA Daily Target ETF",
-      "price3DaysAgo": 23.25,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 70.0,
-      "reasoning": "6.4x volume spike, trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 6.4x",
-        "Float: 1000.0M"
-      ],
-      "news": "Gap: nan%, Vol: 6.4x | \ud83d\udd25 Trending based on elevated_activity",
-      "catalyst": "Technical setup",
-      "gap_percent": NaN,
-      "volume_ratio": 6.4,
-      "float": 1000.0,
-      "short_percent": 0,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (6.4x)",
-        "accelerating volume (3 days)"
-      ],
-      "social_score": 25,
-      "is_trending": true,
-      "red_flags": []
-    },
-    {
-      "ticker": "WETO",
-      "name": "Wetour Robotics Limited",
-      "price3DaysAgo": 0.16,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 70.0,
-      "reasoning": "\u26a0\ufe0f EXTREME 88.8x volume (SUSPICIOUS), fresh news catalyst, low float, high short interest (26%), trending on social media",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 88.8x",
-        "Float: 14.7M",
-        "Short: 26%",
-        "News: 4"
-      ],
-      "news": "Most-Active US Stocks on Nov. 23, 2026 | BC-Most Active Stocks | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "Most-Active US Stocks on Nov. 23, 2026",
-      "gap_percent": NaN,
-      "volume_ratio": 88.8,
-      "float": 14.7,
-      "short_percent": 26.4,
-      "news_count": 4,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (88.8x)",
-        "accelerating volume (3 days)",
-        "squeeze setup (float 14.7M + 26% short)",
-        "high short interest (26%)"
-      ],
-      "social_score": 65,
-      "is_trending": true,
-      "red_flags": [
-        "\u26a0\ufe0f EXTREME VOLUME - likely already moved or pump"
-      ]
-    },
-    {
-      "ticker": "NVD",
-      "name": "Graniteshares 2x Short NVDA Daily ETF",
-      "price3DaysAgo": 10.45,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 70.0,
-      "reasoning": "3.6x volume spike, fresh news catalyst",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 3.6x",
-        "Float: 1000.0M",
-        "News: 5"
-      ],
-      "news": "Tech stocks surge as Nvidia rally adds $2 trillion | Nvidia rally puts spotlight on Huang's influence a",
-      "catalyst": "Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100",
-      "gap_percent": NaN,
-      "volume_ratio": 3.6,
-      "float": 1000.0,
-      "short_percent": 0,
-      "news_count": 5,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "extreme volume (3.6x)",
-        "accelerating volume (3 days)"
-      ],
-      "social_score": 15,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "EDSA",
-      "name": "EDSA",
-      "price3DaysAgo": 2.0,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 60.0,
-      "reasoning": "low float",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 1.4x",
-        "Float: 5.0M"
-      ],
-      "news": "Gap: nan%, Vol: 1.4x",
-      "catalyst": "Technical setup",
-      "gap_percent": NaN,
-      "volume_ratio": 1.4,
-      "float": 5.0,
-      "short_percent": 1.2,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "ultra-low float (5.0M)",
-        "micro-cap (32M)"
-      ],
-      "social_score": 0,
-      "is_trending": false,
-      "red_flags": []
-    },
-    {
-      "ticker": "ALLO",
-      "name": "Allogene Therapeutics, Inc.",
-      "price3DaysAgo": 0.63,
-      "priceToday": NaN,
-      "predictedMove": "+nan%",
-      "confidence": 50.0,
-      "reasoning": "high short interest (16%)",
-      "keyFactors": [
-        "Gap: nan%",
-        "Volume: 1.3x",
-        "Float: 258.3M",
-        "Short: 16%"
-      ],
-      "news": "Gap: nan%, Vol: 1.3x",
-      "catalyst": "Technical setup",
-      "gap_percent": NaN,
-      "volume_ratio": 1.3,
-      "float": 258.3,
-      "short_percent": 16.4,
-      "news_count": 0,
-      "isPrediction": true,
-      "learningWeights": {
-        "gap_weight": 1.0,
-        "volume_weight": 1.0,
-        "news_weight": 1.0,
-        "float_weight": 1.0,
-        "short_weight": 1.0,
-        "sentiment_weight": 1.0,
-        "social_weight": 1.0
-      },
-      "tier": 2,
-      "momentum_indicators": [
-        "accelerating volume (3 days)",
-        "micro-cap (230M)"
+        "ultra-low float (0.7M)",
+        "micro-cap (14M)"
       ],
       "social_score": 0,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-11-24 01:39 AM",
-  "targetDate": "2026-11-24",
+  "generatedTime": "2026-11-25 01:35 AM",
+  "targetDate": "2026-11-25",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
