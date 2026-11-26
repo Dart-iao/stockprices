@@ -1,23 +1,106 @@
 {
   "predictions": [
     {
-      "ticker": "EUDA",
-      "name": "EUDA Health Holdings Limited",
-      "price3DaysAgo": 16.07,
+      "ticker": "CODX",
+      "name": "Co-Diagnostics, Inc.",
+      "price3DaysAgo": 3.94,
       "priceToday": NaN,
       "predictedMove": "+nan%",
       "confidence": 95,
-      "reasoning": "9.0x volume spike, low float, trending on social media",
+      "reasoning": "3.3x volume spike, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 9.0x",
-        "Float: 1.8M"
+        "Volume: 3.3x",
+        "Float: 0.4M",
+        "Short: 14%"
       ],
-      "news": "Gap: nan%, Vol: 9.0x | \ud83d\udd25 Trending based on moderate_activity",
+      "news": "Gap: nan%, Vol: 3.3x | \ud83d\udd25 Trending based on elevated_activity",
       "catalyst": "Technical setup",
       "gap_percent": NaN,
-      "volume_ratio": 9.0,
-      "float": 1.8,
+      "volume_ratio": 3.3,
+      "float": 0.4,
+      "short_percent": 14.1,
+      "news_count": 0,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.3x)",
+        "accelerating volume (3 days)",
+        "squeeze setup (float 0.4M + 14% short)",
+        "ultra-low float (0.4M)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "RAYA",
+      "name": "Erayak Power Solution Group Inc.",
+      "price3DaysAgo": 0.43,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 95,
+      "reasoning": "3.8x volume spike, fresh news catalyst, low float, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 3.8x",
+        "Float: 1.0M",
+        "Short: 9%",
+        "News: 7"
+      ],
+      "news": "Nasdaq Premarket Movers: Nov. 25, 2026 Gainers and | 12 Industrials Stocks Moving In Wednesday's Pre-Ma | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Nasdaq Premarket Movers: Nov. 25, 2026 Gainers and Losers",
+      "gap_percent": NaN,
+      "volume_ratio": 3.8,
+      "float": 1.0,
+      "short_percent": 8.7,
+      "news_count": 7,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "extreme volume (3.8x)",
+        "ultra-low float (1.0M)"
+      ],
+      "social_score": 40,
+      "is_trending": true,
+      "red_flags": []
+    },
+    {
+      "ticker": "LONA",
+      "name": "LeonaBio, Inc.",
+      "price3DaysAgo": 1.71,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 95,
+      "reasoning": "10.6x volume spike, low float, trending on social media",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 10.6x",
+        "Float: 4.8M"
+      ],
+      "news": "Gap: nan%, Vol: 10.6x | \ud83d\udd25 Trending based on high_activity",
+      "catalyst": "Technical setup",
+      "gap_percent": NaN,
+      "volume_ratio": 10.6,
+      "float": 4.8,
       "short_percent": 0.3,
       "news_count": 0,
       "isPrediction": true,
@@ -32,35 +115,34 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (9.0x)",
-        "ultra-low float (1.8M)",
-        "micro-cap (27M)"
+        "extreme volume (10.6x)",
+        "ultra-low float (4.8M)",
+        "micro-cap (35M)"
       ],
-      "social_score": 50,
+      "social_score": 85,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "APUS",
-      "name": "Apimeds Pharmaceuticals US, Inc.",
-      "price3DaysAgo": 1.5,
+      "ticker": "IZM",
+      "name": "ICZOOM Group Inc.",
+      "price3DaysAgo": 0.99,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 95,
-      "reasoning": "19.9x volume spike, fresh news catalyst, low float, trending on social media",
+      "confidence": 90.0,
+      "reasoning": "3.1x volume spike, low float, trending on social media",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 19.9x",
-        "Float: 1.8M",
-        "News: 8"
+        "Volume: 3.1x",
+        "Float: 1.6M"
       ],
-      "news": "US Top Movers for Nov. 24, 2026: Gainers and Loser | Unusual Volume Market Movers in Today's US Session | \ud83d\udd25 Trending based on high_activity",
-      "catalyst": "US Top Movers for Nov. 24, 2026: Gainers and Losers",
+      "news": "Gap: nan%, Vol: 3.1x | \ud83d\udd25 Trending based on elevated_activity",
+      "catalyst": "Technical setup",
       "gap_percent": NaN,
-      "volume_ratio": 19.9,
-      "float": 1.8,
-      "short_percent": 2.8,
-      "news_count": 8,
+      "volume_ratio": 3.1,
+      "float": 1.6,
+      "short_percent": 2.1,
+      "news_count": 0,
       "isPrediction": true,
       "learningWeights": {
         "gap_weight": 1.0,
@@ -73,35 +155,75 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "extreme volume (19.9x)",
-        "accelerating volume (3 days)",
-        "ultra-low float (1.8M)"
+        "extreme volume (3.1x)",
+        "ultra-low float (1.6M)"
       ],
-      "social_score": 85,
+      "social_score": 40,
       "is_trending": true,
       "red_flags": []
     },
     {
-      "ticker": "AKAN",
-      "name": "Akanda Corp.",
-      "price3DaysAgo": 2.58,
+      "ticker": "VWAV",
+      "name": "VisionWave Holdings, Inc.",
+      "price3DaysAgo": 0.13,
       "priceToday": NaN,
       "predictedMove": "+nan%",
-      "confidence": 90.0,
+      "confidence": 75.0,
       "reasoning": "fresh news catalyst, low float",
       "keyFactors": [
         "Gap: nan%",
-        "Volume: 1.8x",
-        "Float: 0.7M",
-        "Short: 8%",
+        "Volume: 1.4x",
+        "Float: 0.0M",
+        "Short: 15%",
+        "News: 1"
+      ],
+      "news": "12 Industrials Stocks Moving In Tuesday's Pre-Mark",
+      "catalyst": "12 Industrials Stocks Moving In Tuesday's Pre-Market Session",
+      "gap_percent": NaN,
+      "volume_ratio": 1.4,
+      "float": 0.0,
+      "short_percent": 14.7,
+      "news_count": 1,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "squeeze setup (float 0.0M + 15% short)",
+        "ultra-low float (0.0M)"
+      ],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "PLUG",
+      "name": "Plug Power Inc.",
+      "price3DaysAgo": 0.93,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 75.0,
+      "reasoning": "fresh news catalyst, high short interest (24%)",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 1.2x",
+        "Float: 1335.3M",
+        "Short: 24%",
         "News: 9"
       ],
-      "news": "US Top Movers for Nov. 24, 2026: Gainers and Loser | Top US Session Stock Movers: Gainers and Losers",
-      "catalyst": "US Top Movers for Nov. 24, 2026: Gainers and Losers",
+      "news": "Plug Power (PLUG) Stock Is Up 12.2% Today Without  | Bloom Energy Tumbles 11% Despite Morgan Stanley Re",
+      "catalyst": "Plug Power (PLUG) Stock Is Up 12.2% Today Without Company News",
       "gap_percent": NaN,
-      "volume_ratio": 1.8,
-      "float": 0.7,
-      "short_percent": 8.1,
+      "volume_ratio": 1.2,
+      "float": 1335.3,
+      "short_percent": 24.2,
       "news_count": 9,
       "isPrediction": true,
       "learningWeights": {
@@ -115,16 +237,56 @@
       },
       "tier": 2,
       "momentum_indicators": [
-        "ultra-low float (0.7M)",
-        "micro-cap (14M)"
+        "accelerating volume (3 days)",
+        "high short interest (24%)"
+      ],
+      "social_score": 0,
+      "is_trending": false,
+      "red_flags": []
+    },
+    {
+      "ticker": "EUDA",
+      "name": "EUDA Health Holdings Limited",
+      "price3DaysAgo": 9.0,
+      "priceToday": NaN,
+      "predictedMove": "+nan%",
+      "confidence": 70.0,
+      "reasoning": "fresh news catalyst, low float",
+      "keyFactors": [
+        "Gap: nan%",
+        "Volume: 1.4x",
+        "Float: 1.8M",
+        "News: 3"
+      ],
+      "news": "12 Health Care Stocks Moving In Wednesday's Pre-Ma | Why Li Auto Shares Are Trading Higher By 5%; Here ",
+      "catalyst": "12 Health Care Stocks Moving In Wednesday's Pre-Market Session",
+      "gap_percent": NaN,
+      "volume_ratio": 1.4,
+      "float": 1.8,
+      "short_percent": 0.2,
+      "news_count": 3,
+      "isPrediction": true,
+      "learningWeights": {
+        "gap_weight": 1.0,
+        "volume_weight": 1.0,
+        "news_weight": 1.0,
+        "float_weight": 1.0,
+        "short_weight": 1.0,
+        "sentiment_weight": 1.0,
+        "social_weight": 1.0
+      },
+      "tier": 2,
+      "momentum_indicators": [
+        "ultra-low float (1.8M)",
+        "micro-cap (12M)"
       ],
       "social_score": 0,
       "is_trending": false,
       "red_flags": []
     }
   ],
-  "generatedTime": "2026-11-25 01:35 AM",
-  "targetDate": "2026-11-25",
+  "generatedTime": "2026-11-26 01:35 AM",
+  "targetDate": "2026-11-26",
   "tradingStyle": "DAY_TRADING",
   "learningSystem": {
     "enabled": true,
